@@ -1,0 +1,16 @@
+<application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>Export old Vkontakte users</name>
+    <description>Export the json text files with old vk users to the HBase database&#13;
+Note: The target database need to have the column family with name 'u'!&#13;
+&#13;
+Author: Alexander Kozlov &lt;alexssource@gmail.com&gt;</description>
+    <properties>
+        <property defaultValue="/user/alexander.kozlov/" description="Please specify an input directory" isInputPath="false" isOutputPath="false" isRequired="true" label="Input Directory" name="inputPath" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property defaultValue="VkOldUsers" description="Please specify the target database name" isInputPath="false" isOutputPath="false" isRequired="true" label="Target table name in HBase" name="outputPath" paramtype="TEXTAREA" uitype="textfield"/>
+    </properties>
+    <assets>
+        <asset id="Export old Vkontakte users" type="WORKFLOW"/>
+    </assets>
+    <imagePath>vk_bad.jpg</imagePath>
+    <categories>Test,Data,Export,Import</categories>
+</application-template>

@@ -1,0 +1,38 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+	mavenCentral()
+}
+
+configurations {
+	provided
+	compile.extendsFrom provided
+}
+
+dependencies {
+	compile 'com.google.code.gson:gson:2.3.1'
+	compile 'org.slf4j:slf4j-api:1.7.10'
+	compile 'org.slf4j:slf4j-log4j12:1.7.10'
+	
+	provided fileTree(dir: 'D:\\MyFolder\\BigInsights API\\hdfsruntime\\', includes: ['*.jar'])
+	compile fileTree(dir: 'D:\\MyFolder\\BigInsights API\\hbaseruntime\\', includes: ['*.jar'])
+	
+	testCompile 'junit:junit:4.12'
+}
+
+eclipse {
+	classpath {
+		downloadSources = true
+		downloadJavadoc = true
+	}
+}
+
+jar {
+	dependsOn configurations.runtime
+	from {
+		(configurations.runtime - configurations.provided).collect { 
+			it.isDirectory() ? it : zipTree(it)
+		}
+	}
+}

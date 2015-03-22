@@ -1,0 +1,9 @@
+#Sat Mar 07 16:47:44 VET 2015
+srcTextAnalyticsPath=[P]textAnalytics/src
+general.provenance=true
+pagination.isEnabled=true
+tamTextAnalyticsPath=[P]textAnalytics/bin
+searchPath.dataPath=[W]/VkUsersBigInsightsProject
+UseModularAQL=true
+pagination.numFilesPerPage=50
+langWare.tokenizerChoice=1
