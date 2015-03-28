@@ -2,15 +2,14 @@ package com.alexssource.fksis.analyse.data.hbase.importer;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
-import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.hbase.HBaseConfiguration;
+import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Scan;
+import org.apache.hadoop.hbase.io.ImmutableBytesWritable;
 import org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil;
 import org.apache.hadoop.hbase.mapreduce.TableOutputFormat;
 import org.apache.hadoop.hbase.util.Bytes;
-import org.apache.hadoop.io.LongWritable;
-import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
@@ -55,14 +54,17 @@ public class ImporterJob extends Configured implements Tool {
 		Job job = new Job(conf, "HBase Importer");
 		job.setJarByClass(ImporterJob.class);
 		job.setMapperClass(ImporterMapper.class);
-		job.setReducerClass(ImporterReducer.class);
+		//job.setReducerClass(ImporterReducer.class);
 		//job.setInputFormatClass(FileInputFormat.class);
-		job.setMapOutputKeyClass(LongWritable.class);
-		job.setMapOutputValueClass(Text.class);
+		
+		job.setMapOutputKeyClass(ImmutableBytesWritable.class);
+		job.setMapOutputValueClass(Put.class);
+		//job.setMapOutputKeyClass(LongWritable.class);
+		//job.setMapOutputValueClass(Text.class);
 		
 		FileInputFormat.addInputPath(job, new Path(remainingArgs[0]));
 		//FileOutputFormat.setOutputPath(job, outputDir);
-		TableMapReduceUtil.initTableReducerJob(outputTable, ImporterReducer.class, job);
+		TableMapReduceUtil.initTableReducerJob(outputTable, null, job);
 		job.getConfiguration().set(TableOutputFormat.OUTPUT_TABLE, outputTable);
 		logger.info("Job configuration was successfully set. Running job...");
 		

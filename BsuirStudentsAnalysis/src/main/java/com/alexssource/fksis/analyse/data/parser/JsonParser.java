@@ -26,7 +26,7 @@ public class JsonParser implements Parser {
 	public List<Map<String, Object>> parse(String text) throws ParserException {
 		JsonElement tree = parser.parse(text);
 		parseTree(tree, null);
-		logger.info("Result: {}", result);
+		logger.debug("Result: {}", result);
 		return result;
 	}
 

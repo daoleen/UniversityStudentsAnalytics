@@ -4,6 +4,12 @@
         <java>
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
+            <configuration>
+                <property>
+                    <name>mapred.map.tasks</name>
+                    <value>1000</value>
+                </property>
+            </configuration>
             <main-class> com.alexssource.fksis.biginsights.ImporterRunner</main-class>
             <arg>${inputPath}</arg>
             <arg>${outputPath}</arg>
