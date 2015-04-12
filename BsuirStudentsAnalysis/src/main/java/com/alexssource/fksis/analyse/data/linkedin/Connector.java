@@ -69,7 +69,10 @@ public class Connector {
 	private String promptVerificationCode(String authUrl) {
 		System.out.println("Please proceed by the following url: " + authUrl);
 		System.out.print("And enter the verification code here: ");
-		return new Scanner(System.in).nextLine();
+		Scanner scaner = new Scanner(System.in);
+		String code = scaner.nextLine();
+		scaner.close();
+		return code;
 	}
 	
 	private Token getAccessToken(Token requestToken, String verificationCode) {

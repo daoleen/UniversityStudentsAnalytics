@@ -19,5 +19,6 @@ public class TestConnector {
 			Response response = connector.sendRequest(Verb.GET, choice);
 			System.out.println("Response: " + response.getBody());
 		}
+		scanner.close();
 	}
 }
