@@ -7,7 +7,7 @@ import com.alexssource.fksis.analyse.data.google.SearchResults.Result;
 
 public class Main {
 	public static void main(String[] args) {
-		String searchString = "кенгуру";
+		String searchString = "belarusian state university of informatics and radioelectronics site:linkedin.com/in/";
 		Searchable searchable = new GoogleSearch();
 		SearchResults results = searchable.search(searchString);
 		

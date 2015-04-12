@@ -18,6 +18,8 @@ public class GoogleSearch implements Searchable {
 	private final static Logger logger = LoggerFactory.getLogger(GoogleSearch.class);
 	private final static String googleServiceUrl = "http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=";
 	private final static String charset = "UTF-8";
+	private final static int resultSize = 2;
+	private int start = 0;	// номер записи, с которой начинать (записи, не страницы)
 	
 	public GoogleSearch(){
 	}
@@ -28,7 +30,9 @@ public class GoogleSearch implements Searchable {
 		SearchResults results = null;
 		
 		try {
-			URL url = new URL(googleServiceUrl + URLEncoder.encode(searchString, charset));
+			String apiUrl = String.format("%s%s&start=%d&rsz=%d", googleServiceUrl, 
+					URLEncoder.encode(searchString, charset), start, resultSize);
+			URL url = new URL(apiUrl);
 			reader = new InputStreamReader(url.openStream(), charset);
 			results = new Gson().fromJson(reader, SearchResults.class);
 		} catch(MalformedURLException me) {
