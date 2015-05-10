@@ -1,5 +1,6 @@
 package com.alexssource.fksis.analyse.data.hbase.importer.old;
 
+/*
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.FileSystem;
@@ -40,15 +41,6 @@ public class ImporterJob extends Configured implements Tool {
 		
 		outputTable = remainingArgs[1];
 		
-		/*
-		FileSystem fs = FileSystem.get(conf);
-		Path outputDir = new Path(remainingArgs[1]);
-		logger.info("Output dir is: {}", outputDir);
-		if(fs.exists(outputDir)) {
-			logger.info("EXIST OUTPUT DIR");
-			fs.delete(outputDir, true);	// true - recursive
-		}
-		*/
 		
 		Scan scan = new Scan();
 		scan.addColumn(USERS_CF, UNIVERSITIES_COLUMN);	// I can use scan to find some rows by specified column
@@ -70,3 +62,4 @@ public class ImporterJob extends Configured implements Tool {
 		return job.waitForCompletion(true) ? 0 : 1;
 	}
 }
+*/

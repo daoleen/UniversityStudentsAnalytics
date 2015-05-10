@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM153.txt</documentID>
+    <inputTextID>9386</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Scott Laningham again, here at Impact 2012 in Las Vegas with Todd &quot;&quot;Turbo&quot;&quot; Watson [ blog ]. Join us this week for such interesting keynotes as Steve Jobs biographer, Walter Issacson of the Aspen Institute, Katie Linendoll of ESPN and CBS, comedian Don McMillian, and Jane McGonigle, author of Reality is Broken . Watch the video and we'll tell you about other interesting happenings to watch for at the conference. You can follow us on the IBM Impact 2012 channel at LiveStream . 11:17 Audio-only feeds: dW podcast RSS | dW iTunes channel   &#xD;&#xA;&#xD;&#xA;&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="9390" end="82" start="76"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.HighQWatson</name>
+        <origViewName>WatsonBase.HighQWatson</origViewName>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>9386</key>
+            <value>Scott Laningham again, here at Impact 2012 in Las Vegas with Todd &quot;&quot;Turbo&quot;&quot; &lt;Keyword&gt;Watson&lt;/Keyword&gt; [&lt;a href=&quot;&quot;http://turbotodd.wordpress.com/&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;blog&lt;/a&gt;]. Join us this week for such interesting keynotes as Steve Jobs biographer, Walter Issacson of the Aspen Institute, Katie Linendoll of ESPN and CBS, comedian Don McMillian, and Jane McGonigle, author of &lt;i&gt;Reality is Broken&lt;/i&gt;. Watch the video and we'll tell you about other interesting happenings to watch for at the conference. You can follow us on the &lt;a href=&quot;&quot;http://www.livestream.com/ibmimpact&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;&lt;Keyword&gt;IBM&lt;/Keyword&gt; Impact 2012 channel at LiveStream&lt;/a&gt;. 11:17&lt;br /&gt;&lt;br /&gt;&lt;!--&lt;a href=&quot;&quot;XXXXX&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;MP3 Download&lt;/a&gt; | &lt;a href=&quot;&quot;XXXXX&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;Transcript&lt;/a&gt;&lt;br /&gt;--&gt;&lt;i&gt;Audio-only feeds:&lt;/i&gt; &lt;a href=&quot;&quot;http://www.ibm.com/developerworks/podcasts/channel-dwall.rss&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;dW podcast RSS&lt;/a&gt; | &lt;a href=&quot;&quot;http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=153607292&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;dW iTunes channel&lt;/a&gt; &lt;div&gt;&lt;iframe width=&quot;&quot;640&quot;&quot; height=&quot;&quot;385&quot;&quot; src=&quot;&quot;http://cdn.livestream.com/embed/ibmimpact?layout=4&amp;clip=pla_19292d3f-8250-4726-8ec1-44c296ab49a7&amp;height=385&amp;width=640&amp;autoplay=false&quot;&quot; style=&quot;&quot;border:0;outline:0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; scrolling=&quot;&quot;no&quot;&quot;&gt;&lt;/iframe&gt;  &lt;/div&gt;&lt;br /&gt;&#xD;
+&#xD;
+
+</value>
+        </entry>
+        <entry>
+            <key>9390</key>
+            <value>Scott Laningham again, here at Impact 2012 in Las Vegas with Todd &quot;&quot;Turbo&quot;&quot; Watson [ blog ]. Join us this week for such interesting keynotes as Steve Jobs biographer, Walter Issacson of the Aspen Institute, Katie Linendoll of ESPN and CBS, comedian Don McMillian, and Jane McGonigle, author of Reality is Broken . Watch the video and we'll tell you about other interesting happenings to watch for at the conference. You can follow us on the IBM Impact 2012 channel at LiveStream . 11:17 Audio-only feeds: dW podcast RSS | dW iTunes channel   &#xD;
+&#xD;
+
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

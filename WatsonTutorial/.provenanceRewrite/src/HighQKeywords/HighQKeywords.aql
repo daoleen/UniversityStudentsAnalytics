@@ -1,0 +1,13 @@
+module HighQKeywords;
+
+
+create external dictionary "QualityKeywords"
+allow_empty false
+with case insensitive
+  and language as 'en'
+;
+
+
+export dictionary HighQKeywords.QualityKeywords;
+
+

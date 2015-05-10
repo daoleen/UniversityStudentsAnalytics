@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM047.txt</documentID>
+    <inputTextID>11656</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Turbo debriefs on a new announcement from IBM whereby its Watson technology will work in partnership with Memorial Sloan-Kettering Cancer Center to provide new and personalized cancer treatments. Read more at Turbo�s personal blog"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="11660" end="64" start="58"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.HighQWatson</name>
+        <origViewName>WatsonBase.HighQWatson</origViewName>
+        <rows>
+            <textVal val="Turbo debriefs on a new announcement from IBM whereby its Watson technology will work in partnership with Memorial Sloan-Kettering Cancer Center to provide new and personalized cancer treatments. Read more at Turbo�s personal blog"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="11660" end="64" start="58"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>11656</key>
+            <value>Turbo debriefs on a new announcement from &lt;Keyword&gt;IBM&lt;/Keyword&gt; whereby its &lt;Keyword&gt;Watson&lt;/Keyword&gt; technology will work in partnership with Memorial Sloan-Kettering Cancer Center to provide new and personalized cancer treatments.&lt;img alt=&quot;&quot;&quot;&quot; border=&quot;&quot;0&quot;&quot; src=&quot;&quot;http://stats.wordpress.com/b.gif?host=turbotodd.wordpress.com&amp;blog=227089&amp;post=5037&amp;subd=turbotodd&amp;ref=&amp;feed=1&quot;&quot; width=&quot;&quot;1&quot;&quot; height=&quot;&quot;1&quot;&quot; /&gt;&lt;br /&gt;&lt;a href=&quot;&quot;http://turbotodd.wordpress.com/?p=5037&quot;&quot;&gt;Read more at Turbo�s personal blog&lt;/a&gt;</value>
+        </entry>
+        <entry>
+            <key>11660</key>
+            <value>Turbo debriefs on a new announcement from IBM whereby its Watson technology will work in partnership with Memorial Sloan-Kettering Cancer Center to provide new and personalized cancer treatments. Read more at Turbo�s personal blog</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

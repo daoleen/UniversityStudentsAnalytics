@@ -1,0 +1,137 @@
+Александра (Саша) 	Aleksandra, Alexandra (Sasha) 	Alexandra
+Алиса 	Alisa 	Alice, Alissa, Alisa
+Алина (Аля, Лина) 	Alina (Alya, Lina) 	Aline, Lina
+Алла 	Alla 	Alla
+Альбина (Аля) 	Albina (Alya) 	Albina
+Анастасия (Настя) 	Anastasia, Anastasiya (Nastya) 	Anastasia
+Ангелина 	Angelina 	Angelina
+Анжела 	Anzhela, Angela 	Angela
+Анна (Аня) 	Anna (Anya) 	Anna, Ann, Anne
+Антонина (Тоня) 	Antonina (Tonya) 	Antonia, Tonya, Tonia
+Валентина (Валя) 	Valentina (Valya) 	Valentina
+Валерия (Лера) 	Valeria, Valeriya (Lera) 	Valeria, Valery, Valerie
+Варвара (Варя) 	Varvara (Varya) 	Barbara
+Вера 	Vera 	Vera
+Вероника 	Veronika, Veronica 	Veronica
+Виктория (Вика) 	Viktoria, Viktoriya, Victoria (Vika) 	Victoria
+Галина (Галя) 	Galina (Galya) 	 
+Дарья (Даша) 	Darya, Daria (Dasha) 	Daria
+Диана 	Diana 	Diana
+Дина 	Dina 	Dina, Dinah
+Евгения (Женя) 	Yevgenia, Yevgeniya, Evgenia (Zhenya) 	Eugenia
+Екатерина (Катя) 	Yekaterina, Ekaterina (Katya) 	Katherine, Catherine
+Елена (Лена) 	Yelena, Elena (Lena) 	Helen, Helena, Ellen, Elena, Lena
+Елизавета (Лиза) 	Yelizaveta, Elizaveta (Liza) 	Elizabeth, Liza
+Жанна 	Zhanna 	Joanna, Jeanne
+Зинаида (Зина) 	Zinaida (Zina) 	Zenaida, Zena
+Зоя 	Zoya 	Zoe
+Инна 	Inna 	Ina
+Ирина (Ира) 	Irina (Ira) 	Irene
+Камилла 	Kamilla 	Camilla, Camille
+Карина 	Karina 	Carina, Carin, Karin
+Кира 	Kira 	Kyra
+Клара 	Klara, Clara 	Clara
+Кристина 	Kristina 	Kristina, Kristine, Christina, Christine
+Ксения (Ксюша) 	Ksenia, Kseniya (Ksyusha) 	Xenia, Zenia
+Лариса (Лара, Лора) 	Larisa (Lara, Lora) 	Lara, Laura
+Лейла 	Leila, Leyla 	Leila
+Лидия (Лида) 	Lidia, Lidiya (Lida) 	Lydia
+Лилия (Лиля) 	Lilia, Liliya (Lilya) 	Lily, Lilly, Lilian
+Лия 	Lia, Liya 	Leah, Lea, Lia
+Любовь (Люба) 	Lyubov, Liubov (Lyuba, Luba) 	 
+Людмила (Люда, Мила) 	Lyudmila, Liudmila (Lyuda, Mila) 	 
+Майя 	Maya, Maia 	Mia
+Маргарита (Рита) 	Margarita (Rita) 	Margarita, Margaret, Rita
+Марианна 	Marianna 	Marianna, Marianne
+Марина 	Marina 	Marina
+Мария (Маша) 	Maria, Mariya (Masha) 	Maria
+Марьям, Мариам 	Maryam, Mariam 	Mariam
+Надежда (Надя) 	Nadezhda (Nadya) 	Nadia, Nadine
+Наталья, Наталия (Наташа) 	Natalya, Natalia, Nataliya (Natasha) 	Natalia, Natalie, Natasha
+Нина 	Nina 	Nina
+Оксана 	Oksana, Oxana 	 
+Олеся (Леся) 	Olesya, Olesia (Lesya) 	 
+Ольга (Оля) 	Olga (Olya) 	Helga
+Полина (Поля) 	Polina (Polya) 	Pauline, Paula
+Раиса (Рая) 	Raisa (Raya) 	 
+Регина 	Regina 	Regina
+Римма 	Rimma 	 
+Роза 	Rosa 	Rose, Rosa
+Сабина 	Sabina 	Sabina
+Светлана (Света) 	Svetlana (Sveta) 	 
+Снежана 	Snezhana 	 
+Софья, София (Соня) 	Sofya, Sofia (Sonya) 	Sophia, Sophie, Sofia, Sonia, Sonya
+Тамара (Тома) 	Tamara (Toma) 	Tamara
+Татьяна (Таня) 	Tatyana, Tatiana (Tanya) 	Tatiana, Tanya, Tania
+Ульяна (Уля) 	Ulyana, Uliana (Ulya) 	 
+Элла (Эля) 	Ella (Elya) 	Ella
+Эльвира (Эля) 	Elvira (Elya) 	Elvira
+Эмма 	Emma 	Emma
+Юлия (Юля) 	Yulia, Yuliya (Yulya) 	Julia, Julie
+Яна 	Yana
+Александр (Саша) 	Aleksandr, Alexander (Sasha) 	Alexander
+Алексей (Алёша) 	Aleksey, Alexey (Alyosha) 	Alex, Alexis
+Анатолий (Толя) 	Anatoly, Anatoliy, Anatoli (Tolya) 	Anatole, Anatol
+Андрей (Андрюша) 	Andrey, Andrei (Andryusha) 	Andrew
+Антон (Антоша) 	Anton (Antosha) 	Anton, Anthony
+Аркадий (Аркаша) 	Arkady, Arkadiy (Arkasha) 	 
+Артём (Тёма) 	Artem, Artyom (Tyoma) 	Artemus, Artemas
+Артур 	Artur 	Arthur
+Борис (Боря) 	Boris (Borya) 	Boris
+Вадим 	Vadim 	 
+Валентин (Валя) 	Valentin (Valya) 	Valentine, Valentin
+Валерий (Валера) 	Valeriy (Valera) 	Valerian
+Василий (Вася) 	Vasily, Vasiliy, Vasili (Vasya) 	Basil
+Виктор (Витя) 	Viktor, Victor (Vitya) 	Victor
+Виталий (Витя) 	Vitaly, Vitaliy, Vitali (Vitya) 	 
+Владимир (Володя, Вова) 	Vladimir (Volodya, Vova) 	 
+Владислав (Влад, Слава) 	Vladislav (Vlad, Slava) 	 
+Вячеслав (Слава) 	Vyacheslav, Viacheslav (Slava) 	 
+Геннадий (Гена) 	Gennady, Gennadiy, Gennadi (Gena) 	 
+Георгий (Гоша) 	Georgy, Georgiy, Georgi (Gosha) 	George
+Глеб 	Gleb 	 
+Григорий (Гриша) 	Grigory, Grigoriy, Grigori (Grisha) 	Gregory
+Даниил, Данила (Даня) 	Daniil, Danila (Danya) 	Daniel
+Денис 	Denis 	Denis, Dennis
+Дмитрий (Дима, Митя) 	Dmitry, Dmitriy, Dmitri (Dima, Mitya) 	Demetrius
+Евгений (Женя) 	Yevgeny, Yevgeniy, Evgeny (Zhenya) 	Eugene
+Егор (Гоша) 	Yegor, Egor (Gosha) 	 
+Захар 	Zakhar, Zahar 	Zachary
+Иван (Ваня) 	Ivan (Vanya) 	John
+Игорь 	Igor 	 
+Илья (Илюша) 	Ilya, Ilia (Ilyusha) 	Elijah, Elias
+Иннокентий (Кеша) 	Innokenty, Innokentiy, Innokenti (Kesha) 	 
+Иосиф 	Iosif 	Joseph
+Кирилл (Кира) 	Kirill (Kira) 	Cyril
+Константин (Костя) 	Konstantin (Kostya) 	Constantine
+Лев (Лёва) 	Lev (Lyova) 	Leo
+Леонид (Лёня) 	Leonid (Lyonya) 	Leonidas
+Максим (Макс) 	Maksim, Maxim (Max) 	Max, Maximilian
+Матвей 	Matvey, Matvei 	Matthew
+Михаил (Миша) 	Mikhail (Misha) 	Michael
+Моисей 	Moisey 	Moses
+Никита 	Nikita 	 
+Николай (Коля) 	Nikolay, Nikolai (Kolya) 	Nicholas, Nicolas
+Олег 	Oleg 	 
+Павел (Паша) 	Pavel (Pasha) 	Paul
+Пётр (Петя) 	Pyotr, Petr (Petya) 	Peter
+Роман (Рома) 	Roman (Roma) 	Roman
+Руслан 	Ruslan 	 
+Святослав (Слава) 	Svyatoslav, Sviatoslav (Slava) 	 
+Семён (Сёма, Сеня) 	Semyon (Syoma, Senya) 	Simeon, Simon
+Сергей (Серёжа) 	Sergey, Sergei (Seryozha) 	Serge
+Станислав (Стас, Слава) 	Stanislav (Stas, Slava) 	Stanislaus
+Степан (Стёпа) 	Stepan (Styopa) 	Stephen, Steven, Stephan, Stefan
+Тимофей (Тима) 	Timofey, Timofei (Tima) 	Timothy
+Тимур 	Timur, Timour 	 
+Тихон (Тиша) 	Tikhon, Tihon (Tisha) 	 
+Фёдор (Федя) 	Fedor, Fyodor (Fedya) 	Theodore
+Филипп (Филя) 	Filipp, Philipp (Filya) 	Philip, Phillip
+Эдуард (Эдик) 	Eduard, Edward (Edik) 	Edward
+Эльдар 	Eldar 	 
+Эмиль 	Emil 	Emil, Emile
+Эрик 	Erik, Eric 	Eric, Erik, Erick
+Юрий (Юра) 	Yuri, Yuriy, Yury (Yura) 	 
+Яков (Яша) 	Yakov, Iakov (Yasha) 	Jacob
+Ян 	Yan, Ian 	Ian
+Ярослав (Слава) 	Yaroslav (Slava)

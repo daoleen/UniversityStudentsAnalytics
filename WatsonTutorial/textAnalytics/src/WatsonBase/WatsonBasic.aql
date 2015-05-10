@@ -1,0 +1,17 @@
+module WatsonBase;
+
+-- Remove XML tags from input Document
+detag Document.text as NoTagDocument
+	detect content_type never;
+
+create dictionary AllWatsonDict
+	as ('Watson');
+
+create view AllWatson as
+extract
+	N.text as text, 
+	dictionary 'AllWatsonDict'
+		on N.text as match
+from NoTagDocument N;
+
+output view AllWatson;

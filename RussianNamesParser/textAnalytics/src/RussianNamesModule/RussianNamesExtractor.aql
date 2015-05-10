@@ -1,0 +1,8 @@
+module RussianNamesModule; 
+
+create view RussianNamesView as
+	extract regex /[^A-zА-я]*([A-zА-я]*)[^A-zА-я]*/ on D.text
+	return group 1 as name
+from Document D;
+
+output view RussianNamesView;

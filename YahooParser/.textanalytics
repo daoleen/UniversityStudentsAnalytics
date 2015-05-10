@@ -1,0 +1,10 @@
+#Tue May 05 19:19:01 MSK 2015
+langWare.tokenizerChoice=1
+srcTextAnalyticsPath=[P]textAnalytics/src
+general.provenance=true
+searchPath.dataPath=[W]/YahooParser
+pagination.isEnabled=true
+tamTextAnalyticsPath=[P]textAnalytics/bin
+result.rootDir=result
+pagination.numFilesPerPage=50
+UseModularAQL=true

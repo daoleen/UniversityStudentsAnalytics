@@ -1,0 +1,18 @@
+<configuration>
+    <property>
+        <name>inputDirectory</name>
+        <value>null</value>
+    </property>
+    <property>
+        <name>pagesCount</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>proxyHost</name>
+        <value>proxy.fksis.local</value>
+    </property>
+    <property>
+        <name>proxyPort</name>
+        <value>8080</value>
+    </property>
+</configuration>

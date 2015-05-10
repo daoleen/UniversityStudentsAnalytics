@@ -1,0 +1,22 @@
+module LinkedinRegex;
+
+
+create view Skills as
+  extract
+    AutoID() as __auto__id,
+    'STMT_TYPE_EXTRACT_REGEX' as __stmt__type,
+    -1 as Document_____sep_____D____id,
+    regex
+      //
+    with flags 
+      'DOTALL'
+    on D.text
+    return
+    group 0 as skill
+
+  from
+    Document D;
+output view Skills;
+
+
+

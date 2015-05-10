@@ -1,0 +1,69 @@
+module WatsonBase;
+
+
+create dictionary "ResearchDict"
+with case insensitive
+
+as (
+  'research center',
+  'research centre'
+);
+
+
+create view NoResearchWatson as
+  select
+    R.text as text,
+    R.match as match,
+    AutoID() as __auto__id,
+    'STMT_TYPE_SELECT' as __stmt__type,
+    R.__auto__id as AllWatson_____sep_____R____id
+  from
+    AllWatson R
+  where
+    Not(
+      ContainsDict(
+        'ResearchDict',
+        RightContextTok(
+          R.match,
+          4
+        )
+      )
+    );
+output view NoResearchWatson;
+
+create view WatsonCandidates as
+  select
+    R.text as text,
+    R.match as match,
+    AutoID() as __auto__id,
+    'STMT_TYPE_SELECT' as __stmt__type,
+    R.__auto__id as NoResearchWatson_____sep_____R____id
+  from
+    NoResearchWatson R
+  where
+    Not(
+      ContainsRegex(
+        /\b([A-Z]([a-z]*|\.)\s*([A-Z]\.?)?\b)/,
+        LeftContextTok(
+          R.match,
+          5
+        )
+      )
+    );
+output view WatsonCandidates;
+
+create view Watson as
+  select
+    R.text as text,
+    R.match as match,
+    AutoID() as __auto__id,
+    'STMT_TYPE_SELECT' as __stmt__type,
+    R.__auto__id as WatsonCandidates_____sep_____R____id
+  from
+    WatsonCandidates R
+  limit 1;
+output view Watson;
+
+export view WatsonBase.Watson;
+
+

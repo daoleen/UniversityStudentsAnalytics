@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM139.txt</documentID>
+    <inputTextID>13516</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="  Dr. Kareem Yusuf is Vice President of Strategy, Mergers, and Acquisitions, IBM Industry Solutions. In an interview with Todd Watson and I at this week's Smarter Commerce Global Summit in Madrid, Kareem gave the best explanation I've heard of what IBM means by smarter commerce, and he talked about IBM's acquisition strategy around building its best-in-class offerings in Smarter Commerce. Check out this aggregator that shows social media activity from the conference, including our interviews from the Social Media Lounge. Audio-only feeds : dW podcast RSS | dW iTunes channel  "/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="13520" end="133" start="127"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.HighQWatson</name>
+        <origViewName>WatsonBase.HighQWatson</origViewName>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>13520</key>
+            <value>  Dr. Kareem Yusuf is Vice President of Strategy, Mergers, and Acquisitions, IBM Industry Solutions. In an interview with Todd Watson and I at this week's Smarter Commerce Global Summit in Madrid, Kareem gave the best explanation I've heard of what IBM means by smarter commerce, and he talked about IBM's acquisition strategy around building its best-in-class offerings in Smarter Commerce. Check out this aggregator that shows social media activity from the conference, including our interviews from the Social Media Lounge. Audio-only feeds : dW podcast RSS | dW iTunes channel  </value>
+        </entry>
+        <entry>
+            <key>13516</key>
+            <value>&lt;div&gt; &lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;!--&amp;lt;a href=&amp;quot;http://www.ibm.com/developerworks/podcasts/scgc2012-kareemyusuf.mp3&amp;quot; _djrealurl=&amp;quot;http://www.ibm.com/developerworks/podcasts/scgc2012-kareemyusuf.mp3&amp;quot;&amp;gt;MP3 Download&amp;lt;/a&amp;gt; (18:03)--&gt; Dr. Kareem Yusuf is Vice President of Strategy, Mergers, and Acquisitions, &lt;Keyword&gt;IBM&lt;/Keyword&gt; Industry Solutions. In an interview with Todd &lt;Keyword&gt;Watson&lt;/Keyword&gt; and I at this week's &lt;a href=&quot;&quot;http://www-01.ibm.com/software/commerce/summit/emea/&quot;&quot;&gt;Smarter Commerce Global Summit&lt;/a&gt; in Madrid, Kareem gave the best explanation I've heard of what &lt;Keyword&gt;IBM&lt;/Keyword&gt; means by smarter commerce, and he talked about IBM's acquisition strategy around building its best-in-class offerings in Smarter Commerce. &lt;a href=&quot;&quot;https://www-304.ibm.com/social/aggregator/smartercommerce&quot;&quot;&gt;Check out this aggregator&lt;/a&gt; that shows social media activity from the conference, including our interviews from the Social Media Lounge.&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Audio-only feeds&lt;/i&gt;: &lt;a href=&quot;&quot;http://www.ibm.com/developerworks/podcasts/channel-dwall.rss&quot;&quot;&gt;dW podcast RSS&lt;/a&gt; | &lt;a href=&quot;&quot;http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=153607292&quot;&quot;&gt;dW iTunes channel&lt;/a&gt;&lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;br /&gt;&lt;iframe allowfullscreen=&quot;&quot;&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; height=&quot;&quot;360&quot;&quot; src=&quot;&quot;http://www.youtube.com/embed/m-ghxKrSNp8?rel=0&quot;&quot; width=&quot;&quot;640&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt; </value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

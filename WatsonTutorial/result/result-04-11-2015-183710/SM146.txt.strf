@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM146.txt</documentID>
+    <inputTextID>10751</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Bob Sutor, VP IBM Mobile Platform, talks with Scott Laningham and Todd Watson about the mobile lifecycle and the intensity of change in devices, applications, and operating systems.  The line between business applications and personal applications is blurred: people want easy-to-use business applications and enterprise-level security and protection in their personal applications.  The same devices are used by both consumers and enterprises. Developers will live in both worlds.  Bob mentions the Worklife acquisition and the elegant approach it takes to multiplatform development. MP3 Download (26:03) Audio-only feeds: dW podcast RSS | dW iTunes channel"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="10755" end="77" start="71"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.HighQWatson</name>
+        <origViewName>WatsonBase.HighQWatson</origViewName>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>10751</key>
+            <value>Bob Sutor, VP &lt;Keyword&gt;IBM&lt;/Keyword&gt; Mobile Platform, talks with Scott Laningham and Todd &lt;Keyword&gt;Watson&lt;/Keyword&gt; about the mobile lifecycle and the intensity of change in devices, applications, and operating systems.  The line between business applications and personal applications is blurred: people want easy-to-use business applications and enterprise-level security and protection in their personal applications.  The same devices are used by both consumers and enterprises. Developers will live in both worlds.  Bob mentions the Worklife acquisition and the elegant approach it takes to multiplatform development.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;&quot;http://www.ibm.com/developerworks/podcast/pulse2012-bobsutor-030512/pulse2012-bobsutor-030512.mp3&quot;&quot;&gt;MP3 Download&lt;/a&gt; (26:03) &lt;i&gt;Audio-only feeds:&lt;/i&gt; &lt;a href=&quot;&quot;http://www.ibm.com/developerworks/podcasts/channel-dwall.rss&quot;&quot;&gt;dW podcast RSS&lt;/a&gt; | &lt;a href=&quot;&quot;http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=153607292&quot;&quot;&gt;dW iTunes channel&lt;/a&gt;&lt;br /&gt;&lt;div&gt;&lt;iframe width=&quot;&quot;560&quot;&quot; height=&quot;&quot;340&quot;&quot; src=&quot;&quot;http://cdn.livestream.com/embed/ibmsoftware?layout=4&amp;clip=pla_e6801c98-1f20-43be-81f7-c6a466c28a3a&amp;height=340&amp;width=560&amp;autoplay=false&quot;&quot; style=&quot;&quot;border:0;outline:0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; scrolling=&quot;&quot;no&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</value>
+        </entry>
+        <entry>
+            <key>10755</key>
+            <value>Bob Sutor, VP IBM Mobile Platform, talks with Scott Laningham and Todd Watson about the mobile lifecycle and the intensity of change in devices, applications, and operating systems.  The line between business applications and personal applications is blurred: people want easy-to-use business applications and enterprise-level security and protection in their personal applications.  The same devices are used by both consumers and enterprises. Developers will live in both worlds.  Bob mentions the Worklife acquisition and the elegant approach it takes to multiplatform development. MP3 Download (26:03) Audio-only feeds: dW podcast RSS | dW iTunes channel</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

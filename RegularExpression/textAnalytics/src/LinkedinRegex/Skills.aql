@@ -1,0 +1,8 @@
+module LinkedinRegex; 
+
+create view Skills as
+extract regex // on D.text
+return group 0 as skill
+from Document D;
+
+output view Skills;

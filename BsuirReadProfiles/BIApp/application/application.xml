@@ -1,0 +1,15 @@
+<application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>BsuirReadProfiles</name>
+    <description>Read user profiles from urls file</description>
+    <properties>
+        <property description="Specify a input file path" isInputPath="false" isOutputPath="false" isRequired="true" label="Input File" name="inputFile" paramtype="FILEPATH" uitype="textfield"/>
+        <property description="Output directory where result html profiles be saved" isDataset="false" isInputPath="false" isOutputPath="true" isRequired="true" label="Output directory" name="outputDir" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property defaultValue="proxy.fksis.local" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Host" name="proxyHost" paramtype="STRING" uitype="textfield"/>
+        <property defaultValue="8080" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Port" name="proxyPort" paramtype="INTEGER" uitype="textfield"/>
+    </properties>
+    <assets>
+        <asset id="BsuirReadProfiles" type="WORKFLOW"/>
+    </assets>
+    <imagePath>defaultApp_L.png</imagePath>
+    <categories>BSUIR</categories>
+</application-template>

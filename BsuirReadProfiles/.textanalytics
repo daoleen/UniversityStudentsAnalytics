@@ -1,0 +1,9 @@
+#Sun Apr 12 22:00:29 VET 2015
+srcTextAnalyticsPath=[P]textAnalytics/src
+general.provenance=true
+pagination.isEnabled=true
+tamTextAnalyticsPath=[P]textAnalytics/bin
+searchPath.dataPath=[W]/BsuirReadProfiles
+UseModularAQL=true
+pagination.numFilesPerPage=50
+langWare.tokenizerChoice=1

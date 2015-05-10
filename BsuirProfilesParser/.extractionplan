@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:actionPlanModel xmlns:ns2="com.ibm.biginsights.textanalytics.workflow.plan.model">
+    <collection>
+        <langCode>en</langCode>
+        <path>[W]/BsuirProfilesParser/textAnalytics/example-data</path>
+    </collection>
+    <name>BsuirProfilesParser</name>
+</ns2:actionPlanModel>

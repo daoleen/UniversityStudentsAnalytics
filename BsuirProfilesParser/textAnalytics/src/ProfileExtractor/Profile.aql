@@ -1,0 +1,39 @@
+module ProfileExtractor; 
+
+-- /.*rel="canonical" href="https:\/\/www.linkedin.com\/in\/([a-z]+)"\/\>.*/
+-- <link rel="canonical" href="https://www.linkedin.com/in/shandarovich"/>
+
+-- /<span class="full-name" dir="auto">(.*?)<\/span>/
+-- <span class="full-name" dir="auto">Шандарович Вадим</span>
+
+-- /<span class="endorse-item-name-text">(.+?)<\/span>/
+-- <span class="endorse-item-name-text">PHP</span>
+
+create view Url as
+	extract regex /.*rel="canonical" href="https:\/\/www.linkedin.com\/in\/([a-z0-9]+)"\/\>.*/ on D.text
+	return group 1 as url
+from Document D; 
+
+output view Url;
+
+create view Name as
+	extract regex /<span class="full-name" dir="auto">(.*?)<\/span>/ on D.text
+	return group 1 as name
+from Document D; 
+
+create view Skills as
+	extract regex /class="endorse-item-name-text">(.+?)<\// on D.text
+	return group 1 as skills
+from Document D;
+
+
+create view Profile as
+	select u.*,n.*,s.* 
+	from Url u, Name n, Skills s;
+
+--create view Profile as
+--(select u.* from Url u as url)
+--union all(select n.* from Name n as name)
+--union all(select s.* from Skills s as skills);
+	
+output view Profile;

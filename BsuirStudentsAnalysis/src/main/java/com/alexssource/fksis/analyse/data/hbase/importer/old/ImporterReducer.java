@@ -1,5 +1,5 @@
 package com.alexssource.fksis.analyse.data.hbase.importer.old;
-
+/*
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
@@ -45,3 +45,4 @@ public class ImporterReducer  extends TableReducer <LongWritable, Text, Text> {
 		}
 	}
 }
+*/

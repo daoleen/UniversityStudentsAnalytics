@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM018.txt</documentID>
+    <inputTextID>14311</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Turbo debriefs on IBM Watson GM Manoj Saxena's keynote address to the IBM SmartCamp Global Finals, in which he explains the commercial opportunity of IBM's Watson technology even as he shares his own experience as a two-time entrepreneur. Read more at Turbo�s personal blog&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="14315" end="28" start="22"/>
+        </rows>
+        <rows>
+            <textVal val="Turbo debriefs on IBM Watson GM Manoj Saxena's keynote address to the IBM SmartCamp Global Finals, in which he explains the commercial opportunity of IBM's Watson technology even as he shares his own experience as a two-time entrepreneur. Read more at Turbo�s personal blog&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="14315" end="162" start="156"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>14311</key>
+            <value>Turbo debriefs on &lt;Keyword&gt;IBM&lt;/Keyword&gt; &lt;Keyword&gt;Watson&lt;/Keyword&gt; GM Manoj Saxena's keynote address to the &lt;Keyword&gt;IBM&lt;/Keyword&gt; SmartCamp Global Finals, in which he explains the commercial opportunity of IBM's &lt;Keyword&gt;Watson&lt;/Keyword&gt; technology even as he shares his own experience as a two-time entrepreneur.&lt;img alt=&quot;&quot;&quot;&quot; border=&quot;&quot;0&quot;&quot; src=&quot;&quot;http://stats.wordpress.com/b.gif?host=turbotodd.wordpress.com&amp;blog=227089&amp;post=4668&amp;subd=turbotodd&amp;ref=&amp;feed=1&quot;&quot; width=&quot;&quot;1&quot;&quot; height=&quot;&quot;1&quot;&quot; /&gt;&lt;br /&gt;&lt;a href=&quot;&quot;http://turbotodd.wordpress.com/?p=4668&quot;&quot;&gt;Read more at Turbo�s personal blog&lt;/a&gt;
+</value>
+        </entry>
+        <entry>
+            <key>14315</key>
+            <value>Turbo debriefs on IBM Watson GM Manoj Saxena's keynote address to the IBM SmartCamp Global Finals, in which he explains the commercial opportunity of IBM's Watson technology even as he shares his own experience as a two-time entrepreneur. Read more at Turbo�s personal blog
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

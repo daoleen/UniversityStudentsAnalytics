@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM093.txt</documentID>
+    <inputTextID>16086</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Turbo and Scott Laningham sit down with Opus Research co-founder and analyst Dan Miller at SXSW Interactive 2012 to discuss Siri, Watson , and the looming opportunity presented by &quot;&quot;conversational commerce.&quot;&quot; Read more at Turbo�s personal blog&#xD;&#xA;&#xD;&#xA;&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="16090" end="136" start="130"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>16086</key>
+            <value>Turbo and Scott Laningham sit down with Opus Research co-founder and analyst Dan Miller at SXSW Interactive 2012 to discuss Siri, &lt;Keyword&gt;Watson&lt;/Keyword&gt;, and the looming opportunity presented by &quot;&quot;conversational commerce.&quot;&quot;&lt;img alt=&quot;&quot;&quot;&quot; border=&quot;&quot;0&quot;&quot; src=&quot;&quot;http://stats.wordpress.com/b.gif?host=turbotodd.wordpress.com&amp;blog=227089&amp;post=5045&amp;subd=turbotodd&amp;ref=&amp;feed=1&quot;&quot; width=&quot;&quot;1&quot;&quot; height=&quot;&quot;1&quot;&quot; /&gt;&lt;br /&gt;&lt;a href=&quot;&quot;http://turbotodd.wordpress.com/?p=5045&quot;&quot;&gt;Read more at Turbo�s personal blog&lt;/a&gt;&#xD;
+&#xD;
+
+</value>
+        </entry>
+        <entry>
+            <key>16090</key>
+            <value>Turbo and Scott Laningham sit down with Opus Research co-founder and analyst Dan Miller at SXSW Interactive 2012 to discuss Siri, Watson , and the looming opportunity presented by &quot;&quot;conversational commerce.&quot;&quot; Read more at Turbo�s personal blog&#xD;
+&#xD;
+
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

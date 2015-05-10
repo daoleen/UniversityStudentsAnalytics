@@ -1,0 +1,8 @@
+module HighQKeywords; 
+
+create external dictionary QualityKeywords
+allow_empty false
+with language as 'en'
+and case insensitive;
+
+export dictionary QualityKeywords;

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM152.txt</documentID>
+    <inputTextID>7981</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Dan Miller , Senior Analyst and Founder of Opus Research, talks with Todd Watson and me about his work in the area of conversational commerce , technology that lets people talk to people, to machines, and machines to each other and each understand what the other is saying; in other words, helping to get rid of linguistic latency. Miller details his company's work in voice biometrics , technology that ascertains that the person you're talking to is who they are; used for authentication, it is also an enabling force to implement the bring-your-own-device-to-the-enterprise trend. My Voice Is My Passport. Verify Me session . From the IBM Future of Social Lounge. 10:29&#xD;&#xA;&#xD;&#xA;&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="7985" end="80" start="74"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.WatsonCandidates</name>
+        <origViewName>WatsonBase.WatsonCandidates</origViewName>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>7981</key>
+            <value>&lt;b&gt;Dan Miller&lt;/b&gt;, Senior Analyst and Founder of Opus Research, talks with Todd &lt;Keyword&gt;Watson&lt;/Keyword&gt; and me about his work in the area of &lt;i&gt;conversational commerce&lt;/i&gt;, technology that lets people talk to people, to machines, and machines to each other and each understand what the other is saying; in other words, helping to get rid of linguistic latency. Miller details his company's work in &lt;i&gt;voice biometrics&lt;/i&gt;, technology that ascertains that the person you're talking to is who they are; used for authentication, it is also an enabling force to implement the bring-your-own-device-to-the-enterprise trend. &lt;a href=&quot;&quot;http://schedule.sxsw.com/2012/events/event_IAP12598&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;My Voice Is My Passport. Verify Me session&lt;/a&gt;. From the &lt;Keyword&gt;IBM&lt;/Keyword&gt; Future of Social Lounge. 10:29&lt;br /&gt;&lt;br /&gt;&lt;div&gt;&lt;iframe width=&quot;&quot;640&quot;&quot; height=&quot;&quot;360&quot;&quot; src=&quot;&quot;http://www.youtube.com/embed/DToJxY4BIt0?rel=&quot;&quot;0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br /&gt;&#xD;
+&#xD;
+
+</value>
+        </entry>
+        <entry>
+            <key>7985</key>
+            <value>Dan Miller , Senior Analyst and Founder of Opus Research, talks with Todd Watson and me about his work in the area of conversational commerce , technology that lets people talk to people, to machines, and machines to each other and each understand what the other is saying; in other words, helping to get rid of linguistic latency. Miller details his company's work in voice biometrics , technology that ascertains that the person you're talking to is who they are; used for authentication, it is also an enabling force to implement the bring-your-own-device-to-the-enterprise trend. My Voice Is My Passport. Verify Me session . From the IBM Future of Social Lounge. 10:29&#xD;
+&#xD;
+
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

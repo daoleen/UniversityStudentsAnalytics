@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM148.txt</documentID>
+    <inputTextID>1135</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="The traditional PR model, a preset script with a campaign timeline, is now sort of defunct since current public discourse moves so fast and so dynamically that all it takes is a few hours to destroy a laboriously crafted narrative. Overtaking the traditional model is newsjacking -- successfully injecting your angle into breaking news in real time. Social media author and speaker David Meerman Scott talks with me and Todd Watson about his latest ebook Newsjacking: How to Inject your Ideas into a Breaking News Story and Generate Tons of Media Coverage . From the IBM Future of Social Lounge. 17:08&#xA;&#xD;&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="1139" end="431" start="425"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>1135</key>
+            <value>The traditional PR model, a preset script with a campaign timeline, is now sort of defunct since current public discourse moves so fast and so dynamically that all it takes is a few hours to destroy a laboriously crafted narrative. Overtaking the traditional model is &lt;i&gt;newsjacking&lt;/i&gt; -- successfully injecting your angle into breaking news in real time. Social media author and speaker &lt;b&gt;David Meerman Scott&lt;/b&gt; talks with me and Todd &lt;Keyword&gt;Watson&lt;/Keyword&gt; about his latest ebook &lt;i&gt;&lt;a href=&quot;&quot;http://www.amazon.com/Newsjacking-Breaking-Generate-Coverage-ebook/dp/B0065MKMMS&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;Newsjacking: How to Inject your Ideas into a Breaking News Story and Generate Tons of Media Coverage&lt;/a&gt;&lt;/i&gt;. From the &lt;Keyword&gt;IBM&lt;/Keyword&gt; Future of Social Lounge. 17:08&lt;br /&gt;&lt;br /&gt;&lt;div&gt;&lt;iframe width=&quot;&quot;640&quot;&quot; height=&quot;&quot;360&quot;&quot; src=&quot;&quot;http://www.youtube.com/embed/XWluTvXPUWA?rel=&quot;&quot;0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br /&gt;
+&#xD;
+</value>
+        </entry>
+        <entry>
+            <key>1139</key>
+            <value>The traditional PR model, a preset script with a campaign timeline, is now sort of defunct since current public discourse moves so fast and so dynamically that all it takes is a few hours to destroy a laboriously crafted narrative. Overtaking the traditional model is newsjacking -- successfully injecting your angle into breaking news in real time. Social media author and speaker David Meerman Scott talks with me and Todd Watson about his latest ebook Newsjacking: How to Inject your Ideas into a Breaking News Story and Generate Tons of Media Coverage . From the IBM Future of Social Lounge. 17:08
+&#xD;
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

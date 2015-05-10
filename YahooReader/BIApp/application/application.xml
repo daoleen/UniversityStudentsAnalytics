@@ -1,0 +1,17 @@
+<application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>Yahoo Reader</name>
+    <description>Read the yahoo results for BSUIR users&#13;
+&#13;
+author: Alexander Kozlov &lt;alexssource@gmail.com&gt;</description>
+    <properties>
+        <property description="Please, type the directory where the google pages will be saved" isInputPath="false" isOutputPath="false" isRequired="true" label="Output directory" name="inputDirectory" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property defaultValue="3" description="Please, specify the count of yahoo pages" isInputPath="false" isOutputPath="false" isRequired="true" label="Pages count to parse" name="pagesCount" paramtype="INTEGER" uitype="textfield"/>
+        <property defaultValue="proxy.fksis.local" description="You can specify the proxy" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Host" name="proxyHost" paramtype="STRING" uitype="textfield"/>
+        <property defaultValue="8080" description="You can specify the proxy" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Port" name="proxyPort" paramtype="INTEGER" uitype="textfield"/>
+    </properties>
+    <assets>
+        <asset id="Yahoo Reader" type="WORKFLOW"/>
+    </assets>
+    <imagePath>defaultApp_L.png</imagePath>
+    <categories>BSUIR</categories>
+</application-template>

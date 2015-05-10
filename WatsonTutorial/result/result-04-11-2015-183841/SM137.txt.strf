@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM137.txt</documentID>
+    <inputTextID>12106</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Todd Watson and I chat with Ian Greenleigh , in charge of content and social strategy at Bazaarvoice about the company's bread and butter ... handling online ratings and reviews and the analytics collected from the data. Greenleigh also talks natural language understanding, being authentic about social data, and the legendary advocacy of IBM products. From the IBM Future of Social Lounge. 16:08&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="12110" end="11" start="5"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.HighQWatson</name>
+        <origViewName>WatsonBase.HighQWatson</origViewName>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>12106</key>
+            <value>Todd &lt;Keyword&gt;Watson&lt;/Keyword&gt; and I chat with &lt;b&gt;Ian Greenleigh&lt;/b&gt;, in charge of content and social strategy at &lt;a href=&quot;&quot;http://www.bazaarvoice.com/blog/&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;Bazaarvoice&lt;/a&gt; about the company's bread and butter ... handling online ratings and reviews and the analytics collected from the data. Greenleigh also talks natural language understanding, being authentic about social data, and the legendary advocacy of &lt;Keyword&gt;IBM&lt;/Keyword&gt; products. From the &lt;Keyword&gt;IBM&lt;/Keyword&gt; Future of Social Lounge. 16:08&lt;br /&gt;&lt;br /&gt;&lt;div&gt;&lt;iframe width=&quot;&quot;640&quot;&quot; height=&quot;&quot;360&quot;&quot; src=&quot;&quot;http://www.youtube.com/embed/j57YfbUTC18?rel=&quot;&quot;0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br /&gt;
+</value>
+        </entry>
+        <entry>
+            <key>12110</key>
+            <value>Todd Watson and I chat with Ian Greenleigh , in charge of content and social strategy at Bazaarvoice about the company's bread and butter ... handling online ratings and reviews and the analytics collected from the data. Greenleigh also talks natural language understanding, being authentic about social data, and the legendary advocacy of IBM products. From the IBM Future of Social Lounge. 16:08
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

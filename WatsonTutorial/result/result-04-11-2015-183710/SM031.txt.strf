@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM031.txt</documentID>
+    <inputTextID>10176</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Manoj Saxena,  the General Manager for Watson Solutions in the IBM Software Group, has overall responsibility for directing all commercial, operational, and strategic initiatives to commercialize industry solutions based on the IBMs transformative Watson technology. At Pulse 2012, he discussed what comes next for IBM Watson and the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector. Each of these industries deal with massive amounts of unstructured data coming from various sources. Find out how the advanced analytics used in Watson are being put to work in businesses around the world.  (16:19) "/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="10180" end="45" start="39"/>
+        </rows>
+        <rows>
+            <textVal val="Manoj Saxena,  the General Manager for Watson Solutions in the IBM Software Group, has overall responsibility for directing all commercial, operational, and strategic initiatives to commercialize industry solutions based on the IBMs transformative Watson technology. At Pulse 2012, he discussed what comes next for IBM Watson and the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector. Each of these industries deal with massive amounts of unstructured data coming from various sources. Find out how the advanced analytics used in Watson are being put to work in businesses around the world.  (16:19) "/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="10180" end="254" start="248"/>
+        </rows>
+        <rows>
+            <textVal val="Manoj Saxena,  the General Manager for Watson Solutions in the IBM Software Group, has overall responsibility for directing all commercial, operational, and strategic initiatives to commercialize industry solutions based on the IBMs transformative Watson technology. At Pulse 2012, he discussed what comes next for IBM Watson and the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector. Each of these industries deal with massive amounts of unstructured data coming from various sources. Find out how the advanced analytics used in Watson are being put to work in businesses around the world.  (16:19) "/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="10180" end="325" start="319"/>
+        </rows>
+        <rows>
+            <textVal val="Manoj Saxena,  the General Manager for Watson Solutions in the IBM Software Group, has overall responsibility for directing all commercial, operational, and strategic initiatives to commercialize industry solutions based on the IBMs transformative Watson technology. At Pulse 2012, he discussed what comes next for IBM Watson and the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector. Each of these industries deal with massive amounts of unstructured data coming from various sources. Find out how the advanced analytics used in Watson are being put to work in businesses around the world.  (16:19) "/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="10180" end="375" start="369"/>
+        </rows>
+        <rows>
+            <textVal val="Manoj Saxena,  the General Manager for Watson Solutions in the IBM Software Group, has overall responsibility for directing all commercial, operational, and strategic initiatives to commercialize industry solutions based on the IBMs transformative Watson technology. At Pulse 2012, he discussed what comes next for IBM Watson and the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector. Each of these industries deal with massive amounts of unstructured data coming from various sources. Find out how the advanced analytics used in Watson are being put to work in businesses around the world.  (16:19) "/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="10180" end="593" start="587"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.HighQWatson</name>
+        <origViewName>WatsonBase.HighQWatson</origViewName>
+        <rows>
+            <textVal val="Manoj Saxena,  the General Manager for Watson Solutions in the IBM Software Group, has overall responsibility for directing all commercial, operational, and strategic initiatives to commercialize industry solutions based on the IBMs transformative Watson technology. At Pulse 2012, he discussed what comes next for IBM Watson and the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector. Each of these industries deal with massive amounts of unstructured data coming from various sources. Find out how the advanced analytics used in Watson are being put to work in businesses around the world.  (16:19) "/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="10180" end="254" start="248"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>10176</key>
+            <value>&lt;div&gt;Manoj Saxena,  the General Manager for &lt;Keyword&gt;Watson&lt;/Keyword&gt; Solutions in the &lt;Keyword&gt;IBM&lt;/Keyword&gt; Software Group, has overall responsibility for directing all commercial, operational, and strategic initiatives to commercialize industry solutions based on the IBMs transformative &lt;Keyword&gt;Watson&lt;/Keyword&gt; technology. At Pulse 2012, he discussed what comes next for &lt;Keyword&gt;IBM&lt;/Keyword&gt; &lt;Keyword&gt;Watson&lt;/Keyword&gt; and the industries particularly suited for &lt;Keyword&gt;Watson&lt;/Keyword&gt; solutions, such as healthcare, banking, and the financial sector. Each of these industries deal with massive amounts of unstructured data coming from various sources. Find out how the advanced analytics used in &lt;Keyword&gt;Watson&lt;/Keyword&gt; are being put to work in businesses around the world.  (16:19)&lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt;&lt;iframe allowfullscreen=&quot;&quot;&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; height=&quot;&quot;360&quot;&quot; src=&quot;&quot;http://www.youtube.com/embed/qucuvmD_EFg?rel=0&quot;&quot; width=&quot;&quot;640&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</value>
+        </entry>
+        <entry>
+            <key>10180</key>
+            <value>Manoj Saxena,  the General Manager for Watson Solutions in the IBM Software Group, has overall responsibility for directing all commercial, operational, and strategic initiatives to commercialize industry solutions based on the IBMs transformative Watson technology. At Pulse 2012, he discussed what comes next for IBM Watson and the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector. Each of these industries deal with massive amounts of unstructured data coming from various sources. Find out how the advanced analytics used in Watson are being put to work in businesses around the world.  (16:19) </value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM140.txt</documentID>
+    <inputTextID>14921</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="IBM Watson's Connectivity Evolution � IBM is working on offerings of Watson�s high-powered analytics and information retrieval capabilities onsite or in a cloud environment. Learn what's next for Watson ! Read more ... � �&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="14925" end="10" start="4"/>
+        </rows>
+        <rows>
+            <textVal val="IBM Watson's Connectivity Evolution � IBM is working on offerings of Watson�s high-powered analytics and information retrieval capabilities onsite or in a cloud environment. Learn what's next for Watson ! Read more ... � �&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="14925" end="75" start="69"/>
+        </rows>
+        <rows>
+            <textVal val="IBM Watson's Connectivity Evolution � IBM is working on offerings of Watson�s high-powered analytics and information retrieval capabilities onsite or in a cloud environment. Learn what's next for Watson ! Read more ... � �&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="14925" end="202" start="196"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>14921</key>
+            <value>&lt;div align=&quot;&quot;center&quot;&quot;&gt;&lt;font color=&quot;&quot;#ff8c00&quot;&quot;&gt;&lt;b&gt;&lt;Keyword&gt;IBM&lt;/Keyword&gt; Watson's Connectivity Evolution&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;�&lt;/div&gt;&lt;div&gt;&lt;Keyword&gt;IBM&lt;/Keyword&gt; is working on offerings of Watson�s high-powered analytics and information retrieval capabilities onsite or in a cloud environment. Learn what's next for &lt;Keyword&gt;Watson&lt;/Keyword&gt;!&lt;br&gt;&lt;br&gt;&lt;u&gt;&lt;b&gt;&lt;a href=&quot;&quot;http://www.information-management.com/news/Watson-IBM-data-analytics-connection-cloud-10021970-1.html&quot;&quot;&gt;Read more&lt;/a&gt;&lt;/b&gt;&lt;/u&gt;...&lt;/div&gt;&lt;div&gt;�&lt;/div&gt;&lt;div&gt;�&lt;/div&gt;
+</value>
+        </entry>
+        <entry>
+            <key>14925</key>
+            <value>IBM Watson's Connectivity Evolution � IBM is working on offerings of Watson�s high-powered analytics and information retrieval capabilities onsite or in a cloud environment. Learn what's next for Watson ! Read more ... � �
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

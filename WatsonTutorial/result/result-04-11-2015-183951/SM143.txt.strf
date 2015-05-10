@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM143.txt</documentID>
+    <inputTextID>14936</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="  IBM blogger and in-house tech journalist Todd &quot;&quot;Turbo&quot;&quot; Watson joins Scott Laningham for a recap of the 2011 IBM Smartcamp Finals, held Jan 31-Feb 2 in San Francisco. More at turbotodd.com and ibmsmartcamp.com. �   MP3 Download (15:13) Audio-only feeds : dW podcast RSS | dW iTunes channel  "/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="14940" end="64" start="58"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>14936</key>
+            <value>&lt;div&gt;  &lt;Keyword&gt;IBM&lt;/Keyword&gt; blogger and in-house tech journalist Todd &quot;&quot;Turbo&quot;&quot; &lt;Keyword&gt;Watson&lt;/Keyword&gt; joins Scott Laningham for a recap of the 2011 &lt;Keyword&gt;IBM&lt;/Keyword&gt; Smartcamp Finals, held Jan 31-Feb 2 in San Francisco. More at turbotodd.com and ibmsmartcamp.com.&lt;/div&gt;&lt;div&gt;�&lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;a href=&quot;&quot;http://www.ibm.com/developerworks/podcasts/turbotech-021412/turbotech-021412.mp3&quot;&quot;&gt;MP3 Download&lt;/a&gt; (15:13) &lt;i&gt;&lt;br /&gt;Audio-only feeds&lt;/i&gt;: &lt;a href=&quot;&quot;http://www.ibm.com/developerworks/podcasts/channel-dwall.rss&quot;&quot;&gt;dW podcast RSS&lt;/a&gt; | &lt;a href=&quot;&quot;http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=153607292&quot;&quot;&gt;dW iTunes channel&lt;/a&gt;&lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;br /&gt;&lt;iframe allowfullscreen=&quot;&quot;&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; height=&quot;&quot;360&quot;&quot; src=&quot;&quot;http://www.youtube.com/embed/GfEEzyJiFlw?rel=0&quot;&quot; width=&quot;&quot;640&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt; </value>
+        </entry>
+        <entry>
+            <key>14940</key>
+            <value>  IBM blogger and in-house tech journalist Todd &quot;&quot;Turbo&quot;&quot; Watson joins Scott Laningham for a recap of the 2011 IBM Smartcamp Finals, held Jan 31-Feb 2 in San Francisco. More at turbotodd.com and ibmsmartcamp.com. �   MP3 Download (15:13) Audio-only feeds : dW podcast RSS | dW iTunes channel  </value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

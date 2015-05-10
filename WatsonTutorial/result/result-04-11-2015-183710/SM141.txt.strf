@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM141.txt</documentID>
+    <inputTextID>10726</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Nach l�ngerer Pause wieder einmal ein Blog-Eintrag von mir. Unter den�Ph�nomenen �des Jahres 2011 war ja auch, dass durch den kometenhaften Aufstieg von Twitter und Google Plus das Microblogging den klassischen Blog etwas an die Seite gedr�ngt hat. � Zum Jahreswechsel bietet sich daher an, zu �berlegen, was weiter seine�Berechtigung hat.� � Microblogging - gleich in welchen Diensten: Ja - f�r News, Meinungen, kurze�Kommentare� � Blogs - ja, selektiv, f�r tiefergehende Einsch�tzungen. � � Gerade in einer pers�nlichen Erfahrung als IBMer ein Jahr nach dem &quot;&quot;Jahrhundertjahr 2011&quot;&quot; bietet es sich an, dabei diese Instrumente sinnvoll zu verkn�pfen. � Und ich denke, wir werden im Vorfeld der CeBIT diese�und noch weitere Collaboration-Tools intensiv n�tzen. � � Was in diesem Kontext als Lehre aus dem Centennial bleibt: Es lohnt sich,��fter den Blick in die Geschichte zur�ck zu lenken. Auch in der IT, da die Schnelllebigkeit vergessen l��t, dass viele Dinge schon da waren. Das gilt zB auch f�r die Cloud. Am besten gefiel mir dabei diese Woche�ein Artikel �ber unseren Ex-CEO Palmisano, der gerade in der�ersten�Phase seiner Amtszeit sich intensiv im IBM Archiv eingelesen hat in die �ber 100 Jahre alten Reden des ersten IBM Chefs Thomas Watson . Die Schl�sse, die er�daraus f�r�die weitere Entwicklung der IBM Strategie gezogen hat, waren nicht die schlechtesten. � � � �"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="10730" end="1252" start="1246"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.HighQWatson</name>
+        <origViewName>WatsonBase.HighQWatson</origViewName>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>10730</key>
+            <value>Nach l�ngerer Pause wieder einmal ein Blog-Eintrag von mir. Unter den�Ph�nomenen �des Jahres 2011 war ja auch, dass durch den kometenhaften Aufstieg von Twitter und Google Plus das Microblogging den klassischen Blog etwas an die Seite gedr�ngt hat. � Zum Jahreswechsel bietet sich daher an, zu �berlegen, was weiter seine�Berechtigung hat.� � Microblogging - gleich in welchen Diensten: Ja - f�r News, Meinungen, kurze�Kommentare� � Blogs - ja, selektiv, f�r tiefergehende Einsch�tzungen. � � Gerade in einer pers�nlichen Erfahrung als IBMer ein Jahr nach dem &quot;&quot;Jahrhundertjahr 2011&quot;&quot; bietet es sich an, dabei diese Instrumente sinnvoll zu verkn�pfen. � Und ich denke, wir werden im Vorfeld der CeBIT diese�und noch weitere Collaboration-Tools intensiv n�tzen. � � Was in diesem Kontext als Lehre aus dem Centennial bleibt: Es lohnt sich,��fter den Blick in die Geschichte zur�ck zu lenken. Auch in der IT, da die Schnelllebigkeit vergessen l��t, dass viele Dinge schon da waren. Das gilt zB auch f�r die Cloud. Am besten gefiel mir dabei diese Woche�ein Artikel �ber unseren Ex-CEO Palmisano, der gerade in der�ersten�Phase seiner Amtszeit sich intensiv im IBM Archiv eingelesen hat in die �ber 100 Jahre alten Reden des ersten IBM Chefs Thomas Watson . Die Schl�sse, die er�daraus f�r�die weitere Entwicklung der IBM Strategie gezogen hat, waren nicht die schlechtesten. � � � �</value>
+        </entry>
+        <entry>
+            <key>10726</key>
+            <value>&lt;DIV&gt;Nach l�ngerer Pause wieder einmal ein Blog-Eintrag von mir. Unter den�Ph�nomenen �des Jahres 2011 war ja auch, dass durch den kometenhaften Aufstieg von Twitter und Google Plus das Microblogging den klassischen Blog etwas an die Seite gedr�ngt hat.&lt;/DIV&gt;&lt;DIV&gt;�&lt;/DIV&gt;&lt;DIV&gt;Zum Jahreswechsel bietet sich daher an, zu �berlegen, was weiter seine�Berechtigung hat.�&lt;/DIV&gt;&lt;DIV&gt;�&lt;/DIV&gt;&lt;DIV&gt;Microblogging - gleich in welchen Diensten: Ja - f�r News, Meinungen, kurze�Kommentare�&lt;/DIV&gt;&lt;DIV&gt;�&lt;/DIV&gt;&lt;DIV&gt;Blogs - ja, selektiv, f�r tiefergehende Einsch�tzungen. �&lt;/DIV&gt;&lt;DIV&gt;�&lt;/DIV&gt;&lt;DIV&gt;Gerade in einer pers�nlichen Erfahrung als IBMer ein Jahr nach dem &quot;&quot;Jahrhundertjahr 2011&quot;&quot; bietet es sich an, dabei diese Instrumente sinnvoll zu verkn�pfen.&lt;/DIV&gt;&lt;DIV&gt;�&lt;/DIV&gt;&lt;DIV&gt;Und ich denke, wir werden im Vorfeld der CeBIT diese�und noch weitere Collaboration-Tools intensiv n�tzen. �&lt;/DIV&gt;&lt;DIV&gt;�&lt;/DIV&gt;&lt;DIV&gt;Was in diesem Kontext als Lehre aus dem Centennial bleibt: Es lohnt sich,��fter den Blick in die Geschichte zur�ck zu lenken. Auch in der IT, da die Schnelllebigkeit vergessen l��t, dass viele Dinge schon da waren. Das gilt zB auch f�r die Cloud. Am besten gefiel mir dabei diese Woche�ein Artikel �ber unseren Ex-CEO Palmisano, der gerade in der�ersten�Phase seiner Amtszeit sich intensiv im &lt;Keyword&gt;IBM&lt;/Keyword&gt; Archiv eingelesen hat in die �ber 100 Jahre alten Reden des ersten &lt;Keyword&gt;IBM&lt;/Keyword&gt; Chefs Thomas &lt;Keyword&gt;Watson&lt;/Keyword&gt;. Die Schl�sse, die er�daraus f�r�die weitere Entwicklung der &lt;Keyword&gt;IBM&lt;/Keyword&gt; Strategie gezogen hat, waren nicht die schlechtesten.&lt;/DIV&gt;&lt;DIV&gt;�&lt;/DIV&gt;&lt;DIV&gt;�&lt;/DIV&gt;&lt;DIV&gt;�&lt;/DIV&gt;&lt;DIV&gt;�&lt;/DIV&gt;</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

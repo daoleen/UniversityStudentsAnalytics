@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM126.txt</documentID>
+    <inputTextID>10651</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="On the topic of innovation inside IBM , Marie Wieck, General Manager of IBM Application and Integration Middleware opens the panel discussion with a paraphrase from IBM Founder Thomas J. Watson , &quot;&quot;If you want to succeed, you have to double your failure rate.&quot;&quot;  Katie Linendoll leads the panelists through a conversation touching on many topics: how to innovate quickly in a rapidly changing, technical environment; how social media has changed the way we think in business; how to expose and engage children in emerging technologies at an earlier age, and many other subjects. Women's Panel Christine Robbins, CEO of BodyMedia Joanne M. Correia, Managing VP of Garner Devi Gupta, VP Marketing for Prolifics Kristen Lauria, IBM Mobile Enterprise and Application and Integration Middleware Audio-only feeds: dW podcast RSS | dW iTunes channel   &#xD;&#xA;&#xD;&#xA;&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="10655" end="193" start="187"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.HighQWatson</name>
+        <origViewName>WatsonBase.HighQWatson</origViewName>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>10651</key>
+            <value>On the topic of innovation inside &lt;Keyword&gt;IBM&lt;/Keyword&gt;, Marie Wieck, General Manager of &lt;Keyword&gt;IBM&lt;/Keyword&gt; Application and Integration Middleware opens the panel discussion with a paraphrase from &lt;Keyword&gt;IBM&lt;/Keyword&gt; Founder Thomas J. &lt;Keyword&gt;Watson&lt;/Keyword&gt;, &quot;&quot;If you want to succeed, you have to double your failure rate.&quot;&quot;  &lt;br/&gt;&lt;br&gt;Katie Linendoll leads the panelists through a conversation touching on many topics: how to innovate quickly in a rapidly changing, technical environment; how social media has changed the way we think in business; how to expose and engage children in emerging technologies at an earlier age, and many other subjects.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Women's Panel&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;Christine Robbins, CEO of BodyMedia&lt;/li&gt;&lt;li&gt;Joanne M. Correia, Managing VP of Garner&lt;/li&gt;&lt;li&gt;Devi Gupta, VP Marketing for Prolifics &lt;/li&gt;&lt;li&gt;Kristen Lauria, &lt;Keyword&gt;IBM&lt;/Keyword&gt; Mobile Enterprise and Application and Integration Middleware&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;&lt;!--&lt;a href=&quot;&quot;XXXXX&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;MP3 Download&lt;/a&gt; | &lt;a href=&quot;&quot;XXXXX&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;Transcript&lt;/a&gt;&lt;br /&gt;--&gt;&lt;i&gt;Audio-only feeds:&lt;/i&gt; &lt;a href=&quot;&quot;http://www.ibm.com/developerworks/podcasts/channel-dwall.rss&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;dW podcast RSS&lt;/a&gt; | &lt;a href=&quot;&quot;http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=153607292&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;dW iTunes channel&lt;/a&gt; &lt;div&gt;&lt;iframe width=&quot;&quot;640&quot;&quot; height=&quot;&quot;385&quot;&quot; src=&quot;&quot;http://cdn.livestream.com/embed/ibmimpact?layout=4&amp;clip=pla_6dd2b84e-60c5-4536-a591-30489d6b6ba7&amp;height=385&amp;width=640&amp;autoplay=false&quot;&quot; style=&quot;&quot;border:0;outline:0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; scrolling=&quot;&quot;no&quot;&quot;&gt;&lt;/iframe&gt;  &lt;/div&gt;&lt;br /&gt;&#xD;
+&#xD;
+
+</value>
+        </entry>
+        <entry>
+            <key>10655</key>
+            <value>On the topic of innovation inside IBM , Marie Wieck, General Manager of IBM Application and Integration Middleware opens the panel discussion with a paraphrase from IBM Founder Thomas J. Watson , &quot;&quot;If you want to succeed, you have to double your failure rate.&quot;&quot;  Katie Linendoll leads the panelists through a conversation touching on many topics: how to innovate quickly in a rapidly changing, technical environment; how social media has changed the way we think in business; how to expose and engage children in emerging technologies at an earlier age, and many other subjects. Women's Panel Christine Robbins, CEO of BodyMedia Joanne M. Correia, Managing VP of Garner Devi Gupta, VP Marketing for Prolifics Kristen Lauria, IBM Mobile Enterprise and Application and Integration Middleware Audio-only feeds: dW podcast RSS | dW iTunes channel   &#xD;
+&#xD;
+
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

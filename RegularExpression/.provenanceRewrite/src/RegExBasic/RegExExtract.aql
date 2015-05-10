@@ -1,0 +1,26 @@
+module RegExBasic;
+
+
+create view Locations as
+  extract
+    AutoID() as __auto__id,
+    'STMT_TYPE_EXTRACT_REGEX' as __stmt__type,
+    -1 as Document_____sep_____D____id,
+    regex
+      /Geographic coordinates: {1,}((\d{1,2} \d{2} [NS]), (\d{1,3} \d{2} [EW]))/
+    with flags 
+      'DOTALL'
+    on D.text
+    return
+    group 1 as longlat
+
+    and group 2 as latitude
+
+    and group 3 as longitude
+
+  from
+    Document D;
+output view Locations;
+
+
+

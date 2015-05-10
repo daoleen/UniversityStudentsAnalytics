@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM035.txt</documentID>
+    <inputTextID>11596</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="IBM today announced the formation of a new Watson Healthcare Advisory Board.  The board members include medical leaders with expertise in areas such as primary care, oncology, biomedical informatics and medical innovation. They will provide IBM with insights on healthcare issues that could be positively impacted by Watson technology adoption.&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;E-mail this page&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Save to del.icio.us&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Digg this&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="11600" end="49" start="43"/>
+        </rows>
+        <rows>
+            <textVal val="IBM today announced the formation of a new Watson Healthcare Advisory Board.  The board members include medical leaders with expertise in areas such as primary care, oncology, biomedical informatics and medical innovation. They will provide IBM with insights on healthcare issues that could be positively impacted by Watson technology adoption.&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;E-mail this page&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Save to del.icio.us&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Digg this&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="11600" end="323" start="317"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.HighQWatson</name>
+        <origViewName>WatsonBase.HighQWatson</origViewName>
+        <rows>
+            <textVal val="IBM today announced the formation of a new Watson Healthcare Advisory Board.  The board members include medical leaders with expertise in areas such as primary care, oncology, biomedical informatics and medical innovation. They will provide IBM with insights on healthcare issues that could be positively impacted by Watson technology adoption.&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;E-mail this page&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Save to del.icio.us&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Digg this&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="11600" end="323" start="317"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>11596</key>
+            <value>&lt;Keyword&gt;IBM&lt;/Keyword&gt; today announced the formation of a new &lt;Keyword&gt;Watson&lt;/Keyword&gt; Healthcare Advisory Board.  The board members include medical leaders with expertise in areas such as primary care, oncology, biomedical informatics and medical innovation. They will provide &lt;Keyword&gt;IBM&lt;/Keyword&gt; with insights on healthcare issues that could be positively impacted by &lt;Keyword&gt;Watson&lt;/Keyword&gt; technology adoption.										&lt;table border=&quot;&quot;0&quot;&quot; cellspacing=&quot;&quot;1&quot;&quot; cellpadding=&quot;&quot;1&quot;&quot; summary=&quot;&quot;&quot;&quot;&gt;						&lt;tr&gt;&lt;td colspan=&quot;&quot;8&quot;&quot;&gt;&lt;img src=&quot;&quot;http://www.ibm.com/c.gif&quot;&quot; alt=&quot;&quot;&quot;&quot; width=&quot;&quot;0&quot;&quot; height=&quot;&quot;1&quot;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;						&lt;tr&gt;							&lt;td&gt;&lt;img src=&quot;&quot;http://www.ibm.com/press/img/email.gif&quot;&quot; border=&quot;&quot;0&quot;&quot; alt=&quot;&quot;&quot;&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;&quot;http://www.ibm.com/vrm/bin/sendThisPage/Corporate_Press_Site_USEN.cgi?http_referer=http://www.ibm.com/press/us/en/pressrelease/36989.wss&quot;&quot; target=&quot;&quot;_blank&quot;&quot;&gt;E-mail this page&lt;/a&gt;&lt;/td&gt;							&lt;td&gt;&lt;img src=&quot;&quot;http://www.ibm.com/c.gif&quot;&quot; alt=&quot;&quot;&quot;&quot; width=&quot;&quot;2&quot;&quot; height=&quot;&quot;0&quot;&quot;&gt;&lt;/td&gt;							&lt;td&gt;&lt;img src=&quot;&quot;http://www.ibm.com/press/img/delicious_small.gif&quot;&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;&quot;http://del.icio.us/post?v=4&amp;noui&amp;jump=close&amp;url=http://www.ibm.com/press/us/en/pressrelease/36989.wss&amp;title=IBM Forms Watson Healthcare Advisory Board&quot;&quot; target=&quot;&quot;_blank&quot;&quot;&gt;Save to del.icio.us&lt;/a&gt;&lt;/td&gt;							&lt;td&gt;&lt;img src=&quot;&quot;http://www.ibm.com/c.gif&quot;&quot; alt=&quot;&quot;&quot;&quot; width=&quot;&quot;2&quot;&quot; height=&quot;&quot;0&quot;&quot;&gt;&lt;/td&gt;							&lt;td&gt;&lt;img src=&quot;&quot;http://www.ibm.com/press/img/digg-thumb.gif&quot;&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;&quot;http://digg.com/submit?phase=2&amp;url=http://www.ibm.com/press/us/en/pressrelease/36989.wss&amp;title=IBM Forms Watson Healthcare Advisory Board&quot;&quot; target=&quot;&quot;_blank&quot;&quot;&gt;Digg this&lt;/a&gt;&lt;/td&gt;						&lt;/tr&gt;						&lt;tr&gt;&lt;td colspan=&quot;&quot;8&quot;&quot;&gt;&lt;img src=&quot;&quot;http://www.ibm.com/c.gif&quot;&quot; alt=&quot;&quot;&quot;&quot; width=&quot;&quot;0&quot;&quot; height=&quot;&quot;1&quot;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;					&lt;/table&gt;</value>
+        </entry>
+        <entry>
+            <key>11600</key>
+            <value>IBM today announced the formation of a new Watson Healthcare Advisory Board.  The board members include medical leaders with expertise in areas such as primary care, oncology, biomedical informatics and medical innovation. They will provide IBM with insights on healthcare issues that could be positively impacted by Watson technology adoption.																													E-mail this page														Save to del.icio.us														Digg this																	</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

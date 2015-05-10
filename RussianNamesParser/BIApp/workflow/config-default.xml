@@ -1,0 +1,34 @@
+<configuration>
+    <property>
+        <name>datapath</name>
+        <value>null</value>
+    </property>
+    <property>
+        <name>outputview</name>
+        <value>RussianNamesModule.RussianNamesView</value>
+    </property>
+    <property>
+        <name>outloc</name>
+        <value>null</value>
+    </property>
+    <property>
+        <name>advancedOptions</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>doctype</name>
+        <value>JSON</value>
+    </property>
+    <property>
+        <name>delchar</name>
+        <value>,</value>
+    </property>
+    <property>
+        <name>outpolicy</name>
+        <value>Text</value>
+    </property>
+    <property>
+        <name>language</name>
+        <value>en</value>
+    </property>
+</configuration>

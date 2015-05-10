@@ -1,0 +1,32 @@
+module WatsonBase;
+
+
+detag Document.text as NoTagDocument 
+detect content_type never
+;
+
+create dictionary "AllWatsonDict"
+with case insensitive
+
+as (
+  'Watson'
+);
+
+
+create view AllWatson as
+  extract
+    N.text as text,
+    AutoID() as __auto__id,
+    'STMT_TYPE_EXTRACT_DICT' as __stmt__type,
+    -1 as NoTagDocument_____sep_____N____id,
+    dictionary
+      'AllWatsonDict'
+    with flags 
+      'Default'
+    on N.text as match
+  from
+    NoTagDocument N;
+output view AllWatson;
+
+
+

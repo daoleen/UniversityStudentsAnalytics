@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM016.txt</documentID>
+    <inputTextID>7301</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="IBM is currently putting Watson to work in banking and healthcare, but the possibilities are endless.� Click on the image for a larger view: Technorati Tags: Analytics , healthcare , ibm watson , IBM Watson Solutions , Smarter Industries , Watson"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="7305" end="31" start="25"/>
+        </rows>
+        <rows>
+            <textVal val="IBM is currently putting Watson to work in banking and healthcare, but the possibilities are endless.� Click on the image for a larger view: Technorati Tags: Analytics , healthcare , ibm watson , IBM Watson Solutions , Smarter Industries , Watson"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="7305" end="193" start="187"/>
+        </rows>
+        <rows>
+            <textVal val="IBM is currently putting Watson to work in banking and healthcare, but the possibilities are endless.� Click on the image for a larger view: Technorati Tags: Analytics , healthcare , ibm watson , IBM Watson Solutions , Smarter Industries , Watson"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="7305" end="206" start="200"/>
+        </rows>
+        <rows>
+            <textVal val="IBM is currently putting Watson to work in banking and healthcare, but the possibilities are endless.� Click on the image for a larger view: Technorati Tags: Analytics , healthcare , ibm watson , IBM Watson Solutions , Smarter Industries , Watson"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="7305" end="246" start="240"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.WatsonCandidates</name>
+        <origViewName>WatsonBase.WatsonCandidates</origViewName>
+        <rows>
+            <textVal val="IBM is currently putting Watson to work in banking and healthcare, but the possibilities are endless.� Click on the image for a larger view: Technorati Tags: Analytics , healthcare , ibm watson , IBM Watson Solutions , Smarter Industries , Watson"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="7305" end="31" start="25"/>
+        </rows>
+        <rows>
+            <textVal val="IBM is currently putting Watson to work in banking and healthcare, but the possibilities are endless.� Click on the image for a larger view: Technorati Tags: Analytics , healthcare , ibm watson , IBM Watson Solutions , Smarter Industries , Watson"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="7305" end="206" start="200"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>7301</key>
+            <value>&lt;p&gt;&lt;Keyword&gt;IBM&lt;/Keyword&gt; is currently putting &lt;Keyword&gt;Watson&lt;/Keyword&gt; to work in banking and healthcare, but the possibilities are endless.� Click on the image for a larger view:&lt;/p&gt;&lt;p&gt;&lt;a title=&quot;&quot;How Watson Can Work by The IBM Curiosity Shop, on Flickr&quot;&quot; href=&quot;&quot;http://www.flickr.com/photos/curiosityshop/6882638117/sizes/l/in/photostream/&quot;&quot;&gt;&lt;img src=&quot;&quot;http://farm8.staticflickr.com/7070/6882638117_0eafddab2c_z.jpg&quot;&quot; alt=&quot;&quot;How Watson Can Work&quot;&quot; width=&quot;&quot;577&quot;&quot; height=&quot;&quot;640&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;!-- start wp-tags-to-technorati 1.02 --&gt;&lt;p class='technorati-tags'&gt;Technorati Tags: &lt;a class='technorati-link' href='http://technorati.com/tag/Analytics' rel='tag' target='_self'&gt;Analytics&lt;/a&gt;, &lt;a class='technorati-link' href='http://technorati.com/tag/healthcare' rel='tag' target='_self'&gt;healthcare&lt;/a&gt;, &lt;a class='technorati-link' href='http://technorati.com/tag/ibm+watson' rel='tag' target='_self'&gt;&lt;Keyword&gt;ibm&lt;/Keyword&gt; &lt;Keyword&gt;watson&lt;/Keyword&gt;&lt;/a&gt;, &lt;a class='technorati-link' href='http://technorati.com/tag/IBM+Watson+Solutions' rel='tag' target='_self'&gt;&lt;Keyword&gt;IBM&lt;/Keyword&gt; &lt;Keyword&gt;Watson&lt;/Keyword&gt; Solutions&lt;/a&gt;, &lt;a class='technorati-link' href='http://technorati.com/tag/Smarter+Industries' rel='tag' target='_self'&gt;Smarter Industries&lt;/a&gt;, &lt;a class='technorati-link' href='http://technorati.com/tag/Watson' rel='tag' target='_self'&gt;&lt;Keyword&gt;Watson&lt;/Keyword&gt;&lt;/a&gt;&lt;/p&gt;&lt;!-- end wp-tags-to-technorati --&gt;&lt;div class=&quot;&quot;AWD_like_button &quot;&quot;&gt;&lt;iframe src=&quot;&quot;http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fasmarterplanet.com%2Fblog%2F2012%2F02%2Fhow-watson-can-work.html&amp;send=false&amp;layout=standard&amp;width=&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=40&quot;&quot; scrolling=&quot;&quot;no&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; style=&quot;&quot;border:none; overflow:hidden; width:px; height:40px;&quot;&quot; allowTransparency=&quot;&quot;true&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;img src=&quot;&quot;http://feeds.feedburner.com/~r/ASmarterPlanet/~4/HLB98QWxMog&quot;&quot; height=&quot;&quot;1&quot;&quot; width=&quot;&quot;1&quot;&quot;/&gt;</value>
+        </entry>
+        <entry>
+            <key>7305</key>
+            <value>IBM is currently putting Watson to work in banking and healthcare, but the possibilities are endless.� Click on the image for a larger view: Technorati Tags: Analytics , healthcare , ibm watson , IBM Watson Solutions , Smarter Industries , Watson</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

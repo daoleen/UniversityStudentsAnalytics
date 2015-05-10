@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM135.txt</documentID>
+    <inputTextID>10696</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Steve Mills (SVP IBM Software and Systems) talks with Scott Laningham and Todd Watson about the four major themes of the conference: cloud computing, mobility, physical infrastructure, and security.    The challenges to run systems in a shared way, to manage a mobile computing environment, to maximize the longevity and efficiency of the physical infrastructure, and to deal with unforseen threats to security are, in essence, big data opportunities.  As we collect more and more data, it's essential to find the hot spots and learn how to identify the data to pay attention to.  Steve discusses the acquisition of Tririga to expand the IBM portfolio in smart building management.  MP3 Download (12:55)"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="10700" end="85" start="79"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.HighQWatson</name>
+        <origViewName>WatsonBase.HighQWatson</origViewName>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>10700</key>
+            <value>Steve Mills (SVP IBM Software and Systems) talks with Scott Laningham and Todd Watson about the four major themes of the conference: cloud computing, mobility, physical infrastructure, and security.    The challenges to run systems in a shared way, to manage a mobile computing environment, to maximize the longevity and efficiency of the physical infrastructure, and to deal with unforseen threats to security are, in essence, big data opportunities.  As we collect more and more data, it's essential to find the hot spots and learn how to identify the data to pay attention to.  Steve discusses the acquisition of Tririga to expand the IBM portfolio in smart building management.  MP3 Download (12:55)</value>
+        </entry>
+        <entry>
+            <key>10696</key>
+            <value>&lt;div&gt;Steve Mills (SVP &lt;Keyword&gt;IBM&lt;/Keyword&gt; Software and Systems) talks with Scott Laningham and Todd &lt;Keyword&gt;Watson&lt;/Keyword&gt; about the four major themes of the conference: cloud computing, mobility, physical infrastructure, and security.    The challenges to run systems in a shared way, to manage a mobile computing environment, to maximize the longevity and efficiency of the physical infrastructure, and to deal with unforseen threats to security are, in essence, big data opportunities.  As we collect more and more data, it's essential to find the hot spots and learn how to identify the data to pay attention to.  Steve discusses the acquisition of Tririga to expand the &lt;Keyword&gt;IBM&lt;/Keyword&gt; portfolio in smart building management.  &lt;/div&gt;&lt;div&gt;&lt;iframe width=&quot;&quot;560&quot;&quot; height=&quot;&quot;340&quot;&quot; src=&quot;&quot;http://cdn.livestream.com/embed/ibmsoftware?layout=4&amp;clip=pla_24988204-48bb-4929-a322-7240e5adbc9b&amp;height=340&amp;width=560&amp;autoplay=false&quot;&quot; style=&quot;&quot;border:0;outline:0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; scrolling=&quot;&quot;no&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;&quot;http://www.ibm.com/developerworks/podcast/pulse2012-stevemills-030512/pulse2012-stevemills-030512.mp3&quot;&quot;&gt;MP3 Download (12:55)&lt;/a&gt;&lt;/div&gt;</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

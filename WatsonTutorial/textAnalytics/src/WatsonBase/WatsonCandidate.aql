@@ -1,0 +1,43 @@
+module WatsonBase;
+
+create dictionary ResearchDict as
+('research center', 'research centre');
+
+
+-- remove occurences of Watson where the context to
+-- the right indicates a research center
+create view NoResearchWatson as
+select R.text, R.match
+from AllWatson R
+where Not(
+	ContainsDict(
+		'ResearchDict',
+		RightContextTok(R.match, 4)
+	)
+);
+
+-- remove rows where Watson refers to a person
+create view WatsonCandidates as
+select R.text, R.match
+from NoResearchWatson R
+where Not(
+	ContainsRegex(
+		/\b([A-Z]([a-z]*|\.)\s*([A-Z]\.?)?\b)/,
+		LeftContextTok(R.match, 5)
+	)
+);
+
+
+-- output view WatsonCandidates;
+
+
+
+-- return only one result from each document
+create view Watson as
+select R.*
+from WatsonCandidates R
+limit 1;
+
+--output view Watson;
+
+export view Watson;

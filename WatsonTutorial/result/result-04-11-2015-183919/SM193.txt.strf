@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM193.txt</documentID>
+    <inputTextID>13786</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Todd &quot;&quot;Turbo&quot;&quot; Watson talks with two IBM Lotus Marketing strategists about the evolving of the social business market space, key growth areas, disruptive technologies, the move to people-centric processes in corporations, the nature of enterprise social technology, and more. �   MP3 Download (21:12) Audio-only feeds : dW podcast RSS | dW iTunes channel  "/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="13790" end="21" start="15"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.HighQWatson</name>
+        <origViewName>WatsonBase.HighQWatson</origViewName>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>13790</key>
+            <value>Todd &quot;&quot;Turbo&quot;&quot; Watson talks with two IBM Lotus Marketing strategists about the evolving of the social business market space, key growth areas, disruptive technologies, the move to people-centric processes in corporations, the nature of enterprise social technology, and more. �   MP3 Download (21:12) Audio-only feeds : dW podcast RSS | dW iTunes channel  </value>
+        </entry>
+        <entry>
+            <key>13786</key>
+            <value>&lt;div&gt;Todd &quot;&quot;Turbo&quot;&quot; &lt;Keyword&gt;Watson&lt;/Keyword&gt; talks with two &lt;Keyword&gt;IBM&lt;/Keyword&gt; Lotus Marketing strategists about the evolving of the social business market space, key growth areas, disruptive technologies, the move to people-centric processes in corporations, the nature of enterprise social technology, and more.&lt;/div&gt;&lt;div&gt;�&lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;a href=&quot;&quot;http://www.ibm.com/developerworks/podcasts/LS2012-turbotech-011612/LS2012-turbotech-011612.mp3&quot;&quot;&gt;MP3 Download&lt;/a&gt; (21:12) &lt;i&gt;&lt;br /&gt;Audio-only feeds&lt;/i&gt;: &lt;a href=&quot;&quot;http://www.ibm.com/developerworks/podcasts/channel-dwall.rss&quot;&quot;&gt;dW podcast RSS&lt;/a&gt; | &lt;a href=&quot;&quot;http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=153607292&quot;&quot;&gt;dW iTunes channel&lt;/a&gt;&lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;br /&gt;&lt;iframe allowfullscreen=&quot;&quot;&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; height=&quot;&quot;360&quot;&quot; src=&quot;&quot;http://www.youtube.com/embed/Gny6_pmI9PI?rel=0&quot;&quot; width=&quot;&quot;640&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt; </value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

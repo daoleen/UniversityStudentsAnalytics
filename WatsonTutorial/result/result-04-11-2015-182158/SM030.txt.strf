@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM030.txt</documentID>
+    <inputTextID>7371</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Opening talks from Erich Clementi, SVP for IBM Global Technology Services, Helene Armitage, GM of IBM System Software, and Manoj Saxena, GM of IBM Watson solutions, cover the future of the data center, the changing boundaries of IT, and future applications of IBM Watson technology to solve the world's most daunting problems. Scott Hebner, VP of Marketing, IBM Tivoli Software, introduces Steve Wozniak, Engineer, Author, and Co-founder of Apple, and IBM Fellow and Chief Scientist for IBM Software Engineering, Grady Booch, for a conversation that includes advice for people entering the industry, reflections from a lifetime of applying technology to solve complex issues, what's on Steve's bucket list.  The session wraps up with Q&amp;A. (1:49:22)&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="7375" end="153" start="147"/>
+        </rows>
+        <rows>
+            <textVal val="Opening talks from Erich Clementi, SVP for IBM Global Technology Services, Helene Armitage, GM of IBM System Software, and Manoj Saxena, GM of IBM Watson solutions, cover the future of the data center, the changing boundaries of IT, and future applications of IBM Watson technology to solve the world's most daunting problems. Scott Hebner, VP of Marketing, IBM Tivoli Software, introduces Steve Wozniak, Engineer, Author, and Co-founder of Apple, and IBM Fellow and Chief Scientist for IBM Software Engineering, Grady Booch, for a conversation that includes advice for people entering the industry, reflections from a lifetime of applying technology to solve complex issues, what's on Steve's bucket list.  The session wraps up with Q&amp;A. (1:49:22)&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="7375" end="270" start="264"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.WatsonCandidates</name>
+        <origViewName>WatsonBase.WatsonCandidates</origViewName>
+        <rows>
+            <textVal val="Opening talks from Erich Clementi, SVP for IBM Global Technology Services, Helene Armitage, GM of IBM System Software, and Manoj Saxena, GM of IBM Watson solutions, cover the future of the data center, the changing boundaries of IT, and future applications of IBM Watson technology to solve the world's most daunting problems. Scott Hebner, VP of Marketing, IBM Tivoli Software, introduces Steve Wozniak, Engineer, Author, and Co-founder of Apple, and IBM Fellow and Chief Scientist for IBM Software Engineering, Grady Booch, for a conversation that includes advice for people entering the industry, reflections from a lifetime of applying technology to solve complex issues, what's on Steve's bucket list.  The session wraps up with Q&amp;A. (1:49:22)&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="7375" end="270" start="264"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>7375</key>
+            <value>Opening talks from Erich Clementi, SVP for IBM Global Technology Services, Helene Armitage, GM of IBM System Software, and Manoj Saxena, GM of IBM Watson solutions, cover the future of the data center, the changing boundaries of IT, and future applications of IBM Watson technology to solve the world's most daunting problems. Scott Hebner, VP of Marketing, IBM Tivoli Software, introduces Steve Wozniak, Engineer, Author, and Co-founder of Apple, and IBM Fellow and Chief Scientist for IBM Software Engineering, Grady Booch, for a conversation that includes advice for people entering the industry, reflections from a lifetime of applying technology to solve complex issues, what's on Steve's bucket list.  The session wraps up with Q&amp;A. (1:49:22)
+</value>
+        </entry>
+        <entry>
+            <key>7371</key>
+            <value>&lt;div&gt;&lt;p&gt;Opening talks from Erich Clementi, SVP for &lt;Keyword&gt;IBM&lt;/Keyword&gt; Global Technology Services, Helene Armitage, GM of &lt;Keyword&gt;IBM&lt;/Keyword&gt; System Software, and Manoj Saxena, GM of &lt;Keyword&gt;IBM&lt;/Keyword&gt; &lt;Keyword&gt;Watson&lt;/Keyword&gt; solutions, cover the future of the data center, the changing boundaries of IT, and future applications of &lt;Keyword&gt;IBM&lt;/Keyword&gt; &lt;Keyword&gt;Watson&lt;/Keyword&gt; technology to solve the world's most daunting problems.&lt;/p&gt;&lt;p&gt;Scott Hebner, VP of Marketing, &lt;Keyword&gt;IBM&lt;/Keyword&gt; Tivoli Software, introduces Steve Wozniak, Engineer, Author, and Co-founder of Apple, and &lt;Keyword&gt;IBM&lt;/Keyword&gt; Fellow and Chief Scientist for &lt;Keyword&gt;IBM&lt;/Keyword&gt; Software Engineering, Grady Booch, for a conversation that includes advice for people entering the industry, reflections from a lifetime of applying technology to solve complex issues, what's on Steve's bucket list.  The session wraps up with Q&amp;A.&lt;/div&gt;&lt;div&gt;(1:49:22)&lt;/div&gt;&lt;div&gt;&lt;iframe width=&quot;&quot;560&quot;&quot; height=&quot;&quot;340&quot;&quot; src=&quot;&quot;http://cdn.livestream.com/embed/ibmsoftware?layout=4&amp;clip=pla_5ba74960-d865-4be3-9e68-e5b11737851c&amp;height=340&amp;width=560&amp;autoplay=false&quot;&quot; style=&quot;&quot;border:0;outline:0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; scrolling=&quot;&quot;no&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

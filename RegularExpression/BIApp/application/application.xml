@@ -1,0 +1,19 @@
+<application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>RegularExpression</name>
+    <properties>
+        <property description="The path to a file or a directory that contains the input data." isDataset="false" isInputPath="true" isOutputPath="false" isRequired="true" label="Input Data" name="datapath" paramtype="PATH" uitype="textfield"/>
+        <property defaultValue="RegExBasic.Locations" description="Select an output view to use." isInputPath="false" isOutputPath="false" isRequired="true" label="Output View" name="outputview" paramtype="LIST" uitype="textfield" validValues="RegExBasic.Locations,ALL"/>
+        <property description="The output directory." isDataset="false" isInputPath="false" isOutputPath="true" isRequired="true" label="Output Directory" name="outloc" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property defaultValue="false" description="Check to show advanced options." isInputPath="false" isOutputPath="false" isRequired="true" label="Advanced Options" name="advancedOptions" paramtype="BOOLEAN" uitype="textfield"/>
+        <property condition="true" defaultValue="Text" dependsOn="advancedOptions" description="The type of document to be read." isInputPath="false" isOutputPath="false" isRequired="true" label="Input Format" name="doctype" paramtype="LIST" uitype="textfield" validValues="Text,CSV,CSV with header,New-line delimited,JSON"/>
+        <property condition="true" defaultValue="," dependsOn="advancedOptions" description="Delimiter character used for CSV and CSV with header input formats." isInputPath="false" isOutputPath="false" isRequired="false" label="Delimiter Character" name="delchar" paramtype="STRING" uitype="textfield"/>
+        <property condition="true" defaultValue="Text" dependsOn="advancedOptions" description="The output format." isInputPath="false" isOutputPath="false" isRequired="true" label="Output Type" name="outpolicy" paramtype="LIST" uitype="textfield" validValues="Span,Text,Span and Text"/>
+        <property condition="true" defaultValue="en" dependsOn="advancedOptions" description="Enter the two character ISO representation for language of the input document collection being used." isInputPath="false" isOutputPath="false" isRequired="true" label="Language" name="language" paramtype="STRING" uitype="textfield"/>
+    </properties>
+    <assets>
+        <asset id="RegularExpression" subtype="TEXTANALYTICS" type="WORKFLOW"/>
+        <asset id="RegularExpression" subtype="TEXTANALYTICS" type="BIGSHEETSPLUGIN"/>
+    </assets>
+    <imagePath>defaultApp_L.png</imagePath>
+    <categories>Test</categories>
+</application-template>

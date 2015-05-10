@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM150.txt</documentID>
+    <inputTextID>7971</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Todd Watson and I talk with Don Tapscott -- speaker, consultant, and author of a multitude of books including Macrowikinomics -- about networked intelligence, the digital generation, and cause for optimism. His talk, Rethinking Civilization for the Social Age [the Ogilvy Notes version of Don's session ] covers disruption -- because many of the traditional economic and social pillars of the industrial age have come to the end of their life cycles, we must rethink, rebuild, and reboot many of the organizations and institutions that no longer work. And the digital revolution is leading to dramatic change whether we decide to guide it or not. From the IBM Future of Social Lounge. 12:49&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="7975" end="11" start="5"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.WatsonCandidates</name>
+        <origViewName>WatsonBase.WatsonCandidates</origViewName>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>7975</key>
+            <value>Todd Watson and I talk with Don Tapscott -- speaker, consultant, and author of a multitude of books including Macrowikinomics -- about networked intelligence, the digital generation, and cause for optimism. His talk, Rethinking Civilization for the Social Age [the Ogilvy Notes version of Don's session ] covers disruption -- because many of the traditional economic and social pillars of the industrial age have come to the end of their life cycles, we must rethink, rebuild, and reboot many of the organizations and institutions that no longer work. And the digital revolution is leading to dramatic change whether we decide to guide it or not. From the IBM Future of Social Lounge. 12:49
+</value>
+        </entry>
+        <entry>
+            <key>7971</key>
+            <value>Todd &lt;Keyword&gt;Watson&lt;/Keyword&gt; and I talk with &lt;b&gt;Don Tapscott&lt;/b&gt; -- speaker, consultant, and author of a multitude of books including &lt;i&gt;&lt;a href=&quot;&quot;http://www.macrowikinomics.com/&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;Macrowikinomics&lt;/a&gt;&lt;/i&gt; -- about networked intelligence, the digital generation, and cause for optimism. His talk, &lt;a href=&quot;&quot;http://schedule.sxsw.com/2012/events/event_IAP100184&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;Rethinking Civilization for the Social Age&lt;/a&gt; [the &lt;a href=&quot;&quot;http://ogilvynotes.com/49790/453477/sxsw-2012/rethinking-civilization-for-the-social-age&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;Ogilvy Notes version of Don's session&lt;/a&gt;] covers disruption -- because many of the traditional economic and social pillars of the industrial age have come to the end of their life cycles, we must rethink, rebuild, and reboot many of the organizations and institutions that no longer work. And the digital revolution is leading to dramatic change whether we decide to guide it or not. From the &lt;Keyword&gt;IBM&lt;/Keyword&gt; Future of Social Lounge. 12:49&lt;br /&gt;&lt;br /&gt;&lt;div&gt;&lt;iframe width=&quot;&quot;640&quot;&quot; height=&quot;&quot;360&quot;&quot; src=&quot;&quot;http://www.youtube.com/embed/vZ-rxAFbHXU?rel=&quot;&quot;0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br /&gt;
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

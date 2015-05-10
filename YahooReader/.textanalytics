@@ -1,0 +1,9 @@
+#Tue May 05 06:27:32 VET 2015
+srcTextAnalyticsPath=[P]textAnalytics/src
+general.provenance=true
+pagination.isEnabled=true
+tamTextAnalyticsPath=[P]textAnalytics/bin
+searchPath.dataPath=[W]/YahooReader
+UseModularAQL=true
+pagination.numFilesPerPage=50
+langWare.tokenizerChoice=1

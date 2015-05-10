@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM118.txt</documentID>
+    <inputTextID>16211</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="From Katie Linendoll, technology expert, hear about the top three  electronic devices she's acquired this year that she's still using, her own personal experience with IBM Watson , and the Guinness world record she's recently broken. Audio-only feeds: dW podcast RSS | dW iTunes channel   "/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="16215" end="178" start="172"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>16211</key>
+            <value>From Katie Linendoll, technology expert, hear about the top three  electronic devices she's acquired this year that she's still using, her own personal experience with &lt;Keyword&gt;IBM&lt;/Keyword&gt; &lt;Keyword&gt;Watson&lt;/Keyword&gt;, and the Guinness world record she's recently broken. &lt;br /&gt;&lt;br /&gt;&lt;!--&lt;a href=&quot;&quot;XXXXX&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;MP3 Download&lt;/a&gt; | &lt;a href=&quot;&quot;XXXXX&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;Transcript&lt;/a&gt;&lt;br /&gt;--&gt;&lt;i&gt;Audio-only feeds:&lt;/i&gt; &lt;a href=&quot;&quot;http://www.ibm.com/developerworks/podcasts/channel-dwall.rss&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;dW podcast RSS&lt;/a&gt; | &lt;a href=&quot;&quot;http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=153607292&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;dW iTunes channel&lt;/a&gt; &lt;div&gt;&lt;iframe width=&quot;&quot;640&quot;&quot; height=&quot;&quot;385&quot;&quot; src=&quot;&quot;http://cdn.livestream.com/embed/ibmimpact?layout=4&amp;clip=pla_aba2dd4a-2321-42a4-bbf1-15c7138a5cbb&amp;height=385&amp;width=640&amp;autoplay=false&quot;&quot; style=&quot;&quot;border:0;outline:0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; scrolling=&quot;&quot;no&quot;&quot;&gt;&lt;/iframe&gt;  &lt;/div&gt;&lt;br /&gt;</value>
+        </entry>
+        <entry>
+            <key>16215</key>
+            <value>From Katie Linendoll, technology expert, hear about the top three  electronic devices she's acquired this year that she's still using, her own personal experience with IBM Watson , and the Guinness world record she's recently broken. Audio-only feeds: dW podcast RSS | dW iTunes channel   </value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM147.txt</documentID>
+    <inputTextID>1130</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Scott Laningham and Todd Watson close out Day 2 with an on-site episode of Todd's regular show, the live-video-blog TurboTech. Topics this time ... Illuminate (the dance group) | Steve Mills in Tuesday's general session ... why aren't more IBM customers using Linux on System z? | It's cloud moving day ... how to get into the cloud | GE feels your pain when managing infrastructure | Cloud survey: By 2015, 35% companies plan to reinvent their business model based on cloud computing | The numbers around DevOps. Plus, major cloud announcements and survey defines the current state of the cloud. 12:28  &#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="1134" end="31" start="25"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>1134</key>
+            <value>Scott Laningham and Todd Watson close out Day 2 with an on-site episode of Todd's regular show, the live-video-blog TurboTech. Topics this time ... Illuminate (the dance group) | Steve Mills in Tuesday's general session ... why aren't more IBM customers using Linux on System z? | It's cloud moving day ... how to get into the cloud | GE feels your pain when managing infrastructure | Cloud survey: By 2015, 35% companies plan to reinvent their business model based on cloud computing | The numbers around DevOps. Plus, major cloud announcements and survey defines the current state of the cloud. 12:28  
+</value>
+        </entry>
+        <entry>
+            <key>1130</key>
+            <value>Scott Laningham and Todd &lt;Keyword&gt;Watson&lt;/Keyword&gt; close out Day 2 with an on-site episode of Todd's regular show, the live-video-blog TurboTech. Topics this time ... &lt;br /&gt;&lt;br /&gt;Illuminate (the dance group) | Steve Mills in Tuesday's general session ... why aren't more &lt;Keyword&gt;IBM&lt;/Keyword&gt; customers using Linux on System z? | It's cloud moving day ... how to get into the cloud | GE feels your pain when managing infrastructure | Cloud survey: By 2015, 35% companies plan to reinvent their business model based on cloud computing | The numbers around DevOps. Plus, major cloud announcements and survey defines the current state of the cloud. 12:28&lt;br /&gt;&lt;br /&gt;&lt;div&gt;&lt;iframe width=&quot;&quot;640&quot;&quot; height=&quot;&quot;385&quot;&quot; src=&quot;&quot;http://cdn.livestream.com/embed/ibmsoftware?layout=4&amp;clip=pla_f51e6023-1340-4a09-96f9-9d4198db9a93&amp;height=385&amp;width=640&amp;autoplay=false&quot;&quot; style=&quot;&quot;border:0;outline:0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; scrolling=&quot;&quot;no&quot;&quot;&gt;&lt;/iframe&gt;  &lt;/div&gt;&lt;br /&gt;
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

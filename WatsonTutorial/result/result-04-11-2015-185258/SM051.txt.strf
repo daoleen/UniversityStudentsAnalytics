@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM051.txt</documentID>
+    <inputTextID>15876</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Turbo highlights a recent interview he and Scott Laningham conducted at IBM Impact 2012 with IBM senior vice president, Mike Rhodin, who leads IBM's Software Solutions Group. Mike spoke of the big data phenomenon, the emerging LOB technology buyer, and an interesting update on IBM's Watson technology. Read more at Turbo�s personal blog&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="15880" end="290" start="284"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>15880</key>
+            <value>Turbo highlights a recent interview he and Scott Laningham conducted at IBM Impact 2012 with IBM senior vice president, Mike Rhodin, who leads IBM's Software Solutions Group. Mike spoke of the big data phenomenon, the emerging LOB technology buyer, and an interesting update on IBM's Watson technology. Read more at Turbo�s personal blog
+</value>
+        </entry>
+        <entry>
+            <key>15876</key>
+            <value>Turbo highlights a recent interview he and Scott Laningham conducted at &lt;Keyword&gt;IBM&lt;/Keyword&gt; Impact 2012 with &lt;Keyword&gt;IBM&lt;/Keyword&gt; senior vice president, Mike Rhodin, who leads IBM's Software Solutions Group. Mike spoke of the big data phenomenon, the emerging LOB technology buyer, and an interesting update on IBM's &lt;Keyword&gt;Watson&lt;/Keyword&gt; technology.&lt;img alt=&quot;&quot;&quot;&quot; border=&quot;&quot;0&quot;&quot; src=&quot;&quot;http://stats.wordpress.com/b.gif?host=turbotodd.wordpress.com&amp;blog=227089&amp;post=5265&amp;subd=turbotodd&amp;ref=&amp;feed=1&quot;&quot; width=&quot;&quot;1&quot;&quot; height=&quot;&quot;1&quot;&quot; /&gt;&lt;br /&gt;&lt;a href=&quot;&quot;http://turbotodd.wordpress.com/?p=5265&quot;&quot;&gt;Read more at Turbo�s personal blog&lt;/a&gt;
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

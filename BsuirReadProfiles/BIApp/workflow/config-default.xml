@@ -1,0 +1,18 @@
+<configuration>
+    <property>
+        <name>inputFile</name>
+        <value>null</value>
+    </property>
+    <property>
+        <name>outputDir</name>
+        <value>null</value>
+    </property>
+    <property>
+        <name>proxyHost</name>
+        <value>proxy.fksis.local</value>
+    </property>
+    <property>
+        <name>proxyPort</name>
+        <value>8080</value>
+    </property>
+</configuration>

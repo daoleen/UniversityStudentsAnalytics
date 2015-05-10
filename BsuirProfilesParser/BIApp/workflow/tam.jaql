@@ -1,0 +1,156 @@
+//***************************************************************************** 
+// Licensed Materials - Property of IBM 
+// 5725-C09 and 5725-D15 
+// (C) Copyright IBM Corp. 2012 
+// US Government Users Restricted Rights - Use, duplication disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+//***************************************************************************** 
+ 
+//***************************************************************************** 
+// Sample script for executing a text analytics module (extractor) on cluster. 
+// 
+// INPUT:  
+//	---- publish time parameters ---- 
+//	MODULENAME: name of the main module to be executed 
+//	MODULEPATH: Path to the jar containing the tams 
+// 
+//	---- deploy time parameters ---- 
+//	EXTDICTn: The path to external dictionaries. 
+//	EXTTABLEn: The path to external tables. 
+// 
+//	---- run time parameters ---- 
+//	DATAPATH: The path to a file used as input data collection to the extractor. 
+//	DOCTYPE: The type of document, must be one of these 5 types: 'Text', 'CSV', 'CSV with header', 'New-line delimited', 'JSON'. 
+//	DELCHAR: Delimiter character, used for 'CSV' and 'CSV with header' doc types. 
+//	OUTPUTVIEW: The output view to execute. Only one output view can be executed at a time. 
+//	OUTPOLICY: The output format, must be one of these 3 values: "Span", "Text", "Span and Text". 
+//	OUTLOC: The path to ouput directory. 
+//	MAPPED_TO_FIELDn: Fields to be mapped to the data file at runtime. 
+//	LANGUAGE: two character ISO representation for dictionary language - default en 
+//	TOKENIZER: standard or multilingual tokenizer - default multilingual 
+// 
+// OUTPUT: 
+//	 After execution finishes, the output is compressed into a file named output-<timestamp>.json (or 
+//	 output.json.gz if output type is 'toJsonRecord') and stored at the location specified by OUTLOC parameter. 
+// 
+//***************************************************************************** 
+import systemT(*);
+
+extern MODULENAME;
+extern MODULEPATH;
+extern DATAPATH;
+extern DOCTYPE;
+extern DELCHAR:=",";
+extern OUTPUTVIEW:="ALL";
+extern OUTPOLICY:="Span";
+extern OUTLOC;
+extern LANGUAGE:="en";
+extern TOKENIZER:="multilingual";
+
+$extDicts = null; 
+
+$extTables = null; 
+
+//***************************************************************************** 
+// Functions 
+//***************************************************************************** 
+ 
+   readtext = fn (path2txt) ( 
+		[{ 
+			text: strJoin(read(lines(path2txt)), "\n"), 
+			label: path2txt		}] 
+	);	 
+ 
+	readcsv = fn (path2csv, delim) ( 
+		delChar = if (not isnull delim) delim else ",", 
+		read ( del(path2csv, { schema: schema { label, text }, delimiter: delChar }) ) 
+	); 
+ 
+	readcsvh = fn (path2csvh, delim) ( 
+		delChar = if (not isnull delim) delim else ",", 
+		read ( del (path2csvh, { header: true, delimiter: delChar }) ) 
+	); 
+ 
+	readnlsv = fn (path2nlsv) ( 
+		read (lines(path2nlsv)) -> transform { text: $, label: path2nlsv }	); 
+ 
+	readjson = fn (path2json) ( 
+		read (lines (path2json, inoptions = { converter: "com.ibm.jaql.io.hadoop.converter.FromJsonTextConverter" })) 
+	); 
+ 
+	readDir = fn (dirPath) ( 
+		ls (dirPath) 
+		-> batch(1) 
+		-> arrayRead() 
+		-> expand $ 
+		-> transform readtext($.path) 
+		-> expand $ 
+	); 
+ 
+ // If the path is to a file, the return of ls is an array with only one element -- the info about this very file.
+	isFile = fn (filepath) ( 
+		children = ls(filepath), 
+		exists(children) and endsWith(filepath, index(children, 0).path) 
+	); 
+ 
+	readfile = fn (path, delim, documentType) ( 
+		$outContent = if (not isFile(path))  readDir (path) else ( 
+				if (documentType == 'Text')  readtext (path) else ( 
+				  if (documentType == 'CSV')  readcsv (path, delim) else ( 
+				    if (documentType == 'CSV with header') readcsvh (path, delim) else ( 
+				      if (documentType == 'New-line delimited') readnlsv (path) else ( 
+				        if (documentType == 'JSON') readjson (path) ) ) ) ) ), 
+		$outContent 
+	); 
+ 
+ // Load dictionaries.
+   loaddict = fn (path) ( 
+		read(lines(path)) 
+   ); 
+ 
+ // Load tables.
+   loadtable = fn (path, columns) ( 
+   	read(del(path)) -> transform arrayToRecord(columns, $) 
+   ); 
+ 
+ // Get output filename
+   outfile = fn (outputLocation) ( 
+ 		currDP = dateParts ( now() ), 
+ 		dps = [ currDP.year, currDP.month, currDP.day, currDP.hour, currDP.minute ], 
+ 		dpsJoin = strJoin (dps, "-"), 
+ 		filenameParts = [ outputLocation, "/output-", dpsJoin, ".json" ], 
+ 		filename = strJoin (filenameParts, ""), 
+ 		filename 
+    ); 
+ 
+//***************************************************************************** 
+// Executing the extractor. 
+//***************************************************************************** 
+ 
+ $inData  = readfile(DATAPATH, DELCHAR, DOCTYPE);  
+	 
+ 
+ $outputFormat = if (OUTPOLICY == "Span") "toJsonSpan" else ( if (OUTPOLICY == "Text")  "toJsonString" else "toJsonRecord" );
+ 
+//---------------------------------  Execute  --------------------------------- 
+ outputView = if (OUTPUTVIEW == "ALL") null else [ OUTPUTVIEW ]; 
+ 
+ $results = $inData -> transform annotateDocument 
+		( 
+			document = removeFields ($, [ "ExternalViews" ]), 
+			moduleNames = strSplit(MODULENAME, ","), 
+			modulePath = [ MODULEPATH ], 
+			spanOutputPolicy = $outputFormat, 
+			tokenizer = TOKENIZER, 
+			language = LANGUAGE, 
+			externalDictionaries = $extDicts, 
+			externalTables = $extTables, 
+			externalViews = $.ExternalViews,  
+			outputViews = outputView 
+		); 
+ 
+//----------  If only one output view is chosen and only Text output is expected, write to an output file as list of JSON Objects         ---------- 
+//----------  Else write to an output file as list of JSON Arrays of all results, across input documents and for all output views applied ---------- 
+ $output = if (OUTPUTVIEW != "ALL" and OUTPOLICY == "Text")($results -> expand $.(OUTPUTVIEW)) else $results; 
+ 
+  textOutputOptions = { format: "org.apache.hadoop.mapred.TextOutputFormat", converter: "com.ibm.jaql.io.hadoop.converter.ToJsonTextConverter" }; 
+ $output -> write(hdfs(outfile(OUTLOC), textOutputOptions)); 

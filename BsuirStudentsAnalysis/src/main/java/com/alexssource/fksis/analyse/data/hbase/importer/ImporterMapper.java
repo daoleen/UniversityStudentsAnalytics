@@ -1,5 +1,5 @@
 package com.alexssource.fksis.analyse.data.hbase.importer;
-
+/*
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
@@ -53,3 +53,4 @@ public class ImporterMapper extends Mapper<LongWritable, Text, ImmutableBytesWri
 		// context.write(key, value);
 	}
 }
+*/

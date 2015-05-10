@@ -1,0 +1,9 @@
+#Thu Apr 30 07:34:08 VET 2015
+srcTextAnalyticsPath=[P]textAnalytics/src
+general.provenance=true
+pagination.isEnabled=true
+tamTextAnalyticsPath=[P]textAnalytics/bin
+searchPath.dataPath=[W]/RussianNamesParser
+UseModularAQL=true
+pagination.numFilesPerPage=50
+langWare.tokenizerChoice=1

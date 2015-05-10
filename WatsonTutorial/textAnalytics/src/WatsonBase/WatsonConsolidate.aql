@@ -1,0 +1,24 @@
+module WatsonBase;
+
+import dictionary QualityKeywords 
+from module HighQKeywords as HighQ;
+
+
+create view HighQWatson as
+select R.text 
+from WatsonCandidates R
+where Or (
+	ContainsDict(
+		'HighQ',
+		RightContextTok(R.match, 8)
+	),
+	ContainsDict(
+		'HighQ',
+		LeftContextTok(R.match, 8)
+	)
+)
+consolidate on R.text using 'ContainedWithin';
+
+--output view HighQWatson;
+
+export view HighQWatson;

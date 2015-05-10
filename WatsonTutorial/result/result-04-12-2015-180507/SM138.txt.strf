@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM138.txt</documentID>
+    <inputTextID>1085</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Todd Watson and I talk with John Tolva , now CTO of the city of Chicago, formerly an innovator of Smarter Cities at IBM and the implementor of CityForward , a free, web-based platform that enables users -- officials, researchers, academics, and interested citizens worldwide -- to view and interact with city data while engaging in an ongoing public dialogue. John discusses his transition from private to public sector, including mining a city service request (about a downed tree) from Tweets. Technology in Public Service session . From the IBM Future of Social Lounge. 12:19&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="1089" end="11" start="5"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>1085</key>
+            <value>Todd &lt;Keyword&gt;Watson&lt;/Keyword&gt; and I talk with &lt;b&gt;John Tolva&lt;/b&gt;, now CTO of the city of Chicago, formerly an innovator of Smarter Cities at &lt;Keyword&gt;IBM&lt;/Keyword&gt; and the implementor of &lt;a href=&quot;&quot;http://cityforward.org/wps/wcm/connect/CityForward_en_US/City+Forward/Home&quot;&quot;&gt;CityForward&lt;/a&gt;, a free, web-based platform that enables users -- officials, researchers, academics, and interested citizens worldwide -- to view and interact with city data while engaging in an ongoing public dialogue. John discusses his transition from private to public sector, including mining a city service request (about a downed tree) from Tweets. &lt;a href=&quot;&quot;http://schedule.sxsw.com/2012/events/event_IAP12275&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;Technology in Public Service session&lt;/a&gt;. From the &lt;Keyword&gt;IBM&lt;/Keyword&gt; Future of Social Lounge. 12:19&lt;br /&gt;&lt;br /&gt;&lt;div&gt;&lt;iframe width=&quot;&quot;640&quot;&quot; height=&quot;&quot;360&quot;&quot; src=&quot;&quot;http://www.youtube.com/embed/tUaFOyDgOhc?rel=&quot;&quot;0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br /&gt;
+</value>
+        </entry>
+        <entry>
+            <key>1089</key>
+            <value>Todd Watson and I talk with John Tolva , now CTO of the city of Chicago, formerly an innovator of Smarter Cities at IBM and the implementor of CityForward , a free, web-based platform that enables users -- officials, researchers, academics, and interested citizens worldwide -- to view and interact with city data while engaging in an ongoing public dialogue. John discusses his transition from private to public sector, including mining a city service request (about a downed tree) from Tweets. Technology in Public Service session . From the IBM Future of Social Lounge. 12:19
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

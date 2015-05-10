@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM192.txt</documentID>
+    <inputTextID>8181</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Turbo debriefs on Lotusphere day 3's general session, featuring the father of the Web, Sir Tim Berners-Lee, and Manoj Saxena, the executive at IBM who is responsible for helping Watson get a real job. Read more at Turbo�s personal blog&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="8185" end="184" start="178"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.WatsonCandidates</name>
+        <origViewName>WatsonBase.WatsonCandidates</origViewName>
+        <rows>
+            <textVal val="Turbo debriefs on Lotusphere day 3's general session, featuring the father of the Web, Sir Tim Berners-Lee, and Manoj Saxena, the executive at IBM who is responsible for helping Watson get a real job. Read more at Turbo�s personal blog&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="8185" end="184" start="178"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>8181</key>
+            <value>Turbo debriefs on Lotusphere day 3's general session, featuring the father of the Web, Sir Tim Berners-Lee, and Manoj Saxena, the executive at &lt;Keyword&gt;IBM&lt;/Keyword&gt; who is responsible for helping &lt;Keyword&gt;Watson&lt;/Keyword&gt; get a real job.&lt;img alt=&quot;&quot;&quot;&quot; border=&quot;&quot;0&quot;&quot; src=&quot;&quot;http://stats.wordpress.com/b.gif?host=turbotodd.wordpress.com&amp;blog=227089&amp;post=4515&amp;subd=turbotodd&amp;ref=&amp;feed=1&quot;&quot; width=&quot;&quot;1&quot;&quot; height=&quot;&quot;1&quot;&quot; /&gt;&lt;br /&gt;&lt;a href=&quot;&quot;http://turbotodd.wordpress.com/?p=4515&quot;&quot;&gt;Read more at Turbo�s personal blog&lt;/a&gt;
+</value>
+        </entry>
+        <entry>
+            <key>8185</key>
+            <value>Turbo debriefs on Lotusphere day 3's general session, featuring the father of the Web, Sir Tim Berners-Lee, and Manoj Saxena, the executive at IBM who is responsible for helping Watson get a real job. Read more at Turbo�s personal blog
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

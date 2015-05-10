@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM044.txt</documentID>
+    <inputTextID>615</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="What comes next for IBM Watson ?  Manoj Saxena talks about the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector, which deal with massive amounts of unstructured data coming from various sources. Manoj describes the Watson project with Citibank in which knowledge about clients' life events (marriage, grad school, birth of a child) allows for microsegmentation and targeted offers.  He projects that Watson solutions will be delivered through cloud-based services that provide business solutions, rather than consumable software. The trend is shifting away from query-based searches to answers delivered via discovery.  Manoj surmises that Watson is to discovery, what Google is to search. (12:48)&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="619" end="30" start="24"/>
+        </rows>
+        <rows>
+            <textVal val="What comes next for IBM Watson ?  Manoj Saxena talks about the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector, which deal with massive amounts of unstructured data coming from various sources. Manoj describes the Watson project with Citibank in which knowledge about clients' life events (marriage, grad school, birth of a child) allows for microsegmentation and targeted offers.  He projects that Watson solutions will be delivered through cloud-based services that provide business solutions, rather than consumable software. The trend is shifting away from query-based searches to answers delivered via discovery.  Manoj surmises that Watson is to discovery, what Google is to search. (12:48)&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="619" end="104" start="98"/>
+        </rows>
+        <rows>
+            <textVal val="What comes next for IBM Watson ?  Manoj Saxena talks about the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector, which deal with massive amounts of unstructured data coming from various sources. Manoj describes the Watson project with Citibank in which knowledge about clients' life events (marriage, grad school, birth of a child) allows for microsegmentation and targeted offers.  He projects that Watson solutions will be delivered through cloud-based services that provide business solutions, rather than consumable software. The trend is shifting away from query-based searches to answers delivered via discovery.  Manoj surmises that Watson is to discovery, what Google is to search. (12:48)&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="619" end="279" start="273"/>
+        </rows>
+        <rows>
+            <textVal val="What comes next for IBM Watson ?  Manoj Saxena talks about the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector, which deal with massive amounts of unstructured data coming from various sources. Manoj describes the Watson project with Citibank in which knowledge about clients' life events (marriage, grad school, birth of a child) allows for microsegmentation and targeted offers.  He projects that Watson solutions will be delivered through cloud-based services that provide business solutions, rather than consumable software. The trend is shifting away from query-based searches to answers delivered via discovery.  Manoj surmises that Watson is to discovery, what Google is to search. (12:48)&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="619" end="464" start="458"/>
+        </rows>
+        <rows>
+            <textVal val="What comes next for IBM Watson ?  Manoj Saxena talks about the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector, which deal with massive amounts of unstructured data coming from various sources. Manoj describes the Watson project with Citibank in which knowledge about clients' life events (marriage, grad school, birth of a child) allows for microsegmentation and targeted offers.  He projects that Watson solutions will be delivered through cloud-based services that provide business solutions, rather than consumable software. The trend is shifting away from query-based searches to answers delivered via discovery.  Manoj surmises that Watson is to discovery, what Google is to search. (12:48)&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="619" end="704" start="698"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>615</key>
+            <value>&lt;div&gt;&lt;p&gt;What comes next for &lt;Keyword&gt;IBM&lt;/Keyword&gt; &lt;Keyword&gt;Watson&lt;/Keyword&gt;?  Manoj Saxena talks about the industries particularly suited for &lt;Keyword&gt;Watson&lt;/Keyword&gt; solutions, such as healthcare, banking, and the financial sector, which deal with massive amounts of unstructured data coming from various sources.&lt;/p&gt;&lt;p&gt;Manoj describes the &lt;Keyword&gt;Watson&lt;/Keyword&gt; project with Citibank in which knowledge about clients' life events (marriage, grad school, birth of a child) allows for microsegmentation and targeted offers.  He projects that &lt;Keyword&gt;Watson&lt;/Keyword&gt; solutions will be delivered through cloud-based services that provide business solutions, rather than consumable software.&lt;/p&gt;&lt;p&gt;The trend is shifting away from query-based searches to answers delivered via discovery.  Manoj surmises that &lt;Keyword&gt;Watson&lt;/Keyword&gt; is to discovery, what Google is to search.&lt;/p&gt;&lt;/div&gt;&lt;div&gt;(12:48)&lt;/div&gt;&lt;div&gt;&lt;iframe width=&quot;&quot;560&quot;&quot; height=&quot;&quot;340&quot;&quot; src=&quot;&quot;http://cdn.livestream.com/embed/ibmsoftware?layout=4&amp;clip=pla_d4266495-8c27-473f-8dd8-bfa175431583&amp;height=340&amp;width=560&amp;autoplay=false&quot;&quot; style=&quot;&quot;border:0;outline:0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; scrolling=&quot;&quot;no&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</value>
+        </entry>
+        <entry>
+            <key>619</key>
+            <value>What comes next for IBM Watson ?  Manoj Saxena talks about the industries particularly suited for Watson solutions, such as healthcare, banking, and the financial sector, which deal with massive amounts of unstructured data coming from various sources. Manoj describes the Watson project with Citibank in which knowledge about clients' life events (marriage, grad school, birth of a child) allows for microsegmentation and targeted offers.  He projects that Watson solutions will be delivered through cloud-based services that provide business solutions, rather than consumable software. The trend is shifting away from query-based searches to answers delivered via discovery.  Manoj surmises that Watson is to discovery, what Google is to search. (12:48)
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

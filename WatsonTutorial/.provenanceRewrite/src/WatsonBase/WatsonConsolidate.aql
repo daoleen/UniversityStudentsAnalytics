@@ -1,0 +1,69 @@
+module WatsonBase;
+
+
+import dictionary QualityKeywords from module HighQKeywords as HighQ
+;
+
+
+create view HighQWatson as
+  select
+    __t2.text as text,
+    AutoID() as __auto__id,
+    List(
+      __t1.__auto__id
+    ) as __Consolidate__1__Temp__1_____sep_______t1____id,
+    'STMT_TYPE_CONSOLIDATE' as __stmt__type
+  from
+    __Consolidate__1__Temp__1 __t1,
+    __Consolidate__1__Temp__2 __t2
+  where
+    ContainedWithin(
+      __t1.__consolidate__target,
+      __t2.__consolidate__target
+    )
+  group by 
+  __t2.text;
+output view HighQWatson;
+
+export view WatsonBase.HighQWatson;
+
+
+create view __Consolidate__1__Temp__1 as
+  select
+    R.text as text,
+    AutoID() as __auto__id,
+    'STMT_TYPE_SELECT' as __stmt__type,
+    R.__auto__id as WatsonCandidates_____sep_____R____id,
+    R.text as __consolidate__target
+  from
+    WatsonCandidates R
+  where
+    Or(
+      ContainsDict(
+        'HighQ',
+        RightContextTok(
+          R.match,
+          8
+        )
+      ),
+      ContainsDict(
+        'HighQ',
+        LeftContextTok(
+          R.match,
+          8
+        )
+      )
+    );
+output view __Consolidate__1__Temp__1;
+
+create view __Consolidate__1__Temp__2 as
+  select
+    __t1.text as text,
+    __t1.__consolidate__target as __consolidate__target
+  from
+    __Consolidate__1__Temp__1 __t1
+  consolidate on 
+    __t1.__consolidate__target
+    using 'ContainedWithin';
+output view __Consolidate__1__Temp__2;
+

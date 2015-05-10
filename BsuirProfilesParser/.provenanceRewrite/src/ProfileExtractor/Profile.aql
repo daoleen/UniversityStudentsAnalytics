@@ -1,0 +1,74 @@
+module ProfileExtractor;
+
+
+create view Url as
+  extract
+    AutoID() as __auto__id,
+    'STMT_TYPE_EXTRACT_REGEX' as __stmt__type,
+    -1 as Document_____sep_____D____id,
+    regex
+      /.*rel="canonical" href="https:\/\/www.linkedin.com\/in\/([a-z0-9]+)"\/\>.*/
+    with flags 
+      'DOTALL'
+    on D.text
+    return
+    group 1 as url
+
+  from
+    Document D;
+output view Url;
+
+
+
+create view Name as
+  extract
+    AutoID() as __auto__id,
+    'STMT_TYPE_EXTRACT_REGEX' as __stmt__type,
+    -1 as Document_____sep_____D____id,
+    regex
+      /<span class="full-name" dir="auto">(.*?)<\/span>/
+    with flags 
+      'DOTALL'
+    on D.text
+    return
+    group 1 as name
+
+  from
+    Document D;
+output view Name;
+
+create view Skills as
+  extract
+    AutoID() as __auto__id,
+    'STMT_TYPE_EXTRACT_REGEX' as __stmt__type,
+    -1 as Document_____sep_____D____id,
+    regex
+      /class="endorse-item-name-text">(.+?)<\//
+    with flags 
+      'DOTALL'
+    on D.text
+    return
+    group 1 as skills
+
+  from
+    Document D;
+output view Skills;
+
+create view Profile as
+  select
+    u.url as url,
+    n.name as name,
+    s.skills as skills,
+    AutoID() as __auto__id,
+    'STMT_TYPE_SELECT' as __stmt__type,
+    u.__auto__id as Url_____sep_____u____id,
+    n.__auto__id as Name_____sep_____n____id,
+    s.__auto__id as Skills_____sep_____s____id
+  from
+    Url u,
+    Name n,
+    Skills s;
+output view Profile;
+
+
+

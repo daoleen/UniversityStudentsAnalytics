@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>SM151.txt</documentID>
+    <inputTextID>7976</inputTextID>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.AllWatson</name>
+        <origViewName>WatsonBase.AllWatson</origViewName>
+        <rows>
+            <textVal val="Todd Watson and I talk with Danny Sullivan , Editor In Chief of Search Engine Land , about  Panda (a way Google tries to ID content that doesn't have quite good enough quality) and the direction of Net content ranking (to regulate or not to regulate). Dear Google &amp; Bing: Help Me Rank Better! session . From the IBM Future of Social Lounge. 15:48&#xA;"/>
+            <spanVal parentSpanName="WatsonBase.NoTagDocument.text" sourceID="7980" end="11" start="5"/>
+        </rows>
+    </outputViews>
+    <outputViews>
+        <fieldNames>text</fieldNames>
+        <fieldNames>match</fieldNames>
+        <fieldTypes>TEXT</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>WatsonBase.WatsonCandidates</name>
+        <origViewName>WatsonBase.WatsonCandidates</origViewName>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>7980</key>
+            <value>Todd Watson and I talk with Danny Sullivan , Editor In Chief of Search Engine Land , about  Panda (a way Google tries to ID content that doesn't have quite good enough quality) and the direction of Net content ranking (to regulate or not to regulate). Dear Google &amp; Bing: Help Me Rank Better! session . From the IBM Future of Social Lounge. 15:48
+</value>
+        </entry>
+        <entry>
+            <key>7976</key>
+            <value>Todd &lt;Keyword&gt;Watson&lt;/Keyword&gt; and I talk with &lt;b&gt;Danny Sullivan&lt;/b&gt;, Editor In Chief of &lt;i&gt;Search Engine Land&lt;/i&gt;, about  Panda (a way Google tries to ID content that doesn't have quite good enough quality) and the direction of Net content ranking (to regulate or not to regulate). &lt;a href=&quot;&quot;http://schedule.sxsw.com/2012/events/event_IAP11742&quot;&quot; target=&quot;&quot;new&quot;&quot;&gt;Dear Google &amp; Bing: Help Me Rank Better! session&lt;/a&gt;. From the &lt;Keyword&gt;IBM&lt;/Keyword&gt; Future of Social Lounge. 15:48&lt;br /&gt;&lt;br /&gt;&lt;div&gt;&lt;iframe width=&quot;&quot;640&quot;&quot; height=&quot;&quot;360&quot;&quot; src=&quot;&quot;http://www.youtube.com/embed/h3XcV7b9V4Y?rel=&quot;&quot;0&quot;&quot; frameborder=&quot;&quot;0&quot;&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;br /&gt;
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

@@ -1,0 +1,10 @@
+#Tue Apr 14 07:39:33 VET 2015
+langWare.tokenizerChoice=1
+srcTextAnalyticsPath=[P]textAnalytics/src
+general.provenance=true
+searchPath.dataPath=[W]/BsuirProfilesParser
+pagination.isEnabled=true
+tamTextAnalyticsPath=[P]textAnalytics/bin
+result.rootDir=result
+pagination.numFilesPerPage=50
+UseModularAQL=true
