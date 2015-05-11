@@ -30,7 +30,9 @@ private final static Logger logger = LoggerFactory.getLogger(Main.class);
 		
 		// TODO: replace to hdfs before deployment
 		YahooFileWriter filewriter = new FileWriterHdfs(template);
-		YahooParserMain yahooParser = new YahooParserMain(filewriter);
+		YahooParserMain yahooParser = new YahooParserMain(filewriter,
+			"\"belarusian state university of informatics and radioelectronics\" site:linkedin.com/in/"
+		);
 		yahooParser.parse(pages);
 	}
 }

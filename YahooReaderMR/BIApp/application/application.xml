@@ -1,0 +1,20 @@
+<application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>Yahoo Reader MapReduce</name>
+    <description>Crawler for yahoo search engine.&#13;
+Search the poples related to BSUIR by dictionary of russian names.&#13;
+&#13;
+Author: Alexander Kozlov &lt;alexssource@gmail.com&gt;</description>
+    <properties>
+        <property isInputPath="false" isOutputPath="false" isRequired="true" label="russian names file" name="namesFile" paramtype="FILEPATH" uitype="textfield"/>
+        <property defaultValue="bsuir" isInputPath="false" isOutputPath="false" isRequired="true" label="university name" name="university" paramtype="LIST" uitype="textfield" validValues="bsuir,bsu"/>
+        <property isInputPath="false" isOutputPath="false" isRequired="true" label="result path" name="resultPath" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property isInputPath="false" isOutputPath="false" isRequired="true" label="output log path" name="outputLogPath" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property defaultValue="proxy.fksis.local" isInputPath="false" isOutputPath="false" isRequired="false" label="proxy host" name="proxyHost" paramtype="STRING" uitype="textfield"/>
+        <property defaultValue="8080" isInputPath="false" isOutputPath="false" isRequired="false" label="proxy port" name="proxyPort" paramtype="INTEGER" uitype="textfield"/>
+    </properties>
+    <assets>
+        <asset id="Yahoo Reader MapReduce" type="WORKFLOW"/>
+    </assets>
+    <imagePath>defaultApp_L.png</imagePath>
+    <categories>BSUIR</categories>
+</application-template>

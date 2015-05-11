@@ -25,7 +25,7 @@ public class Main {
 		
 		// TODO: replace to hdfs before deployment
 		YahooFileWriter filewriter = new FileWriterLocal(template);
-		YahooParserMain yahooParser = new YahooParserMain(filewriter);
+		YahooParserMain yahooParser = new YahooParserMain(filewriter, "\"belarusian state university of informatics and radioelectronics\" site:linkedin.com/in/");
 		yahooParser.parse(pages);
 	}
 }
