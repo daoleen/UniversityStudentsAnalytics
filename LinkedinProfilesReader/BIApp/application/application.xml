@@ -1,0 +1,18 @@
+<application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>Linkedin Profiles Reader</name>
+    <description>Read Linkedin profiles from URLs file&#13;
+&#13;
+Author: Alexander Kozlov [alexssource@gmail.com]</description>
+    <properties>
+        <property description="Specify the path where Linkedin URLs file is placed" isInputPath="false" isOutputPath="false" isRequired="true" label="Path to URLs file" name="inputFile" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property description="Specify the directory where all html profiles will be placed" isInputPath="false" isOutputPath="false" isRequired="true" label="Output Directory" name="outputPath" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property description="Specify the directory where job logs will be placed" isInputPath="false" isOutputPath="false" isRequired="true" label="Log Directory" name="outputLogPath" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property defaultValue="proxy.fksis.local" description="Specify the proxy host" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Host" name="proxyHost" paramtype="STRING" uitype="textfield"/>
+        <property defaultValue="8080" description="Specify the proxy port" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Port" name="proxyPort" paramtype="INTEGER" uitype="textfield"/>
+    </properties>
+    <assets>
+        <asset id="Linkedin Profiles Reader" type="WORKFLOW"/>
+    </assets>
+    <imagePath>defaultApp_L.png</imagePath>
+    <categories>BSUIR</categories>
+</application-template>

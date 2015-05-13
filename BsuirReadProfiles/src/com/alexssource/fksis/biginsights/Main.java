@@ -1,13 +1,24 @@
 package com.alexssource.fksis.biginsights;
 
+import org.apache.avro.data.Json;
+
 import com.alexssource.fksis.analyse.data.linkedin.ProxyConfiguration;
 import com.alexssource.fksis.analyse.data.linkedin.impl.LinkedinFileHandler;
 import com.alexssource.fksis.analyse.data.linkedin.impl.LinkedinUrlProfileCrawler;
 import com.alexssource.fksis.analyse.data.linkedin.service.FileHandler;
 import com.alexssource.fksis.analyse.data.linkedin.service.UrlProfileCrawler;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.google.gson.JsonPrimitive;
 
 public class Main {
 	public static void main(String[] args) {
+		gsontest();
+		
 		if(args == null || args.length <= 2) {
 			System.out.println("Args: <input file> <output path> [<proxy host> <proxy port>]");
 			return;
@@ -39,5 +50,15 @@ public class Main {
 		String file2 = outputPath.concat("/file2.html");
 		handler.saveProfile(file1, "<profile>my profile 1</pprofile>");
 		handler.saveProfile(file2, "<profile>my profile 2</pprofile>");
+	}
+	
+	
+	private static void gsontest() {
+		String json = "{  \"url\": \"https://www.linkedin.com/in/igortucha\"}";
+		JsonParser parser = new JsonParser();
+		JsonElement root = parser.parse(json);
+		JsonObject obj = root.getAsJsonObject();
+		String url = obj.get("url").getAsString();
+		System.out.println(url);
 	}
 }

@@ -17,7 +17,7 @@
     </property>
     <property>
         <name>doctype</name>
-        <value>JSON</value>
+        <value>Text</value>
     </property>
     <property>
         <name>delchar</name>

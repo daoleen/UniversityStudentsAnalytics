@@ -22,17 +22,19 @@ import com.alexssource.fksis.analyse.data.linkedin.service.UrlProfileCrawler;
 
 public class LinkedinUrlProfileCrawler implements UrlProfileCrawler {
 	private final static Logger logger = LoggerFactory.getLogger(LinkedinUrlProfileCrawler.class);
+	private FileHandler handler = new LinkedinFileHandler();
 	
 	@Override
 	public void crawl(String inputFile, String outputDir) {
-		FileHandler handler = new LinkedinFileHandler();
 		List<String> urls = handler.readUrls(inputFile);
-		
-		for(int i = 0; i < urls.size(); i++) {
-			String outputFile = String.format("%s/%d.html", outputDir, i);
-			String html = getUrlContent(urls.get(i));
-			handler.saveProfile(outputFile, html);
-		}
+		String filenameTemplate = outputDir + "/%d.html"; 
+		readUrls(urls, filenameTemplate);
+	}
+	
+	@Override
+	public void crawl(List<String> urls, String outputDir, int datanode) {
+		String filenameTemplate = outputDir + "/" + datanode + "-%d.html"; 
+		readUrls(urls, filenameTemplate);
 	}
 
 	private String getUrlContent(String url) {
@@ -61,5 +63,14 @@ public class LinkedinUrlProfileCrawler implements UrlProfileCrawler {
 			logger.error(ExceptionUtils.getStackTrace(e));
 		}
 		return content;
+	}
+	
+	
+	private void readUrls(List<String> urls, String filenameTemplate) {
+		for(int i = 0; i < urls.size(); i++) {
+			String outputFile = String.format(filenameTemplate, i);
+			String html = getUrlContent(urls.get(i));
+			handler.saveProfile(outputFile, html);
+		}
 	}
 }

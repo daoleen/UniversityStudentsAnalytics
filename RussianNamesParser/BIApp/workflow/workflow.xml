@@ -1,4 +1,4 @@
-<workflow-app name="RussianNamesParser" xmlns="uri:oozie:workflow:0.1">
+<workflow-app name="Russian_Names_Parser" xmlns="uri:oozie:workflow:0.1">
     <start to="action1"/>
     <action name="action1">
         <jaql xmlns="uri:oozie:jaql-action:0.1">
