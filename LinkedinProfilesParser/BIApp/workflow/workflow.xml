@@ -1,0 +1,27 @@
+<workflow-app name="Linkedin_Profiles_Parser" xmlns="uri:oozie:workflow:0.1">
+    <start to="action1"/>
+    <action name="action1">
+        <jaql xmlns="uri:oozie:jaql-action:0.1">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <script>tam.jaql</script>
+            <eval>DATAPATH="${datapath}";
+OUTPUTVIEW="${outputview}";
+OUTPOLICY="${outpolicy}";
+DOCTYPE="${doctype}";
+DELCHAR="${delchar}";
+OUTLOC="${outloc}";
+LANGUAGE="${language}";
+TOKENIZER="multilingual";
+MODULENAME="ProfileExtractor";
+MODULEPATH="${concat(wf:appPath(), '/lib/tams.jar')}"; 
+</eval>
+        </jaql>
+        <ok to="end"/>
+        <error to="fail"/>
+    </action>
+    <kill name="fail">
+        <message>error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>

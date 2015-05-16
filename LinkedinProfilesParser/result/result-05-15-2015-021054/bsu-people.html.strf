@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>bsu-people.html</documentID>
+    <inputTextID>2532</inputTextID>
+    <outputViews>
+        <fieldNames>url</fieldNames>
+        <fieldNames>name</fieldNames>
+        <fieldNames>skills</fieldNames>
+        <fieldTypes>SPAN</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>ProfileExtractor.BsuProfile</name>
+        <origViewName>ProfileExtractor.BsuProfile</origViewName>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="23575" end="23593" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="23839" end="23854" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="24097" end="24109" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="24360" end="24380" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="24626" end="24641" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="24891" end="24910" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="25160" end="25179" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="25437" end="25456" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="25708" end="25729" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="25978" end="25996" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="26248" end="26269" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="26504" end="26508" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="26756" end="26773" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="27026" end="27048" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="27299" end="27319" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="27571" end="27581" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="6831" end="6839" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="15285" end="15299" sourceID="2532" parentSpanName="Document.text"/>
+            <spanVal start="27826" end="27829" sourceID="2532" parentSpanName="Document.text"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>2532</key>
+            <value>﻿&lt;!DOCTYPE html&gt;&#xD;
+&lt;!--[if lt IE 7]&gt; &lt;html lang="ru" class="ie ie6 lte9 lte8 lte7 os-win"&gt; &lt;![endif]--&gt;&#xD;
+&lt;!--[if IE 7]&gt; &lt;html lang="ru" class="ie ie7 lte9 lte8 lte7 os-win"&gt; &lt;![endif]--&gt;&#xD;
+&lt;!--[if IE 8]&gt; &lt;html lang="ru" class="ie ie8 lte9 lte8 os-win"&gt; &lt;![endif]--&gt;&#xD;
+&lt;!--[if IE 9]&gt; &lt;html lang="ru" class="ie ie9 lte9 os-win"&gt; &lt;![endif]--&gt;&#xD;
+&lt;!--[if gt IE 9]&gt; &lt;html lang="ru" class="os-win"&gt; &lt;![endif]--&gt;&#xD;
+&lt;!--[if !IE]&gt;&lt;!--&gt; &lt;html lang="ru" class="os-win"&gt; &lt;!--&lt;![endif]--&gt;&#xD;
+&lt;head&gt;&#xD;
+&lt;script src="https://static.licdn.com:443/scds/common/u/lib/fizzy/fz-1.3.8-min.js" type="text/javascript"&gt;&lt;/script&gt;&lt;script type="text/javascript"&gt;fs.config({"failureRedirect":"http://www.linkedin.com/nhome/","uniEscape":true,"xhrHeaders":{"X-FS-Origin-Request":"/in/alexlind","X-FS-Page-Id":"nprofile-public-vanity"}});&lt;/script&gt;&lt;script&gt;&lt;/script&gt;&#xD;
+&lt;meta name="globalTrackingUrl" content="//www.linkedin.com/mob/tracking"&gt;&#xD;
+&lt;meta name="globalTrackingAppName" content="profile"&gt;&#xD;
+&lt;meta name="globalTrackingAppId" content="webTracking"&gt;&#xD;
+&lt;meta name="lnkd-track-json-lib" content="https://static.licdn.com/scds/concat/common/js?h=2jds9coeh4w78ed9wblscv68v-ebbt2vixcc5qz0otts5io08xv&amp;amp;fc=2"&gt;&#xD;
+&lt;meta name="lnkd-track-lib" content="https://static.licdn.com/scds/concat/common/js?h=ebbt2vixcc5qz0otts5io08xv&amp;amp;fc=2"&gt;&#xD;
+&lt;meta name="treeID" content="6bUnGDgx3hMgzHF7KysAAA=="&gt;&#xD;
+&lt;meta name="appName" content="profile"&gt;&#xD;
+&lt;meta name="lnkd-track-error" content="/lite/ua/error?csrfToken=ajax%3A1235633909072661722"&gt;&#xD;
+&lt;meta http-equiv="content-type" content="text/html; charset=UTF-8"&gt;&#xD;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;&#xD;
+&lt;meta name="pageImpressionID" content="ca54c85f-2764-4cc6-a2d1-70ce74f6d4d6"&gt;&#xD;
+&lt;meta name="pageKey" content="nprofile_v2_public_fs"&gt;&#xD;
+&lt;meta name="analyticsURL" content="/analytics/noauthtracker"&gt;&#xD;
+&lt;link rel="openid.server" href="https://www.linkedin.com/uas/openid/authorize"&gt;&#xD;
+&lt;link rel="apple-touch-icon-precomposed" href="https://static.licdn.com/scds/common/u/img/icon/apple-touch-icon.png"&gt;&#xD;
+&lt;!--[if lte IE 8]&gt;&#xD;
+  &lt;link rel="shortcut icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/16x16/favicon.ico"&gt;&#xD;
+&lt;![endif]--&gt;&#xD;
+&lt;!--[if IE 9]&gt;&#xD;
+  &lt;link rel="shortcut icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"&gt;&#xD;
+&lt;![endif]--&gt;&#xD;
+&lt;link rel="icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"&gt;&#xD;
+&lt;meta name="msapplication-TileImage" content="https://static.licdn.com/scds/common/u/images/logos/linkedin/logo-in-win8-tile-144_v1.png"/&gt;&#xD;
+&lt;meta name="msapplication-TileColor" content="#0077B5"/&gt;&#xD;
+&lt;meta name="application-name" content="LinkedIn"/&gt;&#xD;
+&lt;link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=765zh9odycznutep5f0mj07m4-c8kkvmvykvq2ncgxoqb13d2by-38so5ftc5lv2bbm0jf5rvv1qj-7mxyksftlcjzimz2r05hd289r-4uu2pkz5u0jch61r2nhpyyrn8-7poavrvxlvh0irzkbnoyoginp-4om4nn3a2z730xs82d78xj3be-mea0xb6thaagfbcx9i1vg82z-ct4kfyj4tquup0bvqhttvymms-14vwmn593uuwfo9v3bz0glayp-9zbbsrdszts09by60it4vuo3q-8ti9u6z5f55pestwbmte40d9-2t8mgj62l3duejjw8chja96jr-3pwwsn1udmwoy3iort8vfmygt-b1019pao2n44df9be9gay2vfw-aau7s6f37xbtq1daynn0bb656-ab01tg8funn2n1exayaej7367&amp;amp;fc=2"&gt;&#xD;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=3nuvxgwg15rbghxm1gpzfbya2-35e6ug1j754avohmn1bzmucat-mv3v66b8q0h1hvgvd3yfjv5f-14k913qahq3mh0ac0lh0twk9v-1odoqm6uqzmutse6kyk5satus-b7ksroocq54owoz2fawjb292y-62og8s54488owngg0s7escdit-c8ha6zrgpgcni7poa5ctye7il-8gz32kphtrjyfula3jpu9q6wl-51dv6schthjydhvcv6rxvospp-e9rsfv7b5gx0bk0tln31dx3sq-2r5gveucqe4lsolc3n0oljsn1-8v2hz0euzy8m1tk5d6tfrn6j-di2107u61yb11ttimo0s2qyh2-38i6il2zabqvakfzq8wpcvmwh-338jj5au2boohyyk766mnkr8-a7br995b5xb4ztral63cjods4-1j5yeidfdiltik0gx4ekvcwvk-9wkskbn6s2q25rkbrnuwlqric-39kuwv80yvqr74w4oe9bge0md-ejfdcbibyn0amjrpy1bw898cw-370m60vrzsp5vx8i8wie69mme-b0otj9zjsih2zu4s3gxjejik2-czstax4e6y68hymdvqxpwe5so-3g8gynfr7fip2svw23i5ixnw3&amp;amp;fc=2"&gt;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;LI.define('UrlPackage');LI.UrlPackage.containerCore=["https://static.licdn.com/scds/concat/common/js?h=d7z5zqt26qe7ht91f8494hqx5&amp;fc=2"][0];&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;if(typeof LI==='undefined'||!LI){window.LI={};}&#xD;
+LI.JSContentBasePath="https://static.licdn.com/scds/concat/common/js?v=build-1192_8_46798-prod&amp;fc=2";LI.CSSContentBasePath="https://static.licdn.com/scds/concat/common/css?v=build-1192_8_46798-prod&amp;fc=2";LI.injectRelayHtmlUrl="https://static.licdn.com/scds/common/u/lib/inject/0.6.1/relay.html";LI.comboBaseUrl="https://static.licdn.com/scds/concat/common/css?v=build-1192_8_46798-prod&amp;fc=2";LI.staticUrlHashEnabled=true;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=25kaepc6rgo1820ap1rglmzr4-dtx8oyvln9y03x1ku6t0abhc9-9yrlkzqdz2fq4zzcxtkisx0j2-edp77ghrpkbbons0amvyb2ejm-8ohb0iio22nbqe1w8et54sawe-5n5dp3pn32p4zstdag5cbpr1-eehwe5piqwg4elnl8jvj9vpx-amjylk8w8039f2lwlov2e4nmc-47qp7uw3i5i1pqeovirlcc070-9w1b5mi5erarwbypvtw0a03k7-6dhio4t0fxvyu677a4z672e0-4izdpghi4r0b0uhhivo34xsvq-9a0rznn8mui615f4o75jq7hz2-9undj1hjru2i7vjjlqtb52ho2-7vr4nuab43rzvy2pgq7yvvxjk-4yhpyv3p9r574wkkbe8kcd2ou&amp;amp;fc=2"&gt;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("e9b527183831de1320cc717b2b2b0000-1",{event:"before",type:"html"});&lt;/script&gt;&lt;meta name="remote-nav-init-marker" content="true"/&gt;&#xD;
+&lt;link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=14vwmn593uuwfo9v3bz0glayp-4r96ykuqmcdv9rq8yv0mvb0gb"&gt;&#xD;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=ditm8xdycl29ta8gqk5tpmxf8-czstax4e6y68hymdvqxpwe5so"&gt;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("e9b527183831de1320cc717b2b2b0000-1",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;document.cookie='lang="v=2&amp;lang=ru-ru"; domain=linkedin.com; version=0; path=/;';&lt;/script&gt;&lt;title&gt;Alexander Lind | LinkedIn&lt;/title&gt;&#xD;
+&lt;link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=c52xqty03kc2uumayfdgw52ha-5qepclc3rpoubxgkk4whxb5ux-9isvvzw61fpveso9doy1mzsas-dxl1g2k3wk6qpss8oq9lwul9c-95t6vcl2cgpx3042md6zm5jzo&amp;amp;fc=2"&gt;&#xD;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=4zslye83akez5s4mf91hrq425-95d8d303rtd0n9wj4dcjbnh2c-cfbw38d9d4dhgg6m9xrtij2y6-7r1hr0x81n4m5vdil2awiladb-alv1b6ogz9d0wdvu14407mm19-2xkrig2d2e38eolz4s6d5kfkh-8czwq9t5lhsf1yk8ncis7lv0l&amp;amp;fc=2"&gt;&lt;/script&gt;&#xD;
+&lt;meta name="description" content="См. профессиональный профиль участника Alexander Lind в LinkedIn. LinkedIn – самая большая в мире деловая сеть, которая помогает таким специалистам как Alexander Lind находить отраслевых экспертов, партнёров для бизнеса и возможности связи с рекомендованными на вакансию кандидатами."/&gt;&#xD;
+&lt;link rel="canonical" href="https://www.linkedin.com/in/alexlind"/&gt;&#xD;
+&lt;script type="text/javascript" src="https://www.linkedin.com/uas/authping?url=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fin%2Falexlind"&gt;&lt;/script&gt;&#xD;
+&lt;meta name="robots" content="noarchive"&gt;&#xD;
+&lt;link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=dh9s2pgf6ghcuifobl7cvitf9-e82rrnlpdi6z0cb9r53vgs7oq-cwmpmipv8mcyyu5s7xev3dy42-8k77frn9ci0jt9030lf2wbk9g-7bfia8u3hfno6m7z8u6wuc5p4-2etocv30ny3fvxpnkhhmogqjo&amp;amp;fc=2"&gt;&#xD;
+&lt;link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=8qx2838nsr0nlhw9cqzbzdy15-3s4kzozatpjn0111dzief64t8-7l7clejgfr0tmifzaylyar87t-ebsvwtq37n6zk5hpumk8wkyzx-bdbf6e0ke9dyaw0i0997zhe67-3jwa0iljvjbntb50hywszyrd5-8knqamxdde8wlijprzg360262&amp;amp;fc=2"&gt;&#xD;
+&lt;link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=9wxugis13oeqd9qf84z2nnh9v-31prk94ajkubfe7g1lpnhnisf-78d55nkv623z169l1h0pt21kq-ba2tirfqlpr4sxnqihowtvb4z-668nv4nehgxq542wxh6t6bcu1-akxgi2uhstnf6l5v8fhf3qtrw-5yq3ug0mq7ait7ppz3mk6y4kr&amp;amp;fc=2"&gt;&#xD;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=4hbqp7aoxoph1cnia8g1cujwf-6z73a0n27w1mz287zlva9cbcx-e4t0yj6tjycwmm5gb2d6tkiqd-7vx3i2dpgcc36u7n7h9ktm7c1-d2la7obrbyceb8fp1fvppfzea-e17zy6z51dugr6fy4su92o7de&amp;amp;fc=2"&gt;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;LI.define('profile.viewType');LI.profile.viewType='';if(!LI.p2Dialogs){LI.p2Dialogs={cssFiles:["https://static.licdn.com/scds/concat/common/css?h=cfsam81o5sp3cxb7m0hs933c4-e82rrnlpdi6z0cb9r53vgs7oq&amp;fc=2"]};}&#xD;
+if(dust&amp;&amp;!dust.imgDefer){dust.imgDefer={imgDeferUsed:true}}&lt;/script&gt;&#xD;
+&lt;/head&gt;&#xD;
+&lt;body dir="ltr" class="guest v2  chrome-v5 chrome-v5-responsive sticky-bg guest" id="pagekey-nprofile_v2_public_fs"&gt;&#xD;
+&lt;input id="inSlowConfig" type="hidden" value="false"/&gt;&#xD;
+&lt;script type="text/javascript"&gt;document.body.className+=" js ";&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("e9b527183831de1320cc717b2b2b0000-2",{event:"before",type:"html"});&lt;/script&gt;&lt;div id="a11y-menu" class="a11y-skip-nav-container"&gt;&#xD;
+&lt;div class="a11y-skip-nav a11y-hidden"&gt;&#xD;
+&lt;a href="#a11y-content" id="a11y-skip-nav-link"&gt;Перейти к основному контенту&lt;/a&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;script id="control-http-12274-exec-13028174-1" type="linkedin/control" class="li-control"&gt;LI.Controls.addControl('control-http-12274-exec-13028174-1','A11yMenu',{jumpToText:'\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u043A &lt;strong&gt;\u043E\u0431\u0449\u0438\u043C \u0441\u0432\u0435\u0434\u0435\u043D\u0438\u044F\u043C&lt;\/strong&gt;',skipToText:'\u041F\u0440\u043E\u043F\u0443\u0441\u0442\u0438\u0442\u044C \u0438 \u043F\u0435\u0440\u0435\u0439\u0442\u0438 \u043A &lt;strong&gt;\u043F\u043E\u0438\u0441\u043A\u0443&lt;\/strong&gt;',feedbackText:'\u041E\u0442\u0437\u044B\u0432',closeText:'\u0437\u0430\u043A\u0440\u044B\u0442\u044C',anchorText:'\u041A\u043E\u043D\u0442\u0435\u043D\u0442 \u0441\u043B\u0435\u0434\u0443\u0435\u0442:',moreText:'\u0414\u0440\u0443\u0433\u0438\u0435 \u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B \u043D\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438 \u0443\u043A\u0430\u0437\u0430\u043D\u044B \u043D\u0438\u0436\u0435',smallPageText:'\u0417\u0434\u0435\u0441\u044C \u043D\u0435 \u043C\u043D\u043E\u0433\u043E \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438 \u0434\u043B\u044F \u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0430. \u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u043F\u0440\u044F\u043C\u043E \u043A \u043A\u043E\u043D\u0442\u0435\u043D\u0442\u0443.',searchUrl:'\/vsearch\/f'});&lt;/script&gt;&#xD;
+&lt;script id="control-http-12274-exec-13028174-2" type="linkedin/control" class="li-control"&gt;LI.KbDialogDependencies={jsFiles:["https://static.licdn.com/scds/concat/common/js?h=37zc8dm8vu14f1neta1ponx0o"],cssFiles:["https://static.licdn.com/scds/concat/common/css?h=9qwmbyyfabl3upqh3cyzbhd49"]};LI.Controls.addControl('control-http-12274-exec-13028174-2','kb.shortcuts',{homepageUrl:'http:\/\/www.linkedin.com\/nhome\/?trk=global_kb',profileUrl:'http:\/\/www.linkedin.com\/profile\/view?trk=global_kb',editProfileUrl:'http:\/\/www.linkedin.com\/profile\/edit?trk=global_kb',inboxUrl:'http:\/\/www.linkedin.com\/inbox\/#messages?trk=global_kb',jobsUrl:'http:\/\/www.linkedin.com\/job\/home?trk=global_kb',settingsUrl:'https:\/\/www.linkedin.com\/secure\/settings?req=&amp;trk=global_kb',influencerUrl:'http:\/\/www.linkedin.com\/influencers?trk=global_kb'});&lt;/script&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div id="header" class="global-header responsive-header nav-v5-2-header responsive-1 remote-nav" role="banner"&gt;&#xD;
+&lt;div id="top-header"&gt;&#xD;
+&lt;div class="wrapper"&gt;&#xD;
+&lt;h2 class="logo-container"&gt;&#xD;
+&lt;a href="http://www.linkedin.com/" class="logo" id="li-logo"&gt;&#xD;
+Главная страница LinkedIn&#xD;
+&lt;/a&gt;&#xD;
+&lt;/h2&gt;&#xD;
+&lt;ul class="nav main-nav guest-nav" role="navigation"&gt;&#xD;
+&lt;li class="nav-item"&gt;&#xD;
+&lt;a href="http://www.linkedin.com/static?key=what_is_linkedin&amp;amp;trk=hb_what" class="nav-link"&gt;&#xD;
+Что такое LinkedIn?&#xD;
+&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li class="nav-item"&gt;&#xD;
+&lt;a href="/reg/join?trk=hb_join" class="nav-link" rel="nofollow"&gt;&#xD;
+Присоединиться&#xD;
+&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li class="nav-item"&gt;&#xD;
+&lt;a href="https://www.linkedin.com/uas/login?goback=%2Enppvan_alexlind&amp;amp;trk=hb_signin" class="nav-link" rel="nofollow"&gt;&#xD;
+Войти&#xD;
+&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div class="a11y-content"&gt;&#xD;
+&lt;a name="a11y-content" tabindex="0" id="a11y-content-link"&gt;Основные сведения указаны ниже&lt;/a&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;script type="text/javascript"&gt;LI.RUM=LI.RUM||{};LI.RUM.streamMetrics={timeToNavInteractive:Date.now&amp;&amp;Date.now()||new Date().getTime(),timeToAboveFold:null,timeToPageInteractive:null};&lt;/script&gt;&#xD;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=1e5kw6urhif0boq5eaan271d3-473m04z4a58wexbuqt1uoier4-62og8s54488owngg0s7escdit-8gz32kphtrjyfula3jpu9q6wl-aujmp9r1kj9k9x4ezyk8ahfbk-62cjxbtqyt2o85tawwwz12otx-a2blfu8y091887ailkls7jxq3-btg5gaqp36lg06pz3c61bdbll-6g4kvdslfdbq7xuia8mb46l10-6tyvplvemczf4qdrlxny6lq8d-ettwzlseaw86558lzmqblr06t-4y7qfbe7liwvykn5stbqh9jra-9r20yf4qs8yiwgzkf53wg7wyr-6865rdpomfa2609kghcxa2ojk-s4x3rtlk1sdpf9r8pwrfgklz-b01bpc2em58egy7voz1cza2w4-crayc3khz55ejfivfh0atiltt-4p2mkyggnlqfrxd8kehsq8tfe-12960v0orzym6k2r6fa6l03uh-3i7ubdukif1jevuf29ftmtvjs-7bt8yq2swxj00zqwcc3anfs61-5cmfpe4jqrweez449s97ldikg-clz7gb1h1gqkujqk14gbprnf5"&gt;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("e9b527183831de1320cc717b2b2b0000-2",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;div id="body" class="" role="main"&gt;&#xD;
+&lt;div class="wrapper hp-nus-wrapper"&gt;&#xD;
+&lt;div id="global-error"&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div id="wrapper" class="public-profile"&gt;&#xD;
+&lt;div id="profile"&gt;&#xD;
+&lt;script type="text/javascript"&gt;if(window.fs){fs.after('public_top_card',function(id){LI.profile.modInit.addAndFlush(id,LI.profile.modules.topcard);});}&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("public_top_card",{event:"before",type:"html"});&lt;/script&gt;&lt;script type="text/javascript"&gt;LI.i18n.register('IntrosDialogStub-default-title','Запрос о знакомстве');if(!LI.IntrosDialogDependencies){LI.IntrosDialogDependencies={jsFiles:'https:\/\/static.licdn.com\/scds\/concat\/common\/js?h=3m0wwwerqvp8618uhx52in5b-7dtuvg1c0abi4ci2xeq2sfs2d&amp;amp;fc=2',cssFiles:'https:\/\/static.licdn.com\/scds\/concat\/common\/css?h=9uas09rvrig812gppe8pezdm5-2wjjionwkrvna3b1prar6d0qr-2parkkfu6rvpuoklqbawocoyo&amp;amp;fc=2'};}&lt;/script&gt;&lt;!--Enjoy our markup--&gt;&lt;div id="top-card" data-li-template="top_card"&gt;&lt;img id="in-logo-mobile" src="https://static.licdn.com/scds/common/u/images/logos/linkedin/logo_in_nav_44x36.png" width="30" height="24" alt="LinkedIn"/&gt;&lt;img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAMTAAAAJGE3ZjIyODczLTYyOTktNDlmNC05ZjE5LTQ1MDczODNlNmQ1OA.jpg" width="500" height="500" id="bg-blur-profile-picture" alt="Alexander Lind"/&gt;&lt;div id="top-card-overlay"&gt;&lt;/div&gt;&lt;div class="profile-top-card top-card "&gt;&lt;div class="profile-card vcard"&gt;&lt;div class="profile-picture"&gt;&lt;a href="/reg/join-pprofile?_ed=0_01QnG4t0pWUEtxKrTXmsjRWJlD5Jt4ZMf87SacJnJbVKPOqhmCtBGX0RI38PQDpCupHv_FpzMErSe0K_uNNEfM&amp;amp;trk=pprof-0-ts-view_full-0"&gt; &lt;img src='https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAMTAAAAJGE3ZjIyODczLTYyOTktNDlmNC05ZjE5LTQ1MDczODNlNmQ1OA.jpg' width="200" height="200" alt="Alexander Lind"/&gt; &lt;/a&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="profile-overview"&gt;&lt;div class="profile-overview-content"&gt;&lt;div id="member-1496932" class="masthead"&gt;&lt;div data-li-template="p2_basic_info"&gt;&lt;div id="name-container" data-li-template="name"&gt;&lt;div id="name" class="editable-item"&gt;&lt;h1&gt;&lt;span class="n fn"&gt;&lt;span class="full-name" dir="auto"&gt;Alexander Lind&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="headline-container" data-li-template="headline"&gt;&lt;div id="headline" class="editable-item"&gt;&lt;p class="title" dir="ltr"&gt;Marketing + IT innovation manager&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="demographic-info adr editable-item" id="demographics"&gt;&lt;div id="location-container" data-li-template="location"&gt;&lt;div id="location" class="editable-item"&gt;&lt;dl&gt;&lt;dt&gt;Регион&lt;/dt&gt;&lt;dd&gt;&lt;span class="locality"&gt;Беларусь&lt;/span&gt;&lt;/dd&gt;&lt;dt&gt;Отрасль&lt;/dt&gt;&lt;dd class="industry"&gt;Интернет-технологии&lt;/dd&gt;&lt;/dl&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;table summary="Обзор профиля участника Alexander Lind"&gt;&lt;tr id="overview-summary-current"&gt;&lt;th scope="row"&gt;&lt;a href="#background-experience" data-trk="ppro_cprof"&gt;Сейчас&lt;/a&gt;&lt;/th&gt;&lt;td&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="http://www.linkedin.com/company/2057593?trk=ppro_cprof" dir="auto"&gt;ARTOX&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr id="overview-summary-past"&gt;&lt;th scope="row"&gt;&lt;a href="#background-experience" data-trk="ppro_cprof"&gt;Ранее&lt;/a&gt;&lt;/th&gt;&lt;td&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="http://www.linkedin.com/company/10921?trk=ppro_cprof" dir="auto"&gt;Itransition.com&lt;/a&gt;, &lt;/li&gt;&lt;li&gt;&lt;span dir="auto"&gt;Belarusian State University&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr id="overview-summary-education"&gt;&lt;th scope="row"&gt;&lt;a href="#background-education" data-trk="ppro_sprof"&gt;Образование&lt;/a&gt;&lt;/th&gt;&lt;td&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="http://www.linkedin.com/edu/school?id=10749&amp;amp;trk=ppro_sprof" title="Подробнее об этом учебном заведении"&gt;Belarusian State University&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr id="overview-recommendation-count"&gt;&lt;th scope="row"&gt;Рекомендации&lt;/th&gt;&lt;td&gt;&lt;strong&gt;1&lt;/strong&gt; человек порекомендовал участника &lt;strong&gt;Alexander&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;div class="profile-aux"&gt;&lt;div class="member-connections"&gt;&lt;strong&gt;81&lt;/strong&gt;контакт&lt;/div&gt;&lt;/div&gt;&lt;!-- /profile-aux --&gt;&lt;/div&gt;&lt;!-- End profile-overview --&gt;&lt;div id="signup-link-tile-bg"&gt;&lt;div class="blur-layer"&gt;&lt;p&gt;Присоединитесь к LinkedIn, чтобы просмотреть полный профиль участника Alexander.&lt;/p&gt;&lt;div id="circle-join-btn"&gt;&lt;div class="person-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href="/reg/join-pprofile?_ed=0_01QnG4t0pWUEtxKrTXmsjRWJlD5Jt4ZMf87SacJnJbVKPOqhmCtBGX0RI38PQDpCupHv_FpzMErSe0K_uNNEfM&amp;amp;trk=pprof-0-ts-view_full-0" id="signup-link-tile"&gt;&lt;p&gt;Присоединитесь к LinkedIn, чтобы просмотреть полный профиль участника Alexander.&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;!-- End profile card --&gt;&lt;div class="public-reg-upsell"&gt;&lt;h2&gt;Присоединитесь к LinkedIn и получите доступ к полному профилю участника Alexander. Это бесплатно!&lt;/h2&gt;&lt;h3&gt;Став участником LinkedIn, вы присоединитесь к 300 млн специалистов, которые делятся идеями, возможностями и контактами.&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Найдите общих знакомых.&lt;/li&gt;&lt;li&gt;Познакомьтесь с этим участником.&lt;/li&gt;&lt;li&gt;Свяжитесь с участником &lt;strong&gt;Alexander&lt;/strong&gt; напрямую.&lt;/li&gt;&lt;/ul&gt;&lt;a href="/reg/join-pprofile?_ed=0_01QnG4t0pWUEtxKrTXmsjRWJlD5Jt4ZMf87SacJnJbVKPOqhmCtBGX0RI38PQDpCupHv_FpzMErSe0K_uNNEfM&amp;amp;trk=pprof-0-ts-view_full-0" class="signup-button"&gt;Просмотреть полный профиль участника Alexander&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="highlight-module"&gt;&lt;div class="member-connections"&gt;&lt;strong&gt;81&lt;/strong&gt;контакт&lt;/div&gt;&lt;div class="highlight-slot"&gt;&lt;img src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/6/005/09f/0ca/3286734.png" class="organization-icon" alt="ARTOX" width="45" height="45"/&gt;&lt;div class="content"&gt;&lt;h3&gt;ARTOX&lt;/h3&gt;&lt;p&gt;VP of product&lt;/p&gt;&lt;p&gt;Дата начала: &lt;time&gt;май 2006&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href="/reg/join-pprofile?_ed=0_01QnG4t0pWUEtxKrTXmsjRWJlD5Jt4ZMf87SacJnJbVKPOqhmCtBGX0RI38PQDpCupHv_FpzMErSe0K_uNNEfM&amp;amp;trk=pprof-0-ts-view_full-0" id="full-profile-btn-link"&gt;Смотреть полный профиль&lt;/a&gt;&lt;script type="text/javascript"&gt;fs._server.fire("public_top_card",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_megaphone_marquee",{event:"before",type:"html"});&lt;/script&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_megaphone_marquee",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_background_view",{event:"before",type:"html"});&lt;/script&gt;&lt;div id="background" class="profile-background"&gt;&lt;h2&gt;Профессиональные достижения&lt;/h2&gt;&lt;div class="background-content "&gt;&lt;div id="background-summary-container" class="background-section " data-li-template="summary_section"&gt;&lt;div id="background-summary" class="background-summary edit-default"&gt;&lt;div class="summary-header"&gt;&lt;h3&gt;Общие сведения&lt;/h3&gt;&lt;/div&gt;&lt;div id="summary-item" class="editable-item section-item"&gt;&lt;div id="summary-item-view"&gt;&lt;div class="summary"&gt;&lt;p class="description" dir="ltr"&gt;International business development to provide the best products and services in internet marketing for companies worldwide.&lt;br&gt;&#xD;
+&lt;br&gt;&#xD;
+I want to create the most efficient connections between company and its customers via web and mobile applications.&lt;br&gt;&lt;br&gt;Специализация:Product strategy development, start up management, operational management, software development management, PR and promotion, public speech, VC investments.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="background-experience-container" class="background-section" data-li-template="experience_section"&gt;&lt;div id="background-experience" class="background-experience edit-default "&gt;&lt;h3&gt;Опыт работы&lt;/h3&gt;&lt;div id="experience-1933927" class="editable-item section-item current-position"&gt;&lt;div id="experience-1933927-view"&gt;&lt;header&gt;&lt;h5 class="experience-logo"&gt;&lt;a href="http://www.linkedin.com/company/2057593?trk=ppro_cprof"&gt;&lt;img src="https://media.licdn.com/media/p/6/005/09f/0ca/3286734.png" alt=""/&gt;&lt;/a&gt;&lt;/h5&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/title/vp-of-product?trk=pprofile_title" title="Подробнее об этой должности"&gt;VP of product&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;&lt;a href="http://www.linkedin.com/company/2057593?trk=ppro_cprof" dir="auto"&gt;ARTOX&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;&lt;span class="experience-date-locale"&gt;&lt;time&gt;май 2006&lt;/time&gt; &amp;#8211; настоящее время (9 лет 1 месяц)&lt;span class="locality"&gt;Москва, Россия&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="experience-1933928" class="editable-item section-item past-position"&gt;&lt;div id="experience-1933928-view"&gt;&lt;header&gt;&lt;h5 class="experience-logo"&gt;&lt;a href="http://www.linkedin.com/company/10921?trk=ppro_cprof"&gt;&lt;img src="https://media.licdn.com/media/p/3/005/00e/164/2f6f0ed.png" alt=""/&gt;&lt;/a&gt;&lt;/h5&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/title/project-manager?trk=pprofile_title" title="Подробнее об этой должности"&gt;Project Manager&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;&lt;a href="http://www.linkedin.com/company/10921?trk=ppro_cprof" dir="auto"&gt;Itransition.com&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;&lt;span class="experience-date-locale"&gt;&lt;time&gt;август 2005&lt;/time&gt; &amp;#8211; &lt;time&gt;декабрь 2005&lt;/time&gt; (5 месяцев)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="experience-6777502" class="editable-item section-item past-position"&gt;&lt;div id="experience-6777502-view"&gt;&lt;header&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/title/engineer?trk=pprofile_title" title="Подробнее об этой должности"&gt;Engineer&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;&lt;span dir="auto"&gt;Belarusian State University&lt;/span&gt;&lt;/h5&gt;&lt;/header&gt;&lt;span class="experience-date-locale"&gt;&lt;time&gt;октябрь 2003&lt;/time&gt; &amp;#8211; &lt;time&gt;июнь 2005&lt;/time&gt; (1 год 9 месяцев)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;script&gt;$(function(){if(LI.Dialog){LI.Dialog().submitEvent.subscribe(function(type,args){var positionID;if(args[1]=='removePositionDialog'&amp;&amp;WebTracking&amp;&amp;WebTracking.trackUserAction){if(args[2]&amp;&amp;args[2].positionID){positionID=args[2].positionID;}WebTracking.trackUserAction('nprofile-edit-position-remove-submit',{positionID:positionID});}});}});&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="background-languages-container" class="background-section" data-li-template="languages_section"&gt;&lt;div id="background-languages" class="background-languages "&gt;&lt;h3&gt;Языки&lt;/h3&gt;&lt;div id="languages" class="editable-item"&gt;&lt;div id="languages-view"&gt;&lt;ol&gt;&lt;li class="section-item"&gt;&lt;h4&gt;&lt;span dir="auto"&gt;English&lt;/span&gt;&lt;/h4&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="background-skills-container" class="background-section" data-li-template="skills_section"&gt;&lt;div id="background-skills" class="background-skills edit-default "&gt;&lt;div class="hd"&gt;&lt;h3&gt;Навыки&lt;/h3&gt;&lt;/div&gt;&lt;div id="skills-error-alert"&gt;&lt;/div&gt;&lt;div id="skills-item" class="editable-item"&gt;&lt;div id="skills-item-view"&gt;&lt;div id="profile-skills"&gt;&lt;ul class="skills-section compact-view"&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/marketing-strategy?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;Marketing Strategy&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/web-development?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;Web Development&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/monetization?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;Monetization&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/software-development?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;Software Development&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/user-experience?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;User Experience&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/agile-methodologies?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;Agile Methodologies&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/mobile-applications?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;Mobile Applications&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/software-project-management?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;Software Project...&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/user-interface-design?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;User Interface Design&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/product-management?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;Product Management&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/requirements-analysis?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;Requirements Analysis&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/saas?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;SaaS&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/business-analysis?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;Business Analysis&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/requirements-gathering?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;Requirements Gathering&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/software-engineering?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;Software Engineering&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item extra-skill"&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/javascript?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;JavaScript&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item extra-skill"&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;a href="https://www.linkedin.com/topic/seo?trk=pprofile_topic" title="Подробнее об этом навыке" class="endorse-item-name-text"&gt;SEO&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li class="endorse-item" id="see-more-less-skill"&gt;&lt;span class="see-more-less skill-pill"&gt;&lt;a href="javascript:void(0)"&gt;&lt;span class="more-text"&gt;Ещё 2&lt;/span&gt;&lt;span class="more-arrow"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="less-arrow"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="less-text"&gt;Свернуть&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;script id="control-dust-server-76287311-6" type="linkedin/control" class="li-control"&gt;LI.Controls.addControl("control-dust-server-76287311-6","ToggleClass",{classname:'view-all-skills',on:'#profile-skills'})&lt;/script&gt;&lt;script type="text/javascript"&gt;if(dust&amp;&amp;dust.jsControl){if(!dust.jsControl.flushControlIds){dust.jsControl.flushControlIds="";}else{dust.jsControl.flushControlIds+=",";}dust.jsControl.flushControlIds+="control-dust-server-76287311-6";}&lt;/script&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;script id="control-dust-server-76287311-7" type="linkedin/control" class="li-control"&gt;LI.Controls.addControl("control-dust-server-76287311-7","ProfileSectionSkills",{viewerId:'0',dialogConfig:{dustDataUrl:'\/profile\/endorser-info-dialog?csrfToken=ajax%3A1235633909072661722',width:600,name:'skills-endorsers-dialog',className:'skills-endorser-dialog dialog-v2',type:'task-modeless',disableFocusOnClose:true,content:{title:'Люди, которые подтвердили навыки',dustTemplate:'tl/apps/profile/endorsements/endorser_Info_dialog'},dependencies:{jsFiles:'https://static.licdn.com/scds/concat/common/js?h=1a7n3e0htwi9z0c0fneqqh92b&amp;fc=2'}},endorsementData:{recipientId:'1496932',recipientType:'member'},distance:-1,isSelf:false,maxEndorsementCount:99,endorseURL:'\/profile\/endorse?_ed=0_2KjZg6oXb2V2F89fO9b1Jr9vVefjgmMy5Eg5IR_1O8f&amp;csrfToken=ajax%3A1235633909072661722&amp;goback=%2Enppvan_alexlind',unendorseURL:'\/profile\/unendorse?_ed=0_2KjZg6oXb2V2F89fO9b1Jr9vVefjgmMy5Eg5IR_1O8f&amp;csrfToken=ajax%3A1235633909072661722&amp;goback=%2Enppvan_alexlind',i18nMaxEndorsements:'99+',i18nEndorseLimitExceeded:'Вы достигли суточного лимита для подтверждения навыков.',i18nUnendorseLimitExceeded:'Вы достигли суточного лимита для удаления подтверждений навыков.',i18nGenericErrorMessage:'Произошла ошибка. Повторите попытку позже.'})&lt;/script&gt;&lt;script type="text/javascript"&gt;if(dust&amp;&amp;dust.jsControl){if(!dust.jsControl.flushControlIds){dust.jsControl.flushControlIds="";}else{dust.jsControl.flushControlIds+=",";}dust.jsControl.flushControlIds+="control-dust-server-76287311-7";}&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="background-education-container" class="background-section" data-li-template="education_section"&gt;&lt;div id="background-education" class="background-education edit-default "&gt;&lt;h3&gt;Образование&lt;/h3&gt;&lt;div id="education-1310057" class="editable-item section-item"&gt;&lt;div id="education-1310057-view"&gt;&lt;div class="education first"&gt;&lt;a href='http://www.linkedin.com/edu/school?id=10749&amp;amp;trk=ppro_sprof' title="Подробнее об этом учебном заведении"&gt;&lt;h5 class="education-logo"&gt;&lt;img src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/6/005/05d/168/0bafb50.png" alt="Belarusian State University" width="60" height="60"/&gt;&lt;/h5&gt;&lt;/a&gt;&lt;header&gt;&lt;h4 class="summary fn org" dir="auto"&gt;&lt;a href='http://www.linkedin.com/edu/school?id=10749&amp;amp;trk=ppro_sprof' title="Подробнее об этом учебном заведении"&gt;Belarusian State University&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;&lt;span class="degree"&gt;Master&lt;/span&gt;&lt;/h5&gt;&lt;/header&gt;&lt;span class="education-date"&gt;&lt;time&gt;2005&lt;/time&gt;&lt;time&gt; &amp;#8211; 2007&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="education-294170" class="editable-item section-item"&gt;&lt;div id="education-294170-view"&gt;&lt;div class="education"&gt;&lt;header&gt;&lt;h4 class="summary fn org" dir="auto"&gt;Belarusian State University&lt;/h4&gt;&lt;h5&gt;&lt;span class="degree"&gt;Master&lt;/span&gt;&lt;/h5&gt;&lt;/header&gt;&lt;span class="education-date"&gt;&lt;time&gt;2001&lt;/time&gt;&lt;time&gt; &amp;#8211; 2006&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;script&gt;if(LI.Dialog){LI.Dialog().submitEvent.subscribe(function(type,args){var educationID;if(args[1]=='removeEducationDialog'&amp;&amp;WebTracking&amp;&amp;WebTracking.trackUserAction){if(args[2]&amp;&amp;args[2].educationID){educationID=args[2].educationID;}WebTracking.trackUserAction('nprofile-edit-education-remove-submit',{educationID:educationID});}});}&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="background-interests-container" class="background-section" data-li-template="interests_section"&gt;&lt;div id="background-interests" class="hidden" tabindex="0"&gt;&lt;h3 class="header"&gt;Интересы&lt;/h3&gt;&lt;div id="interests-view" class="editable-item"&gt;&lt;ul class="interests-listing"&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;`&lt;div id="background-honors-container" class="background-section" data-li-template="honors_section"&gt;&lt;div id="background-honors" class="background-honors hidden"&gt;&lt;h3&gt;Звания и награды&lt;/h3&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_background_view",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;div id="groups-container"&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_groups",{event:"before",type:"html"});&lt;/script&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_groups",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_reg_upsell",{event:"before",type:"html"});&lt;/script&gt;&lt;div id="secondary-reg-upsell"&gt;&lt;div class="public-reg-upsell"&gt;&lt;h2&gt;Просмотрите полный профиль участника Alexander, чтобы…&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Найти общих знакомых.&lt;/li&gt;&lt;li&gt;Познакомиться с этим участником.&lt;/li&gt;&lt;li&gt;Связаться с участником &lt;strong&gt;Alexander&lt;/strong&gt; напрямую.&lt;/li&gt;&lt;/ul&gt;&lt;a href="/reg/join-pprofile?_ed=0_dHB8G4tKSI1eNkyEd3uBk2dzQE2AkVU1r9kHbXjxPZGWJlD5Jt4ZMf87SacJnJbVKPOqhmCtBGX0RI38PQDpCupHv_FpzMErSe0K_uNNEfM&amp;amp;trk=pprof_viewmore" class="signup-button"&gt;Просмотреть полный профиль участника Alexander&lt;/a&gt;&lt;p&gt;Вы ищете другого участника по имени Alexander Lind? &lt;a href="http://www.linkedin.com/pub/dir/?first=Alexander&amp;amp;last=Lind"&gt;Просмотреть ещё&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_reg_upsell",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div id="aux"&gt;&#xD;
+&lt;div class="insights"&gt;&#xD;
+&lt;h2&gt;Статистика&lt;/h2&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_locale",{event:"before",type:"html"});&lt;/script&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_locale",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_name_search",{event:"before",type:"html"});&lt;/script&gt;&lt;div class="name-search"&gt;&lt;h3&gt;Поиск по имени&lt;/h3&gt;&lt;p class="blurb"&gt;Более 300 млн специалистов уже зарегистрированы в LinkedIn. Найдите знакомых.&lt;/p&gt;&lt;form action="/pub/dir/" method="get"&gt;&lt;label for="firstName"&gt;Имя&lt;/label&gt;&lt;script id="control-dust-server-76287311-2" type="linkedin/control" class="li-control"&gt;LI.Controls.addControl("control-dust-server-76287311-2","GhostLabel",{})&lt;/script&gt;&lt;script type="text/javascript"&gt;if(dust&amp;&amp;dust.jsControl){if(!dust.jsControl.flushControlIds){dust.jsControl.flushControlIds="";}else{dust.jsControl.flushControlIds+=",";}dust.jsControl.flushControlIds+="control-dust-server-76287311-2";}&lt;/script&gt;&lt;input type="text" name="first" id="firstName"/&gt;&lt;label for="lastName"&gt;Фамилия&lt;/label&gt;&lt;script id="control-dust-server-76287311-3" type="linkedin/control" class="li-control"&gt;LI.Controls.addControl("control-dust-server-76287311-3","GhostLabel",{})&lt;/script&gt;&lt;script type="text/javascript"&gt;if(dust&amp;&amp;dust.jsControl){if(!dust.jsControl.flushControlIds){dust.jsControl.flushControlIds="";}else{dust.jsControl.flushControlIds+=",";}dust.jsControl.flushControlIds+="control-dust-server-76287311-3";}&lt;/script&gt;&lt;input type="text" name="last" id="lastName"/&gt;&lt;button aria-label="Search" type="submit"&gt;&lt;span&gt;&lt;/span&gt;&lt;/button&gt;&lt;p class="tip"&gt;&lt;strong&gt;Пример: &lt;/strong&gt; &lt;a href="https://www.linkedin.com/in/jeffweiner08"&gt;Джеф Уинер&lt;/a&gt;&lt;/p&gt;&lt;/form&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_name_search",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_same_name_search",{event:"before",type:"html"});&lt;/script&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_same_name_search",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_browse_map",{event:"before",type:"html"});&lt;/script&gt;&lt;hr&gt;&lt;div class="insights-browse-map"&gt;&lt;h3&gt;Другие участники также смотрели&lt;/h3&gt;&lt;ul&gt;&lt;li class="first"&gt;&lt;a class="browse-map-photo" title="Просмотреть профиль участника Alexey Zaharevsky" href='https://www.linkedin.com/pub/alexey-zaharevsky/65/91/34a?trk=pub-pbmap'&gt;&lt;img class="" alt="Alexey Zaharevsky" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/1/000/1fc/278/34d51fa.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/alexey-zaharevsky/65/91/34a?trk=pub-pbmap"&gt;Alexey Zaharevsky&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;CEO at ARTOX.com&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="Просмотреть профиль участника Maxim Mihalyov" href='https://www.linkedin.com/pub/maxim-mihalyov/45/717/449?trk=pub-pbmap'&gt;&lt;img class="" alt="Maxim Mihalyov" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/1/000/190/3fd/2fed6de.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/maxim-mihalyov/45/717/449?trk=pub-pbmap"&gt;Maxim Mihalyov&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Директор по развитию в ARTOX&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="Просмотреть профиль участника Denis Buko" href='https://www.linkedin.com/pub/denis-buko/40/31/b09?trk=pub-pbmap'&gt;&lt;img class="" alt="Denis Buko" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/3/000/0f7/220/260ab97.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/denis-buko/40/31/b09?trk=pub-pbmap"&gt;Denis Buko&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;CEO ARTOX media&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="Просмотреть профиль участника Владимир Липень" href='https://www.linkedin.com/pub/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80-%D0%BB%D0%B8%D0%BF%D0%B5%D0%BD%D1%8C/41/b2/4b0?trk=pub-pbmap'&gt;&lt;img class="" alt="Владимир Липень" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/2/000/0ff/3ad/0a015a7.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80-%D0%BB%D0%B8%D0%BF%D0%B5%D0%BD%D1%8C/41/b2/4b0?trk=pub-pbmap"&gt;Владимир Липень&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Project Manager/Business Analyst - ScienceSoft&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="Просмотреть профиль участника Klimishena Yuliya" href='https://www.linkedin.com/pub/klimishena-yuliya/50/7b5/711?trk=pub-pbmap'&gt;&lt;img class="" alt="Klimishena Yuliya" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/3/000/280/0cf/3540eb6.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/klimishena-yuliya/50/7b5/711?trk=pub-pbmap"&gt;Klimishena Yuliya&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Marketing Director at ZORKA jewelry factory&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="Просмотреть профиль участника Svetlana Dubojskaya" href='https://www.linkedin.com/pub/svetlana-dubojskaya/45/9a7/3a4?trk=pub-pbmap'&gt;&lt;img class="" alt="Svetlana Dubojskaya" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/6/000/1fe/373/07a2cf0.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/svetlana-dubojskaya/45/9a7/3a4?trk=pub-pbmap"&gt;Svetlana Dubojskaya&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Руководитель проекта - Медицинский портал 103.by. Проект компании ARTOX&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="Просмотреть профиль участника Tatiana Golovneva" href='https://www.linkedin.com/pub/tatiana-golovneva/99/ab4/436?trk=pub-pbmap'&gt;&lt;img class="" alt="Tatiana Golovneva" width="60" height="60" src="https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_60x60_v1.png"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/tatiana-golovneva/99/ab4/436?trk=pub-pbmap"&gt;Tatiana Golovneva&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Руководитель - relax.by&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="Просмотреть профиль участника Elena Smykovskaya" href='https://www.linkedin.com/pub/elena-smykovskaya/41/602/22a?trk=pub-pbmap'&gt;&lt;img class="" alt="Elena Smykovskaya" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/6/005/0a5/10d/39a2189.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/elena-smykovskaya/41/602/22a?trk=pub-pbmap"&gt;Elena Smykovskaya&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Itransition&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="Просмотреть профиль участника Vitali Dudin" href='https://www.linkedin.com/pub/vitali-dudin/5/895/983?trk=pub-pbmap'&gt;&lt;img class="" alt="Vitali Dudin" width="60" height="60" src="https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_60x60_v1.png"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/vitali-dudin/5/895/983?trk=pub-pbmap"&gt;Vitali Dudin&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Project Manager at AITOC&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="Просмотреть профиль участника Kirill Makarenko" href='https://www.linkedin.com/pub/kirill-makarenko/46/6a9/13b?trk=pub-pbmap'&gt;&lt;img class="" alt="Kirill Makarenko" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/1/000/26c/2c4/3181412.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/kirill-makarenko/46/6a9/13b?trk=pub-pbmap"&gt;Kirill Makarenko&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Project Manager в EffectiveSoft&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_browse_map",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div class="right-fixed"&gt;&#xD;
+&lt;div class="ganz-module ad"&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_right_ad",{event:"before",type:"html"});&lt;/script&gt;&lt;iframe width='300' scrolling='no' height='250' frameborder='0' allowtransparency='true' border='0' data-src='/csp/dtag?sz=300x250&amp;ti=2&amp;p=1&amp;z=full_profile&amp;_x=%3Bcompany%3D2057593%3Bpcntry%3Dby' src='/csp/dtag?sz=300x250&amp;ti=2&amp;p=1&amp;z=full_profile&amp;_x=%3Bcompany%3D2057593%3Bpcntry%3Dby'&gt;&lt;/iframe&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_right_ad",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div id="page-loading"&gt;&lt;/div&gt;&#xD;
+&lt;div id="alert-a11y"&gt;&lt;/div&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_view_tracking",{event:"before",type:"html"});&lt;/script&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_view_tracking",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;div id="directory" class="us"&gt;&#xD;
+&lt;h3&gt;&#xD;
+Каталог участников LinkedIn.&#xD;
+&lt;/h3&gt;&#xD;
+&lt;ol type="a" class="primary"&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-a"&gt;a&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-b"&gt;b&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-c"&gt;c&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-d"&gt;d&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-e"&gt;e&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-f"&gt;f&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-g"&gt;g&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-h"&gt;h&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-i"&gt;i&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-j"&gt;j&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-k"&gt;k&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-l"&gt;l&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-m"&gt;m&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-n"&gt;n&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-o"&gt;o&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-p"&gt;p&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-q"&gt;q&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-r"&gt;r&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-s"&gt;s&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-t"&gt;t&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-u"&gt;u&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-v"&gt;v&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-w"&gt;w&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-x"&gt;x&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-y"&gt;y&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-z"&gt;z&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://www.linkedin.com/directory/people-1" class="callout-trigger nlcl-hovercard-trigger"&gt;ещё&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li class="country-search"&gt;&#xD;
+Искать участников &lt;a href="http://www.linkedin.com/static?key=country_listing"&gt;по странам&lt;/a&gt;.&#xD;
+&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;script type="text/javascript"&gt;LI.Controls.processQueue();&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("e9b527183831de1320cc717b2b2b0000-14",{event:"before",type:"html"});&lt;/script&gt;&lt;div id="footer" class="remote-nav" role="contentinfo"&gt;&#xD;
+&lt;div class="wrapper"&gt;&#xD;
+&lt;p id="copyright" class="guest"&gt;&lt;em&gt;&amp;copy; 2015&lt;/em&gt; &lt;span&gt;LinkedIn Corporation&lt;/span&gt;&lt;/p&gt;&#xD;
+&lt;ul id="nav-legal"&gt;&#xD;
+&lt;li&gt;&lt;a href="http://www.linkedin.com/legal/user-agreement?trk=hb_ft_userag"&gt;Пользовательское соглашение&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;a href="http://www.linkedin.com/legal/privacy-policy?trk=hb_ft_priv"&gt;Политика конфиденциальности&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+&lt;a href="http://linkedin-ru.custhelp.com/app/answers/global/id/34593/ft/eng/loc/na/trk/nprofile_v2_public_fs/" target="_blank" rel="nofollow"&gt;Правила сообщества&lt;/a&gt;&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;a href="http://www.linkedin.com/legal/cookie-policy?trk=hb_ft_cookie"&gt;Политика использования файлов cookie&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;a href="http://www.linkedin.com/legal/copyright-policy?trk=hb_ft_copy"&gt;Политика защиты авторских прав&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;a href="/psettings/guest-controls" rel="nofollow"&gt;Настройки гостя&lt;/a&gt;&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;script type="text/javascript"&gt;if(LI.showAllDeferredImg){LI.showAllDeferredImg('header',false);LI.showAllDeferredImg('footer',false);}&#xD;
+if(typeof(oUISettings)!=='undefined'){oUISettings.saveSettingsURL="/lite/secure-ui-settings-save-old?csrfToken=ajax%3A1235633909072661722";}&#xD;
+if(typeof(WebTracking)!=='undefined'){WebTracking.saveWebActionTrackURL="/lite/secure-web-action-track?csrfToken=ajax%3A1235633909072661722";}&lt;/script&gt;&#xD;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=3i7ubdukif1jevuf29ftmtvjs-7bt8yq2swxj00zqwcc3anfs61-du9b5xv93paiu4gm8x4awcgkb-1m7sfcez3isjwlg5yrudwy1mz-clz7gb1h1gqkujqk14gbprnf5"&gt;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;fs._server.fire("e9b527183831de1320cc717b2b2b0000-14",{event:"after",type:"html"});&lt;/script&gt;&#xD;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=178w1amns5ya7addmlk0qioxi-akfe1g1hb660050homjb2nwnr-3tdm4y44d9wld0j7i3gs0x10x-cv9gkh1737nocd0rckdxvm62r&amp;amp;fc=2"&gt;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;if(!window.LI){window.LI={};}&#xD;
+LI.RUM=LI.RUM||{};(function(RUM,win){var doc=win.document;RUM.flags=RUM.flags||{};RUM.flags['host-flag']="control";RUM.flags['pop_beacons_frequency']="n100-ap0-la0-va0-tx0-sg0-db0-hk0-sp0-ln0";RUM.flags['rs_timings_individual']="control";RUM.urls=RUM.urls||{};RUM.urls['rum-track']="\/lite\/rum-track?csrfToken=ajax%3A1235633909072661722";RUM.urls['boomerang-bw-img']="https:\/\/static.licdn.com\/scds\/common\/u\/lib\/boomerang\/0.9.edge.4ab208445a\/img\/";RUM.base_urls=RUM.base_urls||{};RUM.base_urls['permanent_content']="https:\/\/static.licdn.com\/scds\/common\/u\/";RUM.base_urls['versioned_content']="https:\/\/static.licdn.com\/scds\/concat\/common\/";RUM.base_urls['media_proxy']="https:\/\/media.licdn.com\/media-proxy\/";RUM.serverStartTime=1.431635848611E12;RUM.enabled=true;function getRumScript(){var node=doc.body||doc.head||doc.getElementsByTagName('head')[0],script=doc.createElement('script');script.src=["https://static.licdn.com/scds/concat/common/js?h=ed29nkjpsa16bhrjq4na16owq-1mucgfycc664m7vmhpjgqse65-1l5rurej3h44qodo5rn0cdvyn-8om6v2ckrxsbnwf40t9ta8a7e-976eucr14azn1gu6x533uu349-2synzw3ivmhrn50ohpnw25tmi-1y9z2glmtedcvrfyiqkhck034-1m0whdrwis44c1hoa9mrwhlt4-1uvutm1mpyov7rqhtcf8fksby-aac54ic1fmca5xz1yvc5t9nfe-1j44mtld6bg6j15r3084aldco-c0121povror81d0xao0yez4gy&amp;fc=2"][0];node.appendChild(script);}&#xD;
+if(win.addEventListener){win.addEventListener('load',getRumScript);}&#xD;
+else{win.attachEvent('onload',getRumScript);}}(LI.RUM,window));&lt;/script&gt;&#xD;
+&lt;script id="localChrome"&gt;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=2ebjbstp8v6b9e69i2cvi8za8&amp;amp;fc=2"&gt;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=9r6w26n7agtxdgb861vr2tqht-3ute2g4ivrwzi292adtikwnrx-9k5nqxk2bamhakv2zd0ixdhmc-pga7vmnfl2zxgj9h9xzfi4wd-ay5lf43pz1mk9fvr45a78meyl&amp;amp;fc=2"&gt;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;//&lt;![CDATA[&#xD;
+(function(){"use strict";var bcookie=LI.readCookie("bcookie"),urlTemplate="/lite/page-track?ptype=PAGETYPE_PLACEHOLDER&amp;pkey=PAGEKEY_PLACEHOLDER&amp;jsonInfo=TRACKINGINFO_PLACEHOLDER&amp;trk=TRK_PLACEHOLDER";window.ProfilePageTracking=function(pageType,pageKey,trk,jsonTrackingInfo){var url,jsonTrackingInfoStr;if(!bcookie||!pageType||!pageKey){return;}&#xD;
+if(!JSON||!JSON.stringify){return;}&#xD;
+jsonTrackingInfoStr=jsonTrackingInfo&amp;&amp;JSON&amp;&amp;JSON.stringify?JSON.stringify(jsonTrackingInfo):"";url=urlTemplate.replace("PAGETYPE_PLACEHOLDER",pageType).replace("PAGEKEY_PLACEHOLDER",pageKey).replace("TRK_PLACEHOLDER",trk||"").replace("TRACKINGINFO_PLACEHOLDER",jsonTrackingInfoStr);YConn.asyncRequest("get",url,{});};})();&#xD;
+//]]&gt;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;//&lt;![CDATA[&#xD;
+(function(require){var bcookie=escape(readCookie("bcookie")),$=window.$||(require&amp;&amp;require('jquery')),newTrkInfo='1496932,'+document.referrer.substr(0,128)+'',alias_secure='/analytics/noauthtracker?type=leo%2EpageTracking&amp;pageType=full_page&amp;pageKey=nprofile_v2_public_fs_jsbeacon&amp;trkInfo=REPLACEME',alias_normal='http://www.linkedin.com/analytics/noauthtracker?type=leo%2EpageTracking&amp;pageType=full_page&amp;pageKey=nprofile_v2_public_fs_jsbeacon&amp;trkInfo=REPLACEME',is_secure=true,url=(is_secure)?alias_secure:alias_normal;function readCookie(name){var nameEQ=name+'=',ca=document.cookie.split(';');for(var i=0;i&lt;ca.length;i++){var c=ca[i];while(c.charAt(0)===' '){c=c.substring(1,c.length);}&#xD;
+if(c.indexOf(nameEQ)===0){return c.substring(nameEQ.length,c.length);}}&#xD;
+return null;}&#xD;
+url=url.replace("REPLACEME",newTrkInfo);url=url.replace("trkInfo=","trackingInfo=");if(bcookie){if($&amp;&amp;$.ajax){$.ajax(url);}else if(window.YAHOO){window.YAHOO.util.Connect.asyncRequest('get',url,{});}}})(window.require);&#xD;
+//]]&gt;&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;(function(){var DOMAIN_NAME=window.location.hostname.replace(/.*\.([^\.]+\.[^\.]+)/,'$1'),DOMAIN_NAME_PROD='linkedin.com';function getRemoteFrameUrl(){return('https:'===document.location.protocol?'https://':'http://')+'platform.'+DOMAIN_NAME+'/js/thirdPartyJSDelegatorFrame.html';}&#xD;
+function loadExternalTracking(){var thirdPartyJs=new Espany({remote:getRemoteFrameUrl(),ready:function(){if(DOMAIN_NAME!==DOMAIN_NAME_PROD){return;}&#xD;
+thirdPartyJs.run('_gaq.push',[['_setReferrerOverride',document.referrer]]);thirdPartyJs.run('_gaq.push',[['_setAccount','UA-3242811-1']]);thirdPartyJs.run('_gaq.push',[['_setDomainName',DOMAIN_NAME_PROD]]);thirdPartyJs.run('_gaq.push',[['_trackPageview','nprofile_v2_public_fs']]);thirdPartyJs.run('_gaq.push',[['_setVar','guest']]);thirdPartyJs.loadScript('ga');}});}&#xD;
+window.addEventListener('load',loadExternalTracking);})();&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;if(window.dust&amp;&amp;dust.jsControl&amp;&amp;dust.jsControl.flushControlIds){LI_WCT(dust.jsControl.flushControlIds.split(","));dust.jsControl.flushControlIds=null;}&#xD;
+if(window.dust&amp;&amp;dust.jsControl&amp;&amp;dust.jsControl.controlIds){LI_WCT(dust.jsControl.controlIds);dust.jsControl.controlIds=[];}&#xD;
+if(window.LI&amp;&amp;LI.showAllDeferredImg&amp;&amp;!LI.imgDeferFoldCheckDone&amp;&amp;dust&amp;&amp;dust.imgDefer&amp;&amp;dust.imgDefer.imgDeferUsed){LI.showAllDeferredImg(document.body,false);LI.imgDeferFoldCheckDone=true;}&lt;/script&gt;&#xD;
+&lt;script type="text/javascript"&gt;LI.Controls.processQueue();&lt;/script&gt;&#xD;
+&lt;script class="comscore-tracking"&gt;(function(fetchCS,isSecure,_e,_r){var fireComscore=function(){var _c=window.COMSCORE;if(_c){_c.beacon({c1:2,c2:6402952,c3:"",c4:"",c5:"",c6:"",c15:""});}};var fireExternalTracking=function(et){et.setTreatment('enabled_1.0');et.trackWithComScoreForChromeInit();};var track=function(){var et;if(_e){fireExternalTracking(_e);}else if(_r&amp;&amp;typeof _r.ensure==='function'){try{_r.ensure(['externalTracking'],function(require){try{et=require('externalTracking');fireExternalTracking(et);}catch(e){fireComscore();}});}catch(e){fireComscore();}}else if(_r&amp;&amp;_r._is_li){try{et=require('externalTracking');fireExternalTracking(et);}catch(e){fireComscore();}}else{fireComscore();}};var loadCS=function(onScriptLoad){var s=document.createElement('script');if(s.readyState){s.onreadystatechange=function(){if(s.readyState==='loaded'){onScriptLoad();}};}else{s.onload=onScriptLoad;}&#xD;
+s.src=(isSecure?'https://sb':'http://b')+'.scorecardresearch.com/beacon.js';document.getElementsByTagName('head')[0].appendChild(s);};if(fetchCS){window.addEventListener('load',function(){loadCS(track);});}else{window.addEventListener('load',track);}}(!false,!!true,window.externalTracking,window.require));&lt;/script&gt;&#xD;
+&lt;noscript&gt;&#xD;
+&lt;img src="https://sb.scorecardresearch.com/b?c1=2&amp;amp;c2=6402952&amp;amp;c3=&amp;amp;c4=&amp;amp;c5=&amp;amp;c6=&amp;amp;c15=&amp;amp;cv=1.3&amp;amp;cj=1" style="display:none" width="0" height="0" alt=""/&gt;&#xD;
+&lt;/noscript&gt;&#xD;
+&lt;script&gt;window.addEventListener('load',function(){var protocol='https:',d=new Image(1,1);d.onerror=d.onload=function(){d.onerror=d.onload=null;};d.src=[protocol,"//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603751h&amp;cg=0&amp;cc=1&amp;si=",escape(window.location.href),"&amp;ts=compact&amp;rnd=",(new Date()).getTime()].join('');});&lt;/script&gt;&#xD;
+&lt;noscript&gt;&#xD;
+&lt;img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603751h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" style="display:none"/&gt;&#xD;
+&lt;/noscript&gt;&#xD;
+&lt;script&gt;window.addEventListener('load',function(){var d=new Image(1,1);d.onerror=d.onload=function(){d.onerror=d.onload=null;};d.src="/csp/dtag?p=10";});&lt;/script&gt;&#xD;
+&lt;noscript&gt;&#xD;
+&lt;img src="/csp/dtag?p=10" width="1" height="1" alt="" style="display:none"/&gt;&#xD;
+&lt;/noscript&gt;&#xD;
+&lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

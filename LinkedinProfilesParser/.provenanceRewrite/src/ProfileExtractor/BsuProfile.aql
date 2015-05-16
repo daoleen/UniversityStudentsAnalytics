@@ -1,0 +1,47 @@
+module ProfileExtractor;
+
+
+create dictionary "BsuDict" from file 'BSU.dict'
+with case insensitive
+  and language as 'en'
+;
+
+
+create dictionary "BsuNegativeDict" from file 'BSU_Negative.dict'
+with case insensitive
+  and language as 'en'
+;
+
+
+create view BsuProfile as
+  select
+    u.url as url,
+    n.name as name,
+    s.skills as skills,
+    AutoID() as __auto__id,
+    'STMT_TYPE_SELECT' as __stmt__type,
+    u.__auto__id as Url_____sep_____u____id,
+    n.__auto__id as Name_____sep_____n____id,
+    s.__auto__id as Skills_____sep_____s____id,
+    -1 as Document_____sep_____D____id
+  from
+    Url u,
+    Name n,
+    Skills s,
+    Document D
+  where
+    ContainsDict(
+      'BsuDict',
+      D.text
+    )
+    and
+      Not(
+        ContainsDict(
+          'BsuNegativeDict',
+          D.text
+        )
+      );
+output view BsuProfile;
+
+
+

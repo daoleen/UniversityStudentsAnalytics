@@ -17,6 +17,6 @@ Author: Alexander Kozlov [alexssource@gmail.com]</description>
         <asset id="Russian Names Parser" subtype="TEXTANALYTICS" type="WORKFLOW"/>
         <asset id="RussianNamesParser" subtype="TEXTANALYTICS" type="BIGSHEETSPLUGIN"/>
     </assets>
-    <imagePath>defaultApp_L.png</imagePath>
+    <imagePath>RussianNamesParser.png</imagePath>
     <categories>BSUIR</categories>
 </application-template>

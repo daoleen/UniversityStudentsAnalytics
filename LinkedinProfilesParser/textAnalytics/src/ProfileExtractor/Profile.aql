@@ -1,0 +1,36 @@
+module ProfileExtractor; 
+
+
+--create view Url as
+--	extract regex /.*rel="canonical" href="https:\/\/www.linkedin.com\/in\/([a-z0-9]+)"\/\>.*/ on D.text
+--	return group 1 as url
+--from Document D;
+
+/*
+create view Name as
+	extract regex /<span class="full-name" dir="auto">(.*?)<\/span>/ on D.text
+	return group 1 as name
+from Document D; 
+
+create view Skills as
+	extract regex /class="endorse-item-name-text">(.+?)<\// on D.text
+	return group 1 as skills
+from Document D;
+
+-- /(?m)(?i)<div id="education-[0-9]+-view">[\r]?[\n]?<div class="education[ first]*">[\r]?[\n]?(<a.*<\/a>[\r]?[\n]?)?<header>[\r]?[\n]?<h4 class="summary fn org" dir="auto">[\r]?[\n]?(<a[ a-z\"\&\'=:\\\?\.;_\/0-9]*>)?([a-z ]*)(<\/a>)?[\r]?[\n]?<\/h4>/ on D.text
+create view Education as
+	extract regex /(?m)(?i)<div id="education-[0-9]+-view">[\r]?[\n]?<div class="education[ first]*">[\r]?[\n]?(<a.*<\/a>[\r]?[\n]?)?<header>[\r]?[\n]?<h4 class="summary fn org" dir="auto">[\r]?[\n]?(<a[ a-z\"\&\'=:\\\?\.;_\/0-9]*>)?([a-z, ]*)(<\/a>)?[\r]?[\n]?<\/h4>(?![a-zA-Z ]*\3)/ on D.text
+	return group 3 as education
+from Document D;
+
+create view UniqueEducation as
+	select E.* from Education E
+	consolidate on E.education using 'NotContainedWithin';
+
+create view Profile as
+	select u.*,n.*,s.*, e.* 
+	from Url u, Name n, Skills s, Education e;
+*/
+-- output view UniqueEducation;
+
+-- TODO: try to use positive and negative dictionary

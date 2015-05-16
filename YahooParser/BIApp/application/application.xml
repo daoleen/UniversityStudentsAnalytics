@@ -1,6 +1,8 @@
 <application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <name>Yahoo Parser</name>
-    <description>Parse the yahoo results of BSUIR students</description>
+    <description>Parse the yahoo results of BSUIR students into profiles URL file&#13;
+&#13;
+Author: Alexander Kozlov [alexssource@gmail.com]</description>
     <properties>
         <property description="The path to a file or a directory that contains the input data." isDataset="false" isInputPath="true" isOutputPath="false" isRequired="true" label="Input Data" name="datapath" paramtype="PATH" uitype="textfield"/>
         <property defaultValue="YahooModule.yahooView" description="Select an output view to use." isInputPath="false" isOutputPath="false" isRequired="true" label="Output View" name="outputview" paramtype="LIST" uitype="textfield" validValues="YahooModule.yahooView,ALL"/>
@@ -15,6 +17,6 @@
         <asset id="Yahoo Parser" subtype="TEXTANALYTICS" type="WORKFLOW"/>
         <asset id="YahooParser" subtype="TEXTANALYTICS" type="BIGSHEETSPLUGIN"/>
     </assets>
-    <imagePath>defaultApp_L.png</imagePath>
+    <imagePath>YahooParser.png</imagePath>
     <categories>BSUIR</categories>
 </application-template>

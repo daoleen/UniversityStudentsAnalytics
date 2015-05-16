@@ -1,0 +1,10 @@
+#Thu May 14 02:45:59 MSK 2015
+langWare.tokenizerChoice=1
+srcTextAnalyticsPath=[P]textAnalytics/src
+general.provenance=true
+searchPath.dataPath=[W]/LinkedinProfilesParser
+pagination.isEnabled=true
+tamTextAnalyticsPath=[P]textAnalytics/bin
+result.rootDir=result
+pagination.numFilesPerPage=50
+UseModularAQL=true

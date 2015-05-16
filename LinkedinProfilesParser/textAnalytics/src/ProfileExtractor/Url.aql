@@ -1,0 +1,8 @@
+module ProfileExtractor;
+
+create view Url as
+	extract regex /.*rel="canonical" href="https:\/\/www.linkedin.com\/in\/([a-z0-9]+)"\/\>.*/ on D.text
+	return group 1 as url
+from Document D;
+
+export view Url;

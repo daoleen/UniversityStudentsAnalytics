@@ -1,0 +1,23 @@
+module ProfileExtractor;
+
+
+create view Url as
+  extract
+    AutoID() as __auto__id,
+    'STMT_TYPE_EXTRACT_REGEX' as __stmt__type,
+    -1 as Document_____sep_____D____id,
+    regex
+      /.*rel="canonical" href="https:\/\/www.linkedin.com\/in\/([a-z0-9]+)"\/\>.*/
+    with flags 
+      'DOTALL'
+    on D.text
+    return
+    group 1 as url
+
+  from
+    Document D;
+output view Url;
+
+export view ProfileExtractor.Url;
+
+

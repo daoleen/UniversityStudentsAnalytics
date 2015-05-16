@@ -1,0 +1,23 @@
+module ProfileExtractor;
+
+
+create view Skills as
+  extract
+    AutoID() as __auto__id,
+    'STMT_TYPE_EXTRACT_REGEX' as __stmt__type,
+    -1 as Document_____sep_____D____id,
+    regex
+      /class="endorse-item-name-text">(.+?)<\//
+    with flags 
+      'DOTALL'
+    on D.text
+    return
+    group 1 as skills
+
+  from
+    Document D;
+output view Skills;
+
+export view ProfileExtractor.Skills;
+
+

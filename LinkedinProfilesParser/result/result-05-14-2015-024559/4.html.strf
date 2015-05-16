@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:systemTComputationResult xmlns:ns2="http://www.ibm.com/systemt/result" gsComplete="false">
+    <documentID>4.html</documentID>
+    <inputTextID>16</inputTextID>
+    <outputViews>
+        <fieldNames>url</fieldNames>
+        <fieldNames>name</fieldNames>
+        <fieldNames>skills</fieldNames>
+        <fieldTypes>SPAN</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <fieldTypes>SPAN</fieldTypes>
+        <name>ProfileExtractor.Profile</name>
+        <origViewName>ProfileExtractor.Profile</origViewName>
+        <rows>
+            <spanVal start="7162" end="7174" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="14634" end="14650" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="22327" end="22330" sourceID="16" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="7162" end="7174" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="14634" end="14650" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="22477" end="22491" sourceID="16" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="7162" end="7174" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="14634" end="14650" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="22638" end="22641" sourceID="16" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="7162" end="7174" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="14634" end="14650" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="22788" end="22807" sourceID="16" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="7162" end="7174" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="14634" end="14650" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="22954" end="22964" sourceID="16" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="7162" end="7174" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="14634" end="14650" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="23111" end="23115" sourceID="16" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="7162" end="7174" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="14634" end="14650" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="23262" end="23268" sourceID="16" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="7162" end="7174" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="14634" end="14650" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="23415" end="23419" sourceID="16" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="7162" end="7174" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="14634" end="14650" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="23566" end="23569" sourceID="16" parentSpanName="Document.text"/>
+        </rows>
+        <rows>
+            <spanVal start="7162" end="7174" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="14634" end="14650" sourceID="16" parentSpanName="Document.text"/>
+            <spanVal start="23716" end="23738" sourceID="16" parentSpanName="Document.text"/>
+        </rows>
+    </outputViews>
+    <textMap>
+        <entry>
+            <key>16</key>
+            <value>&lt;!DOCTYPE html&gt;
+&lt;!--[if lt IE 7]&gt; &lt;html lang="en" class="ie ie6 lte9 lte8 lte7 os-other"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt; &lt;html lang="en" class="ie ie7 lte9 lte8 lte7 os-other"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt; &lt;html lang="en" class="ie ie8 lte9 lte8 os-other"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 9]&gt; &lt;html lang="en" class="ie ie9 lte9 os-other"&gt; &lt;![endif]--&gt;
+&lt;!--[if gt IE 9]&gt; &lt;html lang="en" class="os-other"&gt; &lt;![endif]--&gt;
+&lt;!--[if !IE]&gt;&lt;!--&gt; &lt;html lang="en" class="os-other"&gt; &lt;!--&lt;![endif]--&gt;
+&lt;head&gt;
+&lt;script src="https://static.licdn.com:443/scds/common/u/lib/fizzy/fz-1.3.8-min.js" type="text/javascript"&gt;&lt;/script&gt;&lt;script type="text/javascript"&gt;fs.config({"failureRedirect":"http://www.linkedin.com/nhome/","uniEscape":true,"xhrHeaders":{"X-FS-Origin-Request":"/in/shandarovich","X-FS-Page-Id":"nprofile-public-vanity"}});&lt;/script&gt;&lt;script&gt;&lt;/script&gt;
+&lt;meta name="globalTrackingUrl" content="//www.linkedin.com/mob/tracking"&gt;
+&lt;meta name="globalTrackingAppName" content="profile"&gt;
+&lt;meta name="globalTrackingAppId" content="webTracking"&gt;
+&lt;meta name="lnkd-track-json-lib" content="https://static.licdn.com/scds/concat/common/js?h=2jds9coeh4w78ed9wblscv68v-ebbt2vixcc5qz0otts5io08xv&amp;amp;fc=2"&gt;
+&lt;meta name="lnkd-track-lib" content="https://static.licdn.com/scds/concat/common/js?h=ebbt2vixcc5qz0otts5io08xv&amp;amp;fc=2"&gt;
+&lt;meta name="treeID" content="hzAOYuKg1BPgBxFJkisAAA=="&gt;
+&lt;meta name="appName" content="profile"&gt;
+&lt;meta name="lnkd-track-error" content="/lite/ua/error?csrfToken=ajax%3A7092434357326896039"&gt;
+&lt;script type="text/javascript"&gt;function initJet(){if(window['jet']){jet.conf({scHost:"static.licdn.com",xhrHeaders:{'Csrf-Token':'ajax:7092434357326896039'}});jet.bind();}}&lt;/script&gt;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=esvqkvi4e56vwexmljw35zly9&amp;amp;fc=2"&gt;&lt;/script&gt;
+&lt;meta http-equiv="content-type" content="text/html; charset=UTF-8"&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+&lt;meta name="pageImpressionID" content="30af48ba-df1e-4f40-bab3-24b1d5859c78"&gt;
+&lt;meta name="pageKey" content="nprofile_v2_public_fs"&gt;
+&lt;meta name="analyticsURL" content="/analytics/noauthtracker"&gt;
+&lt;link rel="openid.server" href="https://www.linkedin.com/uas/openid/authorize"&gt;
+&lt;link rel="apple-touch-icon-precomposed" href="https://static.licdn.com/scds/common/u/img/icon/apple-touch-icon.png"&gt;
+&lt;!--[if lte IE 8]&gt;
+  &lt;link rel="shortcut icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/16x16/favicon.ico"&gt;
+&lt;![endif]--&gt;
+&lt;!--[if IE 9]&gt;
+  &lt;link rel="shortcut icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"&gt;
+&lt;![endif]--&gt;
+&lt;link rel="icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"&gt;
+&lt;meta name="msapplication-TileImage" content="https://static.licdn.com/scds/common/u/images/logos/linkedin/logo-in-win8-tile-144_v1.png"/&gt;
+&lt;meta name="msapplication-TileColor" content="#0077B5"/&gt;
+&lt;meta name="application-name" content="LinkedIn"/&gt;
+&lt;link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=765zh9odycznutep5f0mj07m4-c8kkvmvykvq2ncgxoqb13d2by-38so5ftc5lv2bbm0jf5rvv1qj-7mxyksftlcjzimz2r05hd289r-4uu2pkz5u0jch61r2nhpyyrn8-7poavrvxlvh0irzkbnoyoginp-4om4nn3a2z730xs82d78xj3be-mea0xb6thaagfbcx9i1vg82z-ct4kfyj4tquup0bvqhttvymms-a6c7eivr8umrp20gkm4s5m4kd-9zbbsrdszts09by60it4vuo3q-8ti9u6z5f55pestwbmte40d9-2t8mgj62l3duejjw8chja96jr-3pwwsn1udmwoy3iort8vfmygt-b1019pao2n44df9be9gay2vfw-aau7s6f37xbtq1daynn0bb656-ab01tg8funn2n1exayaej7367&amp;amp;fc=2"&gt;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=3nuvxgwg15rbghxm1gpzfbya2-35e6ug1j754avohmn1bzmucat-mv3v66b8q0h1hvgvd3yfjv5f-14k913qahq3mh0ac0lh0twk9v-1odoqm6uqzmutse6kyk5satus-b7ksroocq54owoz2fawjb292y-62og8s54488owngg0s7escdit-c8ha6zrgpgcni7poa5ctye7il-8gz32kphtrjyfula3jpu9q6wl-51dv6schthjydhvcv6rxvospp-e9rsfv7b5gx0bk0tln31dx3sq-2r5gveucqe4lsolc3n0oljsn1-8v2hz0euzy8m1tk5d6tfrn6j-di2107u61yb11ttimo0s2qyh2-38i6il2zabqvakfzq8wpcvmwh-65g0nk4m6tn265pcs5sjo73gx-a7br995b5xb4ztral63cjods4-1j5yeidfdiltik0gx4ekvcwvk-9wkskbn6s2q25rkbrnuwlqric-39kuwv80yvqr74w4oe9bge0md-ejfdcbibyn0amjrpy1bw898cw-370m60vrzsp5vx8i8wie69mme-b0otj9zjsih2zu4s3gxjejik2-czstax4e6y68hymdvqxpwe5so-3g8gynfr7fip2svw23i5ixnw3&amp;amp;fc=2"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;LI.define('UrlPackage');LI.UrlPackage.containerCore=["https://static.licdn.com/scds/concat/common/js?h=d7z5zqt26qe7ht91f8494hqx5&amp;fc=2"][0];&lt;/script&gt;
+&lt;script type="text/javascript"&gt;if(typeof LI==='undefined'||!LI){window.LI={};}
+LI.JSContentBasePath="https://static.licdn.com/scds/concat/common/js?v=build-2000_8_45760-prod&amp;fc=2";LI.CSSContentBasePath="https://static.licdn.com/scds/concat/common/css?v=build-2000_8_45760-prod&amp;fc=2";LI.injectRelayHtmlUrl="https://static.licdn.com/scds/common/u/lib/inject/0.6.1/relay.html";LI.comboBaseUrl="https://static.licdn.com/scds/concat/common/css?v=build-2000_8_45760-prod&amp;fc=2";LI.staticUrlHashEnabled=true;&lt;/script&gt;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=25kaepc6rgo1820ap1rglmzr4-dtx8oyvln9y03x1ku6t0abhc9-9yrlkzqdz2fq4zzcxtkisx0j2-edp77ghrpkbbons0amvyb2ejm-8ohb0iio22nbqe1w8et54sawe-5n5dp3pn32p4zstdag5cbpr1-eehwe5piqwg4elnl8jvj9vpx-amjylk8w8039f2lwlov2e4nmc-47qp7uw3i5i1pqeovirlcc070-9w1b5mi5erarwbypvtw0a03k7-6dhio4t0fxvyu677a4z672e0-4izdpghi4r0b0uhhivo34xsvq-9a0rznn8mui615f4o75jq7hz2-dta7xzw3a1itnwo44eolyusn5-67xlf04tp198rsgnplkzm3mv0-9undj1hjru2i7vjjlqtb52ho2-7vr4nuab43rzvy2pgq7yvvxjk-4yhpyv3p9r574wkkbe8kcd2ou&amp;amp;fc=2"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("87300e62e2a0d413e0071149922b0000-1",{event:"before",type:"html"});&lt;/script&gt;&lt;meta name="remote-nav-init-marker" content="true"/&gt;
+&lt;link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=a6c7eivr8umrp20gkm4s5m4kd-97e8d4eayfhidw2dd270waunt"&gt;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=ditm8xdycl29ta8gqk5tpmxf8-czstax4e6y68hymdvqxpwe5so"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("87300e62e2a0d413e0071149922b0000-1",{event:"after",type:"html"});&lt;/script&gt;
+&lt;script type="text/javascript"&gt;document.cookie='lang="v=2&amp;lang=en-us"; domain=linkedin.com; version=0; path=/;';&lt;/script&gt;
+&lt;title&gt;Шандарович Вадим | LinkedIn&lt;/title&gt;
+&lt;link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=c52xqty03kc2uumayfdgw52ha-5qepclc3rpoubxgkk4whxb5ux-9isvvzw61fpveso9doy1mzsas-dxl1g2k3wk6qpss8oq9lwul9c-95t6vcl2cgpx3042md6zm5jzo&amp;amp;fc=2"&gt;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=4zslye83akez5s4mf91hrq425-95d8d303rtd0n9wj4dcjbnh2c-b0i2ltvivggf15dlzc359ook3-7r1hr0x81n4m5vdil2awiladb-alv1b6ogz9d0wdvu14407mm19-2xkrig2d2e38eolz4s6d5kfkh-8czwq9t5lhsf1yk8ncis7lv0l&amp;amp;fc=2"&gt;&lt;/script&gt;
+&lt;meta name="description" content="View Шандарович Вадим&amp;#39;s professional profile on LinkedIn. LinkedIn is the world&amp;#39;s largest business network, helping professionals like Шандарович Вадим discover inside connections to recommended job candidates, industry experts, and business partners."/&gt;
+
+
+
+&lt;!--  HERE  --&gt;
+&lt;link rel="canonical" href="https://www.linkedin.com/in/shandarovich"/&gt;
+
+
+
+
+&lt;script type="text/javascript" src="https://www.linkedin.com/uas/authping?url=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fin%2Fshandarovich"&gt;&lt;/script&gt;
+&lt;meta name="robots" content="noarchive"&gt;
+&lt;link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=dh9s2pgf6ghcuifobl7cvitf9-e82rrnlpdi6z0cb9r53vgs7oq-bkqpriy4ea7fbnyb8f2goy42k-bhqtrfmu0yy6pmhps4yvsey9z-ewffyujkzw16w4cqbdxpr2jcn-2etocv30ny3fvxpnkhhmogqjo&amp;amp;fc=2"&gt;
+&lt;link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=8qx2838nsr0nlhw9cqzbzdy15-3s4kzozatpjn0111dzief64t8-7l7clejgfr0tmifzaylyar87t-ebsvwtq37n6zk5hpumk8wkyzx-bdbf6e0ke9dyaw0i0997zhe67-3jwa0iljvjbntb50hywszyrd5-8knqamxdde8wlijprzg360262&amp;amp;fc=2"&gt;
+&lt;link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=mf1yk19jqq03reh5n0bxflhz-31prk94ajkubfe7g1lpnhnisf-78d55nkv623z169l1h0pt21kq-ba2tirfqlpr4sxnqihowtvb4z-668nv4nehgxq542wxh6t6bcu1-akxgi2uhstnf6l5v8fhf3qtrw-5yq3ug0mq7ait7ppz3mk6y4kr&amp;amp;fc=2"&gt;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=4hbqp7aoxoph1cnia8g1cujwf-6z73a0n27w1mz287zlva9cbcx-e4t0yj6tjycwmm5gb2d6tkiqd-8lb2fudgqzfhtmr0phq9xbjze-d2la7obrbyceb8fp1fvppfzea-e17zy6z51dugr6fy4su92o7de&amp;amp;fc=2"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;LI.define('profile.viewType');LI.profile.viewType='';if(!LI.p2Dialogs){LI.p2Dialogs={cssFiles:["https://static.licdn.com/scds/concat/common/css?h=cfsam81o5sp3cxb7m0hs933c4-e82rrnlpdi6z0cb9r53vgs7oq&amp;fc=2"]};}
+if(dust&amp;&amp;!dust.imgDefer){dust.imgDefer={imgDeferUsed:true}}&lt;/script&gt;
+&lt;/head&gt;
+&lt;body dir="ltr" class="guest v2  chrome-v5 chrome-v5-responsive sticky-bg guest" id="pagekey-nprofile_v2_public_fs"&gt;
+&lt;input id="inSlowConfig" type="hidden" value="false"/&gt;
+&lt;script type="text/javascript"&gt;document.body.className+=" js ";&lt;/script&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("87300e62e2a0d413e0071149922b0000-2",{event:"before",type:"html"});&lt;/script&gt;&lt;div id="a11y-menu" class="a11y-skip-nav-container"&gt;
+&lt;div class="a11y-skip-nav a11y-hidden"&gt;
+&lt;a href="#a11y-content" id="a11y-skip-nav-link"&gt;Skip to main content&lt;/a&gt;
+&lt;/div&gt;
+&lt;script id="control-http-12274-exec-23512364-1" type="linkedin/control" class="li-control"&gt;LI.Controls.addControl('control-http-12274-exec-23512364-1','A11yMenu',{jumpToText:'Jump to: &lt;strong&gt;Summary&lt;\/strong&gt;',skipToText:'Skip to: &lt;strong&gt;Search&lt;\/strong&gt;',feedbackText:'Accessibility Feedback',closeText:'close',anchorText:'Content Follows:',moreText:'More in-page navigation options below',smallPageText:'Not much to look at here. Go directly to content.',searchUrl:'\/vsearch\/f'});&lt;/script&gt;
+&lt;script id="control-http-12274-exec-23512364-2" type="linkedin/control" class="li-control"&gt;LI.KbDialogDependencies={jsFiles:["https://static.licdn.com/scds/concat/common/js?h=37zc8dm8vu14f1neta1ponx0o"],cssFiles:["https://static.licdn.com/scds/concat/common/css?h=9qwmbyyfabl3upqh3cyzbhd49"]};LI.Controls.addControl('control-http-12274-exec-23512364-2','kb.shortcuts',{homepageUrl:'http:\/\/www.linkedin.com\/nhome\/?trk=global_kb',profileUrl:'http:\/\/www.linkedin.com\/profile\/view?trk=global_kb',editProfileUrl:'http:\/\/www.linkedin.com\/profile\/edit?trk=global_kb',inboxUrl:'http:\/\/www.linkedin.com\/inbox\/#messages?trk=global_kb',jobsUrl:'http:\/\/www.linkedin.com\/job\/home?trk=global_kb',settingsUrl:'https:\/\/www.linkedin.com\/secure\/settings?req=&amp;trk=global_kb',influencerUrl:'http:\/\/www.linkedin.com\/influencers?trk=global_kb'});&lt;/script&gt;
+&lt;/div&gt;
+&lt;div id="header" class="global-header responsive-header nav-v5-2-header responsive-1 remote-nav" role="banner"&gt;
+&lt;div id="top-header"&gt;
+&lt;div class="wrapper"&gt;
+&lt;h2 class="logo-container"&gt;
+&lt;a href="http://www.linkedin.com/" class="logo" id="li-logo"&gt;
+LinkedIn Home
+&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul class="nav main-nav guest-nav" role="navigation"&gt;
+&lt;li class="nav-item"&gt;
+&lt;a href="http://www.linkedin.com/static?key=what_is_linkedin&amp;amp;trk=hb_what" class="nav-link"&gt;
+What is LinkedIn?
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="nav-item"&gt;
+&lt;a href="/reg/join?trk=hb_join" class="nav-link" rel="nofollow"&gt;
+Join Today
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="nav-item"&gt;
+&lt;a href="https://www.linkedin.com/uas/login?goback=%2Enppvan_shandarovich&amp;amp;trk=hb_signin" class="nav-link" rel="nofollow"&gt;
+Sign In
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="a11y-content"&gt;
+&lt;a name="a11y-content" tabindex="0" id="a11y-content-link"&gt;Main content starts below.&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript"&gt;LI.RUM=LI.RUM||{};LI.RUM.streamMetrics={timeToNavInteractive:Date.now&amp;&amp;Date.now()||new Date().getTime(),timeToAboveFold:null,timeToPageInteractive:null};&lt;/script&gt;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=1e5kw6urhif0boq5eaan271d3-473m04z4a58wexbuqt1uoier4-62og8s54488owngg0s7escdit-8gz32kphtrjyfula3jpu9q6wl-aujmp9r1kj9k9x4ezyk8ahfbk-62cjxbtqyt2o85tawwwz12otx-a2blfu8y091887ailkls7jxq3-btg5gaqp36lg06pz3c61bdbll-6g4kvdslfdbq7xuia8mb46l10-6tyvplvemczf4qdrlxny6lq8d-ettwzlseaw86558lzmqblr06t-4y7qfbe7liwvykn5stbqh9jra-9r20yf4qs8yiwgzkf53wg7wyr-6865rdpomfa2609kghcxa2ojk-s4x3rtlk1sdpf9r8pwrfgklz-b01bpc2em58egy7voz1cza2w4-crayc3khz55ejfivfh0atiltt-4lotu8h67d2p8obnnght67qiw-54kbw8gzz1ebc4dc9wg6exc3p-3i7ubdukif1jevuf29ftmtvjs-7bt8yq2swxj00zqwcc3anfs61-5cmfpe4jqrweez449s97ldikg-clz7gb1h1gqkujqk14gbprnf5"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("87300e62e2a0d413e0071149922b0000-2",{event:"after",type:"html"});&lt;/script&gt;
+&lt;div id="body" class="" role="main"&gt;
+&lt;div class="wrapper hp-nus-wrapper"&gt;
+&lt;div id="global-error"&gt;
+&lt;/div&gt;
+&lt;div id="wrapper" class="public-profile"&gt;
+&lt;div id="profile"&gt;
+&lt;script type="text/javascript"&gt;if(window.fs){fs.after('public_top_card',function(id){LI.profile.modInit.addAndFlush(id,LI.profile.modules.topcard);});}&lt;/script&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("public_top_card",{event:"before",type:"html"});&lt;/script&gt;&lt;script type="text/javascript"&gt;LI.i18n.register('IntrosDialogStub-default-title','Introduction Request');if(!LI.IntrosDialogDependencies){LI.IntrosDialogDependencies={jsFiles:'https:\/\/static.licdn.com\/scds\/concat\/common\/js?h=3m0wwwerqvp8618uhx52in5b-7dtuvg1c0abi4ci2xeq2sfs2d&amp;amp;fc=2',cssFiles:'https:\/\/static.licdn.com\/scds\/concat\/common\/css?h=9uas09rvrig812gppe8pezdm5-2wjjionwkrvna3b1prar6d0qr-2parkkfu6rvpuoklqbawocoyo&amp;amp;fc=2'};}&lt;/script&gt;&lt;!--Enjoy our markup--&gt;&lt;div id="top-card" data-li-template="top_card"&gt;&lt;img id="in-logo-mobile" src="https://static.licdn.com/scds/common/u/images/logos/linkedin/logo_in_nav_44x36.png" width="30" height="24" alt="LinkedIn"/&gt;&lt;img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/229/36d/3d5b80c.jpg" width="500" height="500" id="bg-blur-profile-picture" alt="Шандарович Вадим"/&gt;&lt;div id="top-card-overlay"&gt;&lt;/div&gt;&lt;div class="profile-top-card top-card "&gt;&lt;div class="profile-card vcard"&gt;&lt;div class="profile-picture"&gt;&lt;a href="/reg/join-pprofile?_ed=0_0dpSzn-5ElkAYW7bjGuTU5HofbVm2Y-mf9zhkbvzZaNfnnGBU5GE4rSxuU86Z7AgZeJzsAOUcQxLK0v5aHo201&amp;amp;trk=pprof-0-ts-view_full-0"&gt; &lt;img src='https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/000/229/36d/3d5b80c.jpg' width="200" height="200" alt="Шандарович Вадим"/&gt; &lt;/a&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="profile-overview"&gt;&lt;div class="profile-overview-content"&gt;&lt;div id="member-239666791" class="masthead"&gt;&lt;div data-li-template="p2_basic_info"&gt;&lt;div id="name-container" data-li-template="name"&gt;
+
+
+
+&lt;!--  HERE  --&gt;
+&lt;div id="name" class="editable-item"&gt;&lt;h1&gt;&lt;span class="n fn"&gt;
+&lt;span class="full-name" dir="auto"&gt;Шандарович Вадим&lt;/span&gt;
+
+
+
+
+
+&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="headline-container" data-li-template="headline"&gt;&lt;div id="headline" class="editable-item"&gt;&lt;p class="title" dir="ltr"&gt;Software Developer (LWO Co. Ltd)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="demographic-info adr editable-item" id="demographics"&gt;&lt;div id="location-container" data-li-template="location"&gt;&lt;div id="location" class="editable-item"&gt;&lt;dl&gt;&lt;dt&gt;Location&lt;/dt&gt;&lt;dd&gt;&lt;span class="locality"&gt;Belarus&lt;/span&gt;&lt;/dd&gt;&lt;dt&gt;Industry&lt;/dt&gt;&lt;dd class="industry"&gt;Computer Software&lt;/dd&gt;&lt;/dl&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;table summary="Overview for Шандарович Вадим"&gt;&lt;tr id="overview-summary-past"&gt;&lt;th scope="row"&gt;&lt;a href="#background-experience" data-trk="ppro_cprof"&gt;Previous&lt;/a&gt;&lt;/th&gt;&lt;td&gt;&lt;ol&gt;&lt;li&gt;&lt;span dir="auto"&gt;LWO Co. Ltd&lt;/span&gt;, &lt;/li&gt;&lt;li&gt;&lt;a href="http://www.linkedin.com/company/10921?trk=ppro_cprof" dir="auto"&gt;Itransition&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr id="overview-summary-education"&gt;&lt;th scope="row"&gt;&lt;a href="#background-education" data-trk="ppro_sprof"&gt;Education&lt;/a&gt;&lt;/th&gt;&lt;td&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="http://www.linkedin.com/edu/school?id=43296&amp;amp;trk=ppro_sprof" title="More details for this school"&gt;Belarusian State University of Informatics and Radioelectronics&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;div class="profile-aux"&gt;&lt;div class="member-connections"&gt;&lt;strong&gt;50&lt;/strong&gt;connections&lt;/div&gt;&lt;/div&gt;&lt;!-- /profile-aux --&gt;&lt;/div&gt;&lt;!-- End profile-overview --&gt;&lt;div id="signup-link-tile-bg"&gt;&lt;div class="blur-layer"&gt;&lt;p&gt;Join LinkedIn &amp;amp; access Шандарович’s full profile&lt;/p&gt;&lt;div id="circle-join-btn"&gt;&lt;div class="person-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href="/reg/join-pprofile?_ed=0_0dpSzn-5ElkAYW7bjGuTU5HofbVm2Y-mf9zhkbvzZaNfnnGBU5GE4rSxuU86Z7AgZeJzsAOUcQxLK0v5aHo201&amp;amp;trk=pprof-0-ts-view_full-0" id="signup-link-tile"&gt;&lt;p&gt;Join LinkedIn &amp;amp; access Шандарович’s full profile&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;&lt;!-- End profile card --&gt;&lt;div class="public-reg-upsell"&gt;&lt;h2&gt;Join LinkedIn and access Шандарович’s full profile. It’s free!&lt;/h2&gt;&lt;h3&gt;As a LinkedIn member, you&amp;#39;ll join 300 million other professionals who are sharing connections, ideas, and opportunities.&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;See who you know in common&lt;/li&gt;&lt;li&gt;Get introduced&lt;/li&gt;&lt;li&gt;Contact &lt;strong&gt;Шандарович&lt;/strong&gt; directly&lt;/li&gt;&lt;/ul&gt;&lt;a href="/reg/join-pprofile?_ed=0_0dpSzn-5ElkAYW7bjGuTU5HofbVm2Y-mf9zhkbvzZaNfnnGBU5GE4rSxuU86Z7AgZeJzsAOUcQxLK0v5aHo201&amp;amp;trk=pprof-0-ts-view_full-0" class="signup-button"&gt;View Шандарович's Full Profile&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="highlight-module"&gt;&lt;div class="member-connections"&gt;&lt;strong&gt;50&lt;/strong&gt;connections&lt;/div&gt;&lt;div class="highlight-slot"&gt;&lt;img src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/6/005/05f/278/280ec56.png" class="organization-icon" alt="Belarusian State University of Informatics and Radioelectronics" width="45" height="45"/&gt;&lt;div class="content"&gt;&lt;h3&gt;Belarusian State University of Informatics and Radioelectronics&lt;/h3&gt;&lt;p&gt;Management of production processes safety&lt;/p&gt;&lt;p&gt;&lt;time&gt;2014&lt;/time&gt; &amp;#8211; &lt;time&gt;2015&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href="/reg/join-pprofile?_ed=0_0dpSzn-5ElkAYW7bjGuTU5HofbVm2Y-mf9zhkbvzZaNfnnGBU5GE4rSxuU86Z7AgZeJzsAOUcQxLK0v5aHo201&amp;amp;trk=pprof-0-ts-view_full-0" id="full-profile-btn-link"&gt;View full profile&lt;/a&gt;&lt;script type="text/javascript"&gt;fs._server.fire("public_top_card",{event:"after",type:"html"});&lt;/script&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_megaphone_marquee",{event:"before",type:"html"});&lt;/script&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_megaphone_marquee",{event:"after",type:"html"});&lt;/script&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_background_view",{event:"before",type:"html"});&lt;/script&gt;&lt;div id="background" class="profile-background"&gt;&lt;h2&gt;Background&lt;/h2&gt;&lt;div class="background-content "&gt;&lt;div id="background-experience-container" class="background-section" data-li-template="experience_section"&gt;&lt;div id="background-experience" class="background-experience edit-default "&gt;&lt;h3&gt;Experience&lt;/h3&gt;&lt;div id="experience-375313143" class="editable-item section-item past-position"&gt;&lt;div id="experience-375313143-view"&gt;&lt;header&gt;&lt;h4&gt;Software Developer&lt;/h4&gt;&lt;h5&gt;&lt;span dir="auto"&gt;LWO Co. Ltd&lt;/span&gt;&lt;/h5&gt;&lt;/header&gt;&lt;span class="experience-date-locale"&gt;&lt;time&gt;February 2013&lt;/time&gt; &amp;#8211; &lt;time&gt;March 2014&lt;/time&gt; (1 year 2 months)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="experience-375314860" class="editable-item section-item past-position"&gt;&lt;div id="experience-375314860-view"&gt;&lt;header&gt;&lt;h5 class="experience-logo"&gt;&lt;a href="http://www.linkedin.com/company/10921?trk=ppro_cprof"&gt;&lt;img src="https://media.licdn.com/media/p/3/005/00e/164/2f6f0ed.png" alt="Itransition"/&gt;&lt;/a&gt;&lt;/h5&gt;&lt;h4&gt;QA Specialist&lt;/h4&gt;&lt;h5&gt;&lt;a href="http://www.linkedin.com/company/10921?trk=ppro_cprof" dir="auto"&gt;Itransition&lt;/a&gt;&lt;/h5&gt;&lt;/header&gt;&lt;span class="experience-date-locale"&gt;&lt;time&gt;May 2012&lt;/time&gt; &amp;#8211; &lt;time&gt;August 2012&lt;/time&gt; (4 months)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;script&gt;$(function(){if(LI.Dialog){LI.Dialog().submitEvent.subscribe(function(type,args){var positionID;if(args[1]=='removePositionDialog'&amp;&amp;WebTracking&amp;&amp;WebTracking.trackUserAction){if(args[2]&amp;&amp;args[2].positionID){positionID=args[2].positionID;}WebTracking.trackUserAction('nprofile-edit-position-remove-submit',{positionID:positionID});}});}});&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="background-projects-container" class="background-section" data-li-template="projects_section"&gt;&lt;div id="background-projects" class="background-projects "&gt;&lt;h3&gt;Projects&lt;/h3&gt;&lt;div id="project-12" class="editable-item section-item"&gt;&lt;div id="project-12-view"&gt;&lt;hgroup&gt;&lt;h4 class="summary fn org"&gt;&lt;span dir="auto"&gt;Internet-Banking system for Belinvestbank&lt;/span&gt;&lt;/h4&gt;&lt;/hgroup&gt;&lt;span class="projects-date"&gt;&lt;time&gt;February 2013&lt;/time&gt; &amp;#8211; &lt;time&gt;March 2014&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="project-20" class="editable-item section-item"&gt;&lt;div id="project-20-view"&gt;&lt;hgroup&gt;&lt;h4 class="summary fn org"&gt;&lt;span dir="auto"&gt;Acronis vmProtect&lt;/span&gt;&lt;/h4&gt;&lt;/hgroup&gt;&lt;span class="projects-date"&gt;&lt;time&gt;June 2012&lt;/time&gt; &amp;#8211; &lt;time&gt;August 2012&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;script&gt;if(LI.Dialog){LI.Dialog().submitEvent.subscribe(function(type,args){var projectID;if(args[1]=='removeProjectDialog'&amp;&amp;WebTracking&amp;&amp;WebTracking.trackUserAction){if(args[2]&amp;&amp;args[2].projectID){projectID=args[2].projectID;}WebTracking.trackUserAction('nprofile-edit-project-remove-submit',{projectID:projectID});}});}&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="background-languages-container" class="background-section" data-li-template="languages_section"&gt;&lt;div id="background-languages" class="background-languages "&gt;&lt;h3&gt;Languages&lt;/h3&gt;&lt;div id="languages" class="editable-item"&gt;&lt;div id="languages-view"&gt;&lt;ol&gt;&lt;li class="section-item"&gt;&lt;h4&gt;&lt;span dir="auto"&gt;&amp;#x420;&amp;#x443;&amp;#x441;&amp;#x441;&amp;#x43a;&amp;#x438;&amp;#x439;&lt;/span&gt;&lt;/h4&gt;&lt;div class="languages-proficiency"&gt;Native or bilingual proficiency&lt;/div&gt;&lt;/li&gt;&lt;li class="section-item"&gt;&lt;h4&gt;&lt;span dir="auto"&gt;&amp;#x411;&amp;#x435;&amp;#x43b;&amp;#x43e;&amp;#x440;&amp;#x443;&amp;#x441;&amp;#x441;&amp;#x43a;&amp;#x438;&amp;#x439;&lt;/span&gt;&lt;/h4&gt;&lt;div class="languages-proficiency"&gt;Native or bilingual proficiency&lt;/div&gt;&lt;/li&gt;&lt;li class="section-item"&gt;&lt;h4&gt;&lt;span dir="auto"&gt;&amp;#x410;&amp;#x43d;&amp;#x433;&amp;#x43b;&amp;#x438;&amp;#x439;&amp;#x441;&amp;#x43a;&amp;#x438;&amp;#x439;&lt;/span&gt;&lt;/h4&gt;&lt;div class="languages-proficiency"&gt;Limited working proficiency&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="background-skills-container" class="background-section" data-li-template="skills_section"&gt;&lt;div id="background-skills" class="background-skills edit-default "&gt;&lt;div class="hd"&gt;
+
+
+
+
+
+
+&lt;!--  HERE  --&gt;
+&lt;h3&gt;Skills&lt;/h3&gt;&lt;/div&gt;&lt;div id="skills-error-alert"&gt;&lt;/div&gt;&lt;div id="skills-item" class="editable-item"&gt;&lt;div id="skills-item-view"&gt;&lt;div id="profile-skills"&gt;&lt;ul class="skills-section compact-view"&gt;
+&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;span class="endorse-item-name-text"&gt;PHP&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;span class="endorse-item-name-text"&gt;Macroeconomics&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;span class="endorse-item-name-text"&gt;SQL&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;span class="endorse-item-name-text"&gt;Software Quality...&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;span class="endorse-item-name-text"&gt;Subversion&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;span class="endorse-item-name-text"&gt;JIRA&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;span class="endorse-item-name-text"&gt;jQuery&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;span class="endorse-item-name-text"&gt;AJAX&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;span class="endorse-item-name-text"&gt;IFX&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li class="endorse-item "&gt;&lt;span class="skill-pill"&gt;&lt;span class="endorse-item-name"&gt;&lt;span class="endorse-item-name-text"&gt;Information Technology&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+
+
+
+
+
+
+&lt;/ul&gt;&lt;/div&gt;&lt;script id="control-dust-server-86274284-5" type="linkedin/control" class="li-control"&gt;LI.Controls.addControl("control-dust-server-86274284-5","ProfileSectionSkills",{viewerId:'0',dialogConfig:{dustDataUrl:'\/profile\/endorser-info-dialog?csrfToken=ajax%3A1523799514766249084',width:600,name:'skills-endorsers-dialog',className:'skills-endorser-dialog dialog-v2',type:'task-modeless',disableFocusOnClose:true,content:{title:'Endorsers',dustTemplate:'tl/apps/profile/endorsements/endorser_Info_dialog'},dependencies:{jsFiles:'https://static.licdn.com/scds/concat/common/js?h=1a7n3e0htwi9z0c0fneqqh92b&amp;fc=2'}},endorsementData:{recipientId:'239666791',recipientType:'member'},distance:-1,isSelf:false,maxEndorsementCount:99,endorseURL:'\/profile\/endorse?_ed=0_2KjZg6oXb2V2F89fO9b1Jr9vVefjgmMy5Eg5IR_1O8f&amp;csrfToken=ajax%3A1523799514766249084&amp;goback=%2Enppvan_shandarovich',unendorseURL:'\/profile\/unendorse?_ed=0_2KjZg6oXb2V2F89fO9b1Jr9vVefjgmMy5Eg5IR_1O8f&amp;csrfToken=ajax%3A1523799514766249084&amp;goback=%2Enppvan_shandarovich',i18nMaxEndorsements:'99+',i18nEndorseLimitExceeded:'You\'ve reached the daily limit for endorsements you can give.',i18nUnendorseLimitExceeded:'You\'ve reached the daily limit for endorsements you can remove.',i18nGenericErrorMessage:'Sorry, something went wrong. Please try again later.'})&lt;/script&gt;&lt;script type="text/javascript"&gt;if(dust&amp;&amp;dust.jsControl){if(!dust.jsControl.flushControlIds){dust.jsControl.flushControlIds="";}else{dust.jsControl.flushControlIds+=",";}dust.jsControl.flushControlIds+="control-dust-server-86274284-5";}&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="background-education-container" class="background-section" data-li-template="education_section"&gt;&lt;div id="background-education" class="background-education edit-default "&gt;&lt;h3&gt;Education&lt;/h3&gt;&lt;div id="education-232995779" class="editable-item section-item"&gt;&lt;div id="education-232995779-view"&gt;&lt;div class="education first"&gt;&lt;a href='http://www.linkedin.com/edu/school?id=43296&amp;amp;trk=ppro_sprof' title="More details for this school"&gt;&lt;h5 class="education-logo"&gt;&lt;img src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/6/005/05f/278/280ec56.png" alt="Belarusian State University of Informatics and Radioelectronics" width="60" height="60"/&gt;&lt;/h5&gt;&lt;/a&gt;&lt;header&gt;&lt;h4 class="summary fn org" dir="auto"&gt;&lt;a href='http://www.linkedin.com/edu/school?id=43296&amp;amp;trk=ppro_sprof' title="More details for this school"&gt;Belarusian State University of Informatics and Radioelectronics&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;&lt;span class="degree"&gt;Master&amp;#39;s degree, &lt;/span&gt;&lt;span class="major"&gt;&lt;a href="http://www.linkedin.com/edu/fos?id=100942&amp;amp;trk=prof-edu-field_of_study" title="Explore this field of study"&gt;Management of production processes safety&lt;/a&gt;&lt;/span&gt;&lt;/h5&gt;&lt;/header&gt;&lt;span class="education-date"&gt;&lt;time&gt;2014&lt;/time&gt;&lt;time&gt; &amp;#8211; 2015&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="education-150349718" class="editable-item section-item"&gt;&lt;div id="education-150349718-view"&gt;&lt;div class="education"&gt;&lt;a href='http://www.linkedin.com/edu/school?id=43296&amp;amp;trk=ppro_sprof' title="More details for this school"&gt;&lt;h5 class="education-logo"&gt;&lt;img src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/6/005/05f/278/280ec56.png" alt="Belarusian State University of Informatics and Radioelectronics" width="60" height="60"/&gt;&lt;/h5&gt;&lt;/a&gt;&lt;header&gt;&lt;h4 class="summary fn org" dir="auto"&gt;&lt;a href='http://www.linkedin.com/edu/school?id=43296&amp;amp;trk=ppro_sprof' title="More details for this school"&gt;Belarusian State University of Informatics and Radioelectronics&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;&lt;span class="degree"&gt;Bachelor&amp;#39;s degree, &lt;/span&gt;&lt;span class="major"&gt;&lt;a href="http://www.linkedin.com/edu/fos?id=100349&amp;amp;trk=prof-edu-field_of_study" title="Explore this field of study"&gt;Software engineering and Ergonomics&lt;/a&gt;&lt;/span&gt;&lt;span class="grade"&gt;, 9,6&lt;/span&gt;&lt;/h5&gt;&lt;/header&gt;&lt;span class="education-date"&gt;&lt;time&gt;2009&lt;/time&gt;&lt;time&gt; &amp;#8211; 2014&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="education-151501250" class="editable-item section-item"&gt;&lt;div id="education-151501250-view"&gt;&lt;div class="education"&gt;&lt;header&gt;&lt;h4 class="summary fn org" dir="auto"&gt;Itransition&lt;/h4&gt;&lt;h5&gt;&lt;span class="major"&gt;&lt;a href="http://www.linkedin.com/edu/fos?id=100349&amp;amp;trk=prof-edu-field_of_study" title="Explore this field of study"&gt;Quality Assurance In Software Engineering&lt;/a&gt;&lt;/span&gt;&lt;/h5&gt;&lt;/header&gt;&lt;span class="education-date"&gt;&lt;time&gt;2012&lt;/time&gt;&lt;time&gt; &amp;#8211; 2012&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="education-151500919" class="editable-item section-item"&gt;&lt;div id="education-151500919-view"&gt;&lt;div class="education"&gt;&lt;header&gt;&lt;h4 class="summary fn org" dir="auto"&gt;ST Group&lt;/h4&gt;&lt;h5&gt;&lt;span class="major"&gt;Oracle Introduction&lt;/span&gt;&lt;/h5&gt;&lt;/header&gt;&lt;span class="education-date"&gt;&lt;time&gt;2012&lt;/time&gt;&lt;time&gt; &amp;#8211; 2012&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="education-150350056" class="editable-item section-item"&gt;&lt;div id="education-150350056-view"&gt;&lt;div class="education"&gt;&lt;header&gt;&lt;h4 class="summary fn org" dir="auto"&gt;&amp;#x41c;&amp;#x43e;&amp;#x433;&amp;#x438;&amp;#x43b;&amp;#x435;&amp;#x432;&amp;#x441;&amp;#x43a;&amp;#x438;&amp;#x439; &amp;#x433;&amp;#x43e;&amp;#x441;&amp;#x443;&amp;#x434;&amp;#x430;&amp;#x440;&amp;#x441;&amp;#x442;&amp;#x432;&amp;#x435;&amp;#x43d;&amp;#x43d;&amp;#x44b;&amp;#x439; &amp;#x43f;&amp;#x43e;&amp;#x43b;&amp;#x438;&amp;#x442;&amp;#x435;&amp;#x445;&amp;#x43d;&amp;#x438;&amp;#x447;&amp;#x435;&amp;#x441;&amp;#x43a;&amp;#x438;&amp;#x439; &amp;#x43a;&amp;#x43e;&amp;#x43b;&amp;#x43b;&amp;#x435;&amp;#x434;&amp;#x436;&lt;/h4&gt;&lt;h5&gt;&lt;span class="degree"&gt;&amp;#x442;&amp;#x435;&amp;#x445;&amp;#x43d;&amp;#x438;&amp;#x43a;-&amp;#x43f;&amp;#x440;&amp;#x43e;&amp;#x433;&amp;#x440;&amp;#x430;&amp;#x43c;&amp;#x43c;&amp;#x438;&amp;#x441;&amp;#x442;, &lt;/span&gt;&lt;span class="major"&gt;&amp;#x41f;&amp;#x440;&amp;#x43e;&amp;#x433;&amp;#x440;&amp;#x430;&amp;#x43c;&amp;#x43c;&amp;#x43d;&amp;#x43e;&amp;#x435; &amp;#x43e;&amp;#x431;&amp;#x435;&amp;#x441;&amp;#x43f;&amp;#x435;&amp;#x447;&amp;#x435;&amp;#x43d;&amp;#x438;&amp;#x435; &amp;#x438;&amp;#x43d;&amp;#x444;&amp;#x43e;&amp;#x440;&amp;#x43c;&amp;#x430;&amp;#x446;&amp;#x438;&amp;#x43e;&amp;#x43d;&amp;#x43d;&amp;#x44b;&amp;#x445; &amp;#x442;&amp;#x435;&amp;#x445;&amp;#x43d;&amp;#x43e;&amp;#x43b;&amp;#x43e;&amp;#x433;&amp;#x438;&amp;#x439;&lt;/span&gt;&lt;/h5&gt;&lt;/header&gt;&lt;span class="education-date"&gt;&lt;time&gt;2005&lt;/time&gt;&lt;time&gt; &amp;#8211; 2009&lt;/time&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;script&gt;if(LI.Dialog){LI.Dialog().submitEvent.subscribe(function(type,args){var educationID;if(args[1]=='removeEducationDialog'&amp;&amp;WebTracking&amp;&amp;WebTracking.trackUserAction){if(args[2]&amp;&amp;args[2].educationID){educationID=args[2].educationID;}WebTracking.trackUserAction('nprofile-edit-education-remove-submit',{educationID:educationID});}});}&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="background-interests-container" class="background-section" data-li-template="interests_section"&gt;&lt;div id="background-interests" class="hidden" tabindex="0"&gt;&lt;h3 class="header"&gt;Interests&lt;/h3&gt;&lt;div id="interests-view" class="editable-item"&gt;&lt;ul class="interests-listing"&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_background_view",{event:"after",type:"html"});&lt;/script&gt;
+&lt;div id="groups-container"&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_groups",{event:"before",type:"html"});&lt;/script&gt;&lt;div id="groups" class="profile-groups " data-total-num-groups="1"&gt;&lt;h2&gt;Groups&lt;/h2&gt;&lt;ul class="groups-container edit-collapse-module"&gt;&lt;li class=" rowfirst"&gt;&lt;p class="groups-name"&gt;&lt;a href="http://www.linkedin.com/groups?gid=4529716&amp;amp;goback=%2Enppvan_shandarovich&amp;trk=fulpro_grplogo"&gt;&lt;img src="https://media.licdn.com/media/p/4/000/17f/3d9/2b88099.png" width="100" height="50" alt="Re-commerce"/&gt;&lt;/a&gt;&lt;a href="http://www.linkedin.com/groups?gid=4529716&amp;amp;goback=%2Enppvan_shandarovich&amp;trk=prof-groups-membership-name" class="group-link"&gt;&lt;strong&gt;Re-commerce&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_groups",{event:"after",type:"html"});&lt;/script&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_reg_upsell",{event:"before",type:"html"});&lt;/script&gt;&lt;div id="secondary-reg-upsell"&gt;&lt;div class="public-reg-upsell"&gt;&lt;h2&gt;View Шандарович’s full profile to...&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;See who you know in common&lt;/li&gt;&lt;li&gt;Get introduced&lt;/li&gt;&lt;li&gt;Contact &lt;strong&gt;Шандарович&lt;/strong&gt; directly&lt;/li&gt;&lt;/ul&gt;&lt;a href="/reg/join-pprofile?_ed=0_br9INl3-5oDlaE1whhCb1qDBtnIiOJxUrOjmtmwtOdQHofbVm2Y-mf9zhkbvzZaNfnnGBU5GE4rSxuU86Z7AgZeJzsAOUcQxLK0v5aHo201&amp;amp;trk=pprof_viewmore" class="signup-button"&gt;View Шандарович’s Full Profile&lt;/a&gt;&lt;p&gt;Not the Шандарович Вадим you’re looking for? &lt;a href="http://www.linkedin.com/pub/dir/?first=%D0%A8%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D0%BE%D0%B2%D0%B8%D1%87&amp;amp;last=%D0%92%D0%B0%D0%B4%D0%B8%D0%BC"&gt;View more&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_reg_upsell",{event:"after",type:"html"});&lt;/script&gt;
+&lt;/div&gt;
+&lt;div id="aux"&gt;
+&lt;div class="insights"&gt;
+&lt;h2&gt;Insights&lt;/h2&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_locale",{event:"before",type:"html"});&lt;/script&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_locale",{event:"after",type:"html"});&lt;/script&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_name_search",{event:"before",type:"html"});&lt;/script&gt;&lt;div class="name-search"&gt;&lt;h3&gt;Search by name&lt;/h3&gt;&lt;p class="blurb"&gt;Over 300 million professionals are already on LinkedIn. Find who you know.&lt;/p&gt;&lt;form action="/pub/dir/" method="get"&gt;&lt;label for="firstName"&gt;First Name&lt;/label&gt;&lt;script id="control-dust-server-86274284-2" type="linkedin/control" class="li-control"&gt;LI.Controls.addControl("control-dust-server-86274284-2","GhostLabel",{})&lt;/script&gt;&lt;script type="text/javascript"&gt;if(dust&amp;&amp;dust.jsControl){if(!dust.jsControl.flushControlIds){dust.jsControl.flushControlIds="";}else{dust.jsControl.flushControlIds+=",";}dust.jsControl.flushControlIds+="control-dust-server-86274284-2";}&lt;/script&gt;&lt;input type="text" name="first" id="firstName"/&gt;&lt;label for="lastName"&gt;Last Name&lt;/label&gt;&lt;script id="control-dust-server-86274284-3" type="linkedin/control" class="li-control"&gt;LI.Controls.addControl("control-dust-server-86274284-3","GhostLabel",{})&lt;/script&gt;&lt;script type="text/javascript"&gt;if(dust&amp;&amp;dust.jsControl){if(!dust.jsControl.flushControlIds){dust.jsControl.flushControlIds="";}else{dust.jsControl.flushControlIds+=",";}dust.jsControl.flushControlIds+="control-dust-server-86274284-3";}&lt;/script&gt;&lt;input type="text" name="last" id="lastName"/&gt;&lt;button aria-label="Search" type="submit"&gt;&lt;span&gt;&lt;/span&gt;&lt;/button&gt;&lt;p class="tip"&gt;&lt;strong&gt;Example: &lt;/strong&gt; &lt;a href="https://www.linkedin.com/in/jeffweiner08"&gt;Jeff Weiner&lt;/a&gt;&lt;/p&gt;&lt;/form&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_name_search",{event:"after",type:"html"});&lt;/script&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_same_name_search",{event:"before",type:"html"});&lt;/script&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_same_name_search",{event:"after",type:"html"});&lt;/script&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_browse_map",{event:"before",type:"html"});&lt;/script&gt;&lt;hr&gt;&lt;div class="insights-browse-map"&gt;&lt;h3&gt;People Also Viewed&lt;/h3&gt;&lt;ul&gt;&lt;li class="first"&gt;&lt;a class="browse-map-photo" title="View Vladimir Korolyov&amp;#39;s profile" href='https://www.linkedin.com/pub/vladimir-korolyov/76/ab8/a74?trk=pub-pbmap'&gt;&lt;img class="" alt="Vladimir Korolyov" width="60" height="60" src="https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_60x60_v1.png"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/vladimir-korolyov/76/ab8/a74?trk=pub-pbmap"&gt;Vladimir Korolyov&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;PHP-developer at Itransition&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="View Svetlana Bozhko&amp;#39;s profile" href='https://www.linkedin.com/pub/svetlana-bozhko/53/9/87b?trk=pub-pbmap'&gt;&lt;img class="" alt="Svetlana Bozhko" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/6/005/019/15b/2d08436.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/svetlana-bozhko/53/9/87b?trk=pub-pbmap"&gt;Svetlana Bozhko&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Scala Backend Developer at Adform&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="View Sergey Petrushin&amp;#39;s profile" href='https://www.linkedin.com/pub/sergey-petrushin/96/515/2aa?trk=pub-pbmap'&gt;&lt;img class="" alt="Sergey Petrushin" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/8/005/083/0bd/1970b2f.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/sergey-petrushin/96/515/2aa?trk=pub-pbmap"&gt;Sergey Petrushin&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Web-developer at Oxagile&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="View Виталий Моцук&amp;#39;s profile" href='https://www.linkedin.com/pub/%D0%B2%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B9-%D0%BC%D0%BE%D1%86%D1%83%D0%BA/59/b66/b50?trk=pub-pbmap'&gt;&lt;img class="" alt="Виталий Моцук" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/7/000/1af/006/05206b9.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/%D0%B2%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B9-%D0%BC%D0%BE%D1%86%D1%83%D0%BA/59/b66/b50?trk=pub-pbmap"&gt;Виталий Моцук&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Senior PHP Developer (Itransition)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="View Anastasia Volkova&amp;#39;s profile" href='https://www.linkedin.com/pub/anastasia-volkova/89/b80/27?trk=pub-pbmap'&gt;&lt;img class="" alt="Anastasia Volkova" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/7/005/039/169/3eecccd.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/anastasia-volkova/89/b80/27?trk=pub-pbmap"&gt;Anastasia Volkova&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;PHP Developer.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="View Pavel Hudinsky&amp;#39;s profile" href='https://www.linkedin.com/pub/pavel-hudinsky/65/56b/82?trk=pub-pbmap'&gt;&lt;img class="" alt="Pavel Hudinsky" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/6/005/0ac/3bd/3120ead.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/pavel-hudinsky/65/56b/82?trk=pub-pbmap"&gt;Pavel Hudinsky&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Web Developer at Ocsico&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="View Artsiom Stalpouski&amp;#39;s profile" href='https://www.linkedin.com/pub/artsiom-stalpouski/76/37a/a17?trk=pub-pbmap'&gt;&lt;img class="" alt="Artsiom Stalpouski" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/1/005/00a/089/1860503.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/artsiom-stalpouski/76/37a/a17?trk=pub-pbmap"&gt;Artsiom Stalpouski&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Software Engineer at ISsoft solutions&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="View Sergey Gavrilov&amp;#39;s profile" href='https://www.linkedin.com/pub/sergey-gavrilov/6a/5aa/1b3?trk=pub-pbmap'&gt;&lt;img class="" alt="Sergey Gavrilov" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/6/000/24e/037/158201d.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/sergey-gavrilov/6a/5aa/1b3?trk=pub-pbmap"&gt;Sergey Gavrilov&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;PHP Developer - Syberry CIS&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="View Илья Барановский&amp;#39;s profile" href='https://www.linkedin.com/pub/%D0%B8%D0%BB%D1%8C%D1%8F-%D0%B1%D0%B0%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9/84/512/724?trk=pub-pbmap'&gt;&lt;img class="" alt="Илья Барановский" width="60" height="60" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/5/005/057/179/2fbc120.jpg"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/%D0%B8%D0%BB%D1%8C%D1%8F-%D0%B1%D0%B0%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9/84/512/724?trk=pub-pbmap"&gt;Илья Барановский&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;Web Developer - Intellect IT&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="browse-map-photo" title="View Ivan Levchuk&amp;#39;s profile" href='https://www.linkedin.com/pub/ivan-levchuk/90/96b/256?trk=pub-pbmap'&gt;&lt;img class="" alt="Ivan Levchuk" width="60" height="60" src="https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_60x60_v1.png"&gt;&lt;/a&gt;&lt;h4&gt;&lt;a href="https://www.linkedin.com/pub/ivan-levchuk/90/96b/256?trk=pub-pbmap"&gt;Ivan Levchuk&lt;/a&gt;&lt;/h4&gt;&lt;p class="browse-map-title"&gt;PHP Developer at ITOS LTD&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_browse_map",{event:"after",type:"html"});&lt;/script&gt;
+&lt;/div&gt;
+&lt;div class="right-fixed"&gt;
+&lt;div class="ganz-module ad"&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_right_ad",{event:"before",type:"html"});&lt;/script&gt;&lt;iframe width='300' scrolling='no' height='250' frameborder='0' allowtransparency='true' border='0' data-src='/csp/dtag?sz=300x250&amp;ti=2&amp;p=1&amp;z=full_profile&amp;_x=%3Bpcntry%3Dby' src='/csp/dtag?sz=300x250&amp;ti=2&amp;p=1&amp;z=full_profile&amp;_x=%3Bpcntry%3Dby'&gt;&lt;/iframe&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_right_ad",{event:"after",type:"html"});&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="page-loading"&gt;&lt;/div&gt;
+&lt;div id="alert-a11y"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_view_tracking",{event:"before",type:"html"});&lt;/script&gt;&lt;script type="text/javascript"&gt;fs._server.fire("profile_v2_view_tracking",{event:"after",type:"html"});&lt;/script&gt;
+&lt;div id="directory" class="us"&gt;
+&lt;h3&gt;
+LinkedIn member directory:
+&lt;/h3&gt;
+&lt;ol type="a" class="primary"&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-a"&gt;a&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-b"&gt;b&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-c"&gt;c&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-d"&gt;d&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-e"&gt;e&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-f"&gt;f&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-g"&gt;g&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-h"&gt;h&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-i"&gt;i&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-j"&gt;j&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-k"&gt;k&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-l"&gt;l&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-m"&gt;m&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-n"&gt;n&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-o"&gt;o&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-p"&gt;p&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-q"&gt;q&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-r"&gt;r&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-s"&gt;s&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-t"&gt;t&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-u"&gt;u&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-v"&gt;v&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-w"&gt;w&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-x"&gt;x&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-y"&gt;y&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-z"&gt;z&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://www.linkedin.com/directory/people-1" class="callout-trigger nlcl-hovercard-trigger"&gt;more&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class="country-search"&gt;
+Browse members &lt;a href="http://www.linkedin.com/static?key=country_listing"&gt;by country&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript"&gt;LI.Controls.processQueue();&lt;/script&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("87300e62e2a0d413e0071149922b0000-14",{event:"before",type:"html"});&lt;/script&gt;&lt;div id="footer" class="remote-nav" role="contentinfo"&gt;
+&lt;div class="wrapper"&gt;
+&lt;p id="copyright" class="guest"&gt;&lt;span&gt;LinkedIn Corporation&lt;/span&gt; &lt;em&gt;&amp;copy; 2015&lt;/em&gt;&lt;/p&gt;
+&lt;ul id="nav-legal"&gt;
+&lt;li&gt;&lt;a href="http://www.linkedin.com/legal/user-agreement?trk=hb_ft_userag"&gt;User Agreement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.linkedin.com/legal/privacy-policy?trk=hb_ft_priv"&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://help.linkedin.com/app/answers/detail/a_id/34593/loc/na/trk/nprofile_v2_public_fs/" target="_blank" rel="nofollow"&gt;Community Guidelines&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.linkedin.com/legal/cookie-policy?trk=hb_ft_cookie"&gt;Cookie Policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.linkedin.com/legal/copyright-policy?trk=hb_ft_copy"&gt;Copyright Policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/psettings/guest-controls" rel="nofollow"&gt;Guest Controls&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript"&gt;if(LI.showAllDeferredImg){LI.showAllDeferredImg('header',false);LI.showAllDeferredImg('footer',false);}
+if(typeof(oUISettings)!=='undefined'){oUISettings.saveSettingsURL="/lite/secure-ui-settings-save-old?csrfToken=ajax%3A8679521381587638521";}
+if(typeof(WebTracking)!=='undefined'){WebTracking.saveWebActionTrackURL="/lite/secure-web-action-track?csrfToken=ajax%3A8679521381587638521";}&lt;/script&gt;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=3i7ubdukif1jevuf29ftmtvjs-7bt8yq2swxj00zqwcc3anfs61-du9b5xv93paiu4gm8x4awcgkb-1m7sfcez3isjwlg5yrudwy1mz-clz7gb1h1gqkujqk14gbprnf5"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;fs._server.fire("87300e62e2a0d413e0071149922b0000-14",{event:"after",type:"html"});&lt;/script&gt;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=178w1amns5ya7addmlk0qioxi-akfe1g1hb660050homjb2nwnr-3tdm4y44d9wld0j7i3gs0x10x&amp;amp;fc=2"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;if(!window.LI){window.LI={};}
+LI.RUM=LI.RUM||{};(function(RUM,win){var doc=win.document;RUM.flags=RUM.flags||{};RUM.flags['host-flag']="control";RUM.flags['pop_beacons_frequency']="n100-ap0-la0-va0-tx0-sg0-db0-hk0";RUM.flags['rs_timings_individual']="control";RUM.urls=RUM.urls||{};RUM.urls['rum-track']="\/lite\/rum-track?csrfToken=ajax%3A7092434357326896039";RUM.urls['boomerang-bw-img']="https:\/\/static.licdn.com\/scds\/common\/u\/lib\/boomerang\/0.9.edge.4ab208445a\/img\/";RUM.base_urls=RUM.base_urls||{};RUM.base_urls['permanent_content']="https:\/\/static.licdn.com\/scds\/common\/u\/";RUM.base_urls['versioned_content']="https:\/\/static.licdn.com\/scds\/concat\/common\/";RUM.base_urls['media_proxy']="https:\/\/media.licdn.com\/media-proxy\/";RUM.serverStartTime=1.428943876017E12;RUM.enabled=true;function getRumScript(){var node=doc.body||doc.head||doc.getElementsByTagName('head')[0],script=doc.createElement('script');script.src=["https://static.licdn.com/scds/concat/common/js?h=ed29nkjpsa16bhrjq4na16owq-1mucgfycc664m7vmhpjgqse65-1l5rurej3h44qodo5rn0cdvyn-8om6v2ckrxsbnwf40t9ta8a7e-976eucr14azn1gu6x533uu349-2synzw3ivmhrn50ohpnw25tmi-1y9z2glmtedcvrfyiqkhck034-1m0whdrwis44c1hoa9mrwhlt4-aac54ic1fmca5xz1yvc5t9nfe-9xdvp93ecvqi1g6yr4ltw6w78&amp;fc=2"][0];node.appendChild(script);}
+if(win.addEventListener){win.addEventListener('load',getRumScript);}
+else{win.attachEvent('onload',getRumScript);}}(LI.RUM,window));&lt;/script&gt;
+&lt;script id="localChrome"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=9r6w26n7agtxdgb861vr2tqht-3ute2g4ivrwzi292adtikwnrx-9k5nqxk2bamhakv2zd0ixdhmc-pga7vmnfl2zxgj9h9xzfi4wd-ay5lf43pz1mk9fvr45a78meyl&amp;amp;fc=2"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;//&lt;![CDATA[
+(function(){"use strict";var bcookie=LI.readCookie("bcookie"),urlTemplate="/lite/page-track?ptype=PAGETYPE_PLACEHOLDER&amp;pkey=PAGEKEY_PLACEHOLDER&amp;jsonInfo=TRACKINGINFO_PLACEHOLDER&amp;trk=TRK_PLACEHOLDER";window.ProfilePageTracking=function(pageType,pageKey,trk,jsonTrackingInfo){var url,jsonTrackingInfoStr;if(!bcookie||!pageType||!pageKey){return;}
+if(!JSON||!JSON.stringify){return;}
+jsonTrackingInfoStr=jsonTrackingInfo&amp;&amp;JSON&amp;&amp;JSON.stringify?JSON.stringify(jsonTrackingInfo):"";url=urlTemplate.replace("PAGETYPE_PLACEHOLDER",pageType).replace("PAGEKEY_PLACEHOLDER",pageKey).replace("TRK_PLACEHOLDER",trk||"").replace("TRACKINGINFO_PLACEHOLDER",jsonTrackingInfoStr);YConn.asyncRequest("get",url,{});};})();
+//]]&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;//&lt;![CDATA[
+(function(require){var bcookie=escape(readCookie("bcookie")),$=window.$||(require&amp;&amp;require('jquery')),newTrkInfo='239666791,'+document.referrer.substr(0,128)+'',alias_secure='/analytics/noauthtracker?type=leo%2EpageTracking&amp;pageType=full_page&amp;pageKey=nprofile_v2_public_fs_jsbeacon&amp;trkInfo=REPLACEME',alias_normal='http://www.linkedin.com/analytics/noauthtracker?type=leo%2EpageTracking&amp;pageType=full_page&amp;pageKey=nprofile_v2_public_fs_jsbeacon&amp;trkInfo=REPLACEME',is_secure=true,url=(is_secure)?alias_secure:alias_normal;function readCookie(name){var nameEQ=name+'=',ca=document.cookie.split(';');for(var i=0;i&lt;ca.length;i++){var c=ca[i];while(c.charAt(0)===' '){c=c.substring(1,c.length);}
+if(c.indexOf(nameEQ)===0){return c.substring(nameEQ.length,c.length);}}
+return null;}
+url=url.replace("REPLACEME",newTrkInfo);url=url.replace("trkInfo=","trackingInfo=");if(bcookie){if($&amp;&amp;$.ajax){$.ajax(url);}else if(window.YAHOO){window.YAHOO.util.Connect.asyncRequest('get',url,{});}}})(window.require);
+//]]&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-3242811-1']);_gaq.push(['_setDomainName','.linkedin.com']);_gaq.push(['_trackPageview','nprofile_v2_public_fs']);_gaq.push(['_setVar','guest']);YEvent.on(window,'load',function(){YAHOO.util.Get.script("https://ssl.google-analytics.com/ga.js");});&lt;/script&gt;
+&lt;script type="text/javascript"&gt;if(window.dust&amp;&amp;dust.jsControl&amp;&amp;dust.jsControl.flushControlIds){LI_WCT(dust.jsControl.flushControlIds.split(","));dust.jsControl.flushControlIds=null;}
+if(window.dust&amp;&amp;dust.jsControl&amp;&amp;dust.jsControl.controlIds){LI_WCT(dust.jsControl.controlIds);dust.jsControl.controlIds=[];}
+if(window.LI&amp;&amp;LI.showAllDeferredImg&amp;&amp;!LI.imgDeferFoldCheckDone&amp;&amp;dust&amp;&amp;dust.imgDefer&amp;&amp;dust.imgDefer.imgDeferUsed){LI.showAllDeferredImg(document.body,false);LI.imgDeferFoldCheckDone=true;}&lt;/script&gt;
+&lt;script type="text/javascript"&gt;LI.Controls.processQueue();&lt;/script&gt;
+&lt;script class="comscore-tracking"&gt;(function(fetchCS,isSecure,_e,_r){var fireComscore=function(){var _c=window.COMSCORE;if(_c){_c.beacon({c1:2,c2:6402952,c3:"",c4:"",c5:"",c6:"",c15:""});}};var fireExternalTracking=function(et){et.setTreatment('enabled_1.0');et.trackWithComScoreForChromeInit();};var track=function(){var et;if(_e){fireExternalTracking(_e);}else if(_r&amp;&amp;typeof _r.ensure==='function'){try{_r.ensure(['externalTracking'],function(require){try{et=require('externalTracking');fireExternalTracking(et);}catch(e){fireComscore();}});}catch(e){fireComscore();}}else if(_r&amp;&amp;_r._is_li){try{et=require('externalTracking');fireExternalTracking(et);}catch(e){fireComscore();}}else{fireComscore();}};var loadCS=function(onScriptLoad){var s=document.createElement('script');if(s.readyState){s.onreadystatechange=function(){if(s.readyState==='loaded'){onScriptLoad();}};}else{s.onload=onScriptLoad;}
+s.src=(isSecure?'https://sb':'http://b')+'.scorecardresearch.com/beacon.js';document.getElementsByTagName('head')[0].appendChild(s);};if(fetchCS){window.addEventListener('load',function(){loadCS(track);});}else{window.addEventListener('load',track);}}(!false,!!true,window.externalTracking,window.require));&lt;/script&gt;
+&lt;noscript&gt;
+&lt;img src="https://sb.scorecardresearch.com/b?c1=2&amp;amp;c2=6402952&amp;amp;c3=&amp;amp;c4=&amp;amp;c5=&amp;amp;c6=&amp;amp;c15=&amp;amp;cv=1.3&amp;amp;cj=1" style="display:none" width="0" height="0" alt=""/&gt;
+&lt;/noscript&gt;
+&lt;script&gt;window.addEventListener('load',function(){var protocol='https:',d=new Image(1,1);d.onerror=d.onload=function(){d.onerror=d.onload=null;};d.src=[protocol,"//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603751h&amp;cg=0&amp;cc=1&amp;si=",escape(window.location.href),"&amp;ts=compact&amp;rnd=",(new Date()).getTime()].join('');});&lt;/script&gt;
+&lt;noscript&gt;
+&lt;img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603751h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" style="display:none"/&gt;
+&lt;/noscript&gt;
+&lt;script&gt;window.addEventListener('load',function(){var d=new Image(1,1);d.onerror=d.onload=function(){d.onerror=d.onload=null;};d.src="/csp/dtag?p=10";});&lt;/script&gt;
+&lt;noscript&gt;
+&lt;img src="/csp/dtag?p=10" width="1" height="1" alt="" style="display:none"/&gt;
+&lt;/noscript&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</value>
+        </entry>
+    </textMap>
+</ns2:systemTComputationResult>

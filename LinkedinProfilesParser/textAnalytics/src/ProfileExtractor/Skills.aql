@@ -1,0 +1,8 @@
+module ProfileExtractor;
+
+create view Skills as
+	extract regex /class="endorse-item-name-text">(.+?)<\// on D.text
+	return group 1 as skills
+from Document D;
+
+export view Skills;

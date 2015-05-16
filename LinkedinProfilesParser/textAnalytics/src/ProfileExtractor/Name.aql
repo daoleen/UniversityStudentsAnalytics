@@ -1,0 +1,8 @@
+module ProfileExtractor;
+
+create view Name as
+	extract regex /<span class="full-name" dir="auto">(.*?)<\/span>/ on D.text
+	return group 1 as name
+from Document D;
+
+export view Name;

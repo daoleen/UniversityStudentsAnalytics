@@ -1,9 +1,9 @@
 <application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <name>Yahoo Reader MapReduce</name>
     <description>Crawler for yahoo search engine.&#13;
-Search the poples related to BSUIR by dictionary of russian names.&#13;
+Search the poples related to BSUIR or BSU by dictionary of russian names.&#13;
 &#13;
-Author: Alexander Kozlov &lt;alexssource@gmail.com&gt;</description>
+Author: Alexander Kozlov [alexssource@gmail.com]</description>
     <properties>
         <property isInputPath="false" isOutputPath="false" isRequired="true" label="russian names file" name="namesFile" paramtype="FILEPATH" uitype="textfield"/>
         <property defaultValue="bsuir" isInputPath="false" isOutputPath="false" isRequired="true" label="university name" name="university" paramtype="LIST" uitype="textfield" validValues="bsuir,bsu"/>
@@ -15,6 +15,6 @@ Author: Alexander Kozlov &lt;alexssource@gmail.com&gt;</description>
     <assets>
         <asset id="Yahoo Reader MapReduce" type="WORKFLOW"/>
     </assets>
-    <imagePath>defaultApp_L.png</imagePath>
+    <imagePath>YahooReader.png</imagePath>
     <categories>BSUIR</categories>
 </application-template>

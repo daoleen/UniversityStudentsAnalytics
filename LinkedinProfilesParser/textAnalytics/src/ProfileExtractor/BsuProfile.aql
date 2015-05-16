@@ -1,0 +1,17 @@
+module ProfileExtractor;
+
+create dictionary BsuDict
+	from file 'BSU.dict'
+	with language as 'en';
+	
+create dictionary BsuNegativeDict
+	from file 'BSU_Negative.dict'
+	with language as 'en';
+
+create view BsuProfile as
+	select u.*,n.*,s.*
+	from Url u, Name n, Skills s, Document D
+	where ContainsDict('BsuDict', D.text)
+		and Not(ContainsDict('BsuNegativeDict', D.text));
+
+output view BsuProfile;

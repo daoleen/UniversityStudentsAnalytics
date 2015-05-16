@@ -1,6 +1,6 @@
 <application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <name>Linkedin Profiles Reader</name>
-    <description>Read Linkedin profiles from URLs file&#13;
+    <description>Read Linkedin profiles from profiles URL file&#13;
 &#13;
 Author: Alexander Kozlov [alexssource@gmail.com]</description>
     <properties>
@@ -13,6 +13,6 @@ Author: Alexander Kozlov [alexssource@gmail.com]</description>
     <assets>
         <asset id="Linkedin Profiles Reader" type="WORKFLOW"/>
     </assets>
-    <imagePath>defaultApp_L.png</imagePath>
+    <imagePath>LinkedinProfilesReader.png</imagePath>
     <categories>BSUIR</categories>
 </application-template>
