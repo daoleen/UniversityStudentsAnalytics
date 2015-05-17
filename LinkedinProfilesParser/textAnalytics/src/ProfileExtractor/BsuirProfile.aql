@@ -7,11 +7,15 @@ create dictionary BsuirDict
 	from file 'BSUIR.dict'
 	with language as 'en';
 
+create dictionary TechDict
+	from file 'Tech.dict'
+	with language as 'en';
 
 create view BsuirProfile as
 	select u.*,n.*,s.*
 	from Url u, Name n, Skills s, Document D
-	where ContainsDict('BsuirDict', D.text);
+	where ContainsDict('BsuirDict', D.text)
+	and ContainsDict('TechDict', s.skills);
 
 
 output view BsuirProfile;

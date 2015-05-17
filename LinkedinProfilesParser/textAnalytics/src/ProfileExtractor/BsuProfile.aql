@@ -12,6 +12,7 @@ create view BsuProfile as
 	select u.*,n.*,s.*
 	from Url u, Name n, Skills s, Document D
 	where ContainsDict('BsuDict', D.text)
-		and Not(ContainsDict('BsuNegativeDict', D.text));
+		and Not(ContainsDict('BsuNegativeDict', D.text))
+		and ContainsDict('TechDict', s.skills);
 
 output view BsuProfile;

@@ -5,10 +5,9 @@
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
             <main-class>com.daoleen.fksis.bigdata.yahoo.Main</main-class>
-            <arg>${namesFile}</arg>
-            <arg>${university}</arg>
-            <arg>${resultPath}</arg>
-            <arg>${outputLogPath}</arg>
+            <arg>${queryFilesDirectory}</arg>
+            <arg>${outputDir}</arg>
+            <arg>${outputLogDir}</arg>
             <arg>${proxyHost}</arg>
             <arg>${proxyPort}</arg>
         </java>

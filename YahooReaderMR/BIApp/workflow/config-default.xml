@@ -1,18 +1,14 @@
 <configuration>
     <property>
-        <name>namesFile</name>
+        <name>queryFilesDirectory</name>
         <value>null</value>
     </property>
     <property>
-        <name>university</name>
-        <value>bsuir</value>
-    </property>
-    <property>
-        <name>resultPath</name>
+        <name>outputDir</name>
         <value>null</value>
     </property>
     <property>
-        <name>outputLogPath</name>
+        <name>outputLogDir</name>
         <value>null</value>
     </property>
     <property>

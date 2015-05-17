@@ -1,0 +1,17 @@
+﻿%s "belarusian state university of informatics and radioelectronics" site:linkedin.com/in
+%s "белорусский государственный университет информатики и радиоэлектроники" site:linkedin.com/in
+%s "belarusian state university of informatics and radioelectronics" site:linkedin.com/pub
+%s "белорусский государственный университет информатики и радиоэлектроники" site:linkedin.com/pub
+%s "bsuir" site:linkedin.com/in
+%s "бгуир" site:linkedin.com/in
+%s "bsuir" site:linkedin.com/pub
+%s "бгуир" site:linkedin.com/pub
+
+%s "belarusian state university" site:linkedin.com/in
+%s "белорусский государственный университет" site:linkedin.com/in
+%s "belarusian state university" site:linkedin.com/pub
+%s "белорусский государственный университет" site:linkedin.com/pub
+%s "bsu" site:linkedin.com/in
+%s "бгу" site:linkedin.com/in
+%s "bsu" site:linkedin.com/pub
+%s "бгу" site:linkedin.com/pub

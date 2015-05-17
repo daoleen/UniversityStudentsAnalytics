@@ -4,11 +4,11 @@
 &#13;
 Author: Alexander Kozlov [alexssource@gmail.com]</description>
     <properties>
-        <property description="Specify the path where Linkedin URLs file is placed" isInputPath="false" isOutputPath="false" isRequired="true" label="Path to URLs file" name="inputFile" paramtype="DIRECTORYPATH" uitype="textfield"/>
-        <property description="Specify the directory where all html profiles will be placed" isInputPath="false" isOutputPath="false" isRequired="true" label="Output Directory" name="outputPath" paramtype="DIRECTORYPATH" uitype="textfield"/>
-        <property description="Specify the directory where job logs will be placed" isInputPath="false" isOutputPath="false" isRequired="true" label="Log Directory" name="outputLogPath" paramtype="DIRECTORYPATH" uitype="textfield"/>
-        <property defaultValue="proxy.fksis.local" description="Specify the proxy host" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Host" name="proxyHost" paramtype="STRING" uitype="textfield"/>
-        <property defaultValue="8080" description="Specify the proxy port" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Port" name="proxyPort" paramtype="INTEGER" uitype="textfield"/>
+        <property description="Specify the path where Linkedin URLs file is placed" isInputPath="false" isOutputPath="false" isRequired="true" label="Path to URLs file  [Linkedin Profiles Reader]" name="inputFile" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property description="Specify the directory where all html profiles will be placed" isInputPath="false" isOutputPath="false" isRequired="true" label="Output Directory  [Linkedin Profiles Reader]" name="outputPath" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property description="Specify the directory where job logs will be placed" isInputPath="false" isOutputPath="false" isRequired="true" label="Log Directory  [Linkedin Profiles Reader]" name="outputLogPath" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property defaultValue="proxy.fksis.local" description="Specify the proxy host" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Host  [Linkedin Profiles Reader]" name="proxyHost" paramtype="STRING" uitype="textfield"/>
+        <property defaultValue="8080" description="Specify the proxy port" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Port  [Linkedin Profiles Reader]" name="proxyPort" paramtype="INTEGER" uitype="textfield"/>
     </properties>
     <assets>
         <asset id="Linkedin Profiles Reader" type="WORKFLOW"/>

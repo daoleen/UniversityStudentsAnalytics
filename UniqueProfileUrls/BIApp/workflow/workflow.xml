@@ -1,0 +1,18 @@
+<workflow-app name="UniqueProfileUrls" xmlns="uri:oozie:workflow:0.1">
+    <start to="action1"/>
+    <action name="action1">
+        <java>
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <main-class>com.daoleen.fksis.bigdata.uniqueurls.Main</main-class>
+            <arg>${inputFile}</arg>
+            <arg>${outputPath}</arg>
+        </java>
+        <ok to="end"/>
+        <error to="fail"/>
+    </action>
+    <kill name="fail">
+        <message>error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>

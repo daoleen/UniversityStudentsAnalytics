@@ -16,14 +16,14 @@ public class YahooMapper extends Mapper<LongWritable, Text, IntWritable, Text> {
 	private final static Random r = new Random();
 	
 	@Override
-	protected void map(LongWritable key, Text value, Context context)
+	protected void map(LongWritable key, Text query, Context context)
 			throws IOException, InterruptedException 
 	{
 		Configuration conf = context.getConfiguration();
 		
 		logger.debug("Run YahooMapper map()");
 		logger.debug("key (names file id): {}", key);
-		logger.debug("value (names): {}", value);
+		logger.debug("value (query): {}", query);
 		logger.debug("Configuration parameters information:");
 		logger.debug("outputFileTemplate: {}", conf.get("outputFileTemplate"));
 		logger.debug("outputFolder: {}", conf.get("outputFolder"));
@@ -31,11 +31,11 @@ public class YahooMapper extends Mapper<LongWritable, Text, IntWritable, Text> {
 				conf.getBoolean("proxyEnabled", false), conf.get("proxyHost"),
 				conf.getInt("proxyPort", 8080)
 		);
-		logger.debug("Search query: {}", conf.get("searchQuery"));
+		//logger.debug("Search query: {}", conf.get("searchQuery"));
 		logger.debug("Thread ID: {}", Thread.currentThread().getId());
 		
 		int datanode = r.nextInt(10) + 1;
-		context.write(new IntWritable(datanode), new Text(value));
+		context.write(new IntWritable(datanode), new Text(query));
 	}
 	
 	

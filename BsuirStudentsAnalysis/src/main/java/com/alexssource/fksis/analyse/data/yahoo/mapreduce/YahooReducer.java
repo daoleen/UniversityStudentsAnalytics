@@ -1,6 +1,7 @@
 package com.alexssource.fksis.analyse.data.yahoo.mapreduce;
 
 import java.io.IOException;
+import java.util.UUID;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.io.IntWritable;
@@ -19,11 +20,11 @@ public class YahooReducer extends Reducer<IntWritable, Text, NullWritable, NullW
 	private final static Logger logger = LoggerFactory.getLogger(YahooReducer.class);
 	
 	@Override
-	protected void reduce(IntWritable key, Iterable<Text> values, Context ctx)
+	protected void reduce(IntWritable key, Iterable<Text> queries, Context ctx)
 			throws IOException, InterruptedException 
 	{
 		Configuration conf = ctx.getConfiguration();
-		String searchQueryTemplate = conf.get("searchQuery");
+		//String searchQueryTemplate = conf.get("searchQuery");
 		logger.info("Reducer start");
 		logger.info("Thread ID: {}", Thread.currentThread().getId());
 		logger.info("Key: {}", key);
@@ -35,15 +36,16 @@ public class YahooReducer extends Reducer<IntWritable, Text, NullWritable, NullW
 			ProxyConfiguration.proxyPort = conf.getInt("proxyPort", 8080);
 		}
 		
-		for(Text value : values) {
-			String fileTemplate = String.format(conf.get("outputFileTemplate"), key.get(), "%d", value);
-			String searchQuery = String.format(searchQueryTemplate, value.toString());
-			logger.info("--- Value: {}", value);
+		for(Text query : queries) {
+			String uniqueUserName = UUID.randomUUID().toString();
+			String fileTemplate = String.format(conf.get("outputFileTemplate"), key.get(), "%d", uniqueUserName);// value);
+			//String searchQuery = String.format(searchQueryTemplate, value.toString());
+			//logger.info("--- Value: {}", value);
 			logger.info("File template: {}", fileTemplate);
-			logger.info("SearchQuery: {}", searchQuery);
+			logger.info("SearchQuery: {}", query);
 			
 			YahooFileWriter filewriter = new FileWriterHdfs(fileTemplate);
-			YahooParserMain yahooParser = new YahooParserMain(filewriter, searchQuery);
+			YahooParserMain yahooParser = new YahooParserMain(filewriter, query.toString());
 			yahooParser.parse();
 		}
 	}

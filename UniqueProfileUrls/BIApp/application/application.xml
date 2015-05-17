@@ -1,0 +1,15 @@
+<application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>Unique Profile Urls</name>
+    <description>Make the unique urls in URLs file.&#13;
+&#13;
+Author: Alexander Kozlov [alexssource@gmail.com]</description>
+    <properties>
+        <property description="Please, select the non-unique URLs file" isInputPath="false" isOutputPath="false" isRequired="true" label="[UniqueURLs] Input URLs filepath" name="inputFile" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property description="Please, specify the output path" isInputPath="false" isOutputPath="false" isRequired="true" label="[UniqueURLs] Output path" name="outputPath" paramtype="DIRECTORYPATH" uitype="textfield"/>
+    </properties>
+    <assets>
+        <asset id="Unique Profile Urls" type="WORKFLOW"/>
+    </assets>
+    <imagePath>UniqueUrls.png</imagePath>
+    <categories>BSUIR</categories>
+</application-template>

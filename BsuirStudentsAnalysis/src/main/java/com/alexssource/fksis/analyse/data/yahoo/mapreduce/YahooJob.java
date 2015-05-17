@@ -18,8 +18,8 @@ import org.slf4j.LoggerFactory;
 public class YahooJob extends Configured implements Tool {
 	private final static Logger logger = LoggerFactory
 			.getLogger(YahooJob.class);
-	private final static String bsuirQuery = "%s \"belarusian state university of informatics and radioelectronics\" site:linkedin.com/in/";
-	private final static String bsuQuery = "%s \"belarusian state university\" site:linkedin.com/in/";
+//	private final static String bsuirQuery = "%s \"belarusian state university of informatics and radioelectronics\" site:linkedin.com/in/";
+//	private final static String bsuQuery = "%s \"belarusian state university\" site:linkedin.com/in/";
 
 	@Override
 	public int run(String[] arg0) throws Exception {
@@ -30,29 +30,38 @@ public class YahooJob extends Configured implements Tool {
 			conf = new Configuration();
 		}
 
-		if (args.length < 4) {
+		if (args.length < 3) {
 			logger.error("Incorrect invocation of main() method");
 			logger.error("Args: <RussianNames filepath> <{bsuir|bsu}> <output path> "
 					+ "<output log path>[ <proxy host> <proxy port>]");
+			
+			logger.error("Args: <Query filepath> <output path> <output log path> "
+					+"[ <proxy host> <proxy port>]");
+			
 			System.exit(-1);
 		}
 
-		String namesFile = args[0];
-		String universityName = args[1];
-		String folder = args[2];
-		String outputLogPath = args[3];
-		String template = folder + "/yahoo-%d_%s-%s.html";
+//		String namesFile = args[0];
+//		String universityName = args[1];
+//		String folder = args[2];
+//		String outputLogPath = args[3];
+//		String template = folder + "/yahoo-%d_%s-%s.html";
 
-		if (args.length == 6) {
+		String queryFile = args[0];
+		String folder = args[1];
+		String outputLogPath = args[2];
+		String template = folder + "/yahoo-%d_%s-%s.html";
+		
+		if (args.length == 5) {
 			conf.setBoolean("proxyEnabled", true);
-			conf.set("proxyHost", args[4]);
-			conf.setInt("proxyPort", Integer.parseInt(args[5]));
+			conf.set("proxyHost", args[3]);
+			conf.setInt("proxyPort", Integer.parseInt(args[4]));
 		}
 
 		conf.set("outputFileTemplate", template);
 		logger.debug("The outputFileTemplate template has been set to configuration: {}", template);
-		conf.set("searchQuery", getSearchQueryByUniversityName(universityName));
-		conf.set("outputFolder", args[2]);
+		//conf.set("searchQuery", getSearchQueryByUniversityName(universityName));
+		conf.set("outputFolder", folder);
 
 		FileSystem hdfs = FileSystem.get(conf);
 		Path outputLogDir = new Path(outputLogPath);
@@ -68,7 +77,7 @@ public class YahooJob extends Configured implements Tool {
 		Job job = new Job(conf, "Read yahoo pages by students names");
 		job.setJarByClass(YahooJob.class);
 
-		FileInputFormat.setInputPaths(job, namesFile);
+		FileInputFormat.setInputPaths(job, queryFile);
 		FileOutputFormat.setOutputPath(job, new Path(outputLogPath));
 
 		job.setMapperClass(YahooMapper.class);
@@ -82,15 +91,15 @@ public class YahooJob extends Configured implements Tool {
 		return job.waitForCompletion(true) ? 0 : 1;
 	}
 
-	public String getSearchQueryByUniversityName(String universityName) {
-		if (universityName.equalsIgnoreCase("bsuir")) {
-			return bsuirQuery;
-		}
-		if (universityName.equalsIgnoreCase("bsu")) {
-			return bsuQuery;
-		}
-		return null;
-	}
+//	public String getSearchQueryByUniversityName(String universityName) {
+//		if (universityName.equalsIgnoreCase("bsuir")) {
+//			return bsuirQuery;
+//		}
+//		if (universityName.equalsIgnoreCase("bsu")) {
+//			return bsuQuery;
+//		}
+//		return null;
+//	}
 
 	public static void main(String[] args) throws Exception {
 		new YahooJob().run(args);

@@ -40,6 +40,11 @@ create view BsuProfile as
           'BsuNegativeDict',
           D.text
         )
+      )
+    and
+      ContainsDict(
+        'TechDict',
+        s.skills
       );
 output view BsuProfile;
 

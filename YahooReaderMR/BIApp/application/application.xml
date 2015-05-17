@@ -1,16 +1,15 @@
 <application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <name>Yahoo Reader MapReduce</name>
-    <description>Crawler for yahoo search engine.&#13;
-Search the poples related to BSUIR or BSU by dictionary of russian names.&#13;
+    <description>Crawle for Yahoo that will run by yahoo result pages by specified search query.&#13;
+You need to specify the path to file which consists an search queries.&#13;
 &#13;
 Author: Alexander Kozlov [alexssource@gmail.com]</description>
     <properties>
-        <property isInputPath="false" isOutputPath="false" isRequired="true" label="russian names file" name="namesFile" paramtype="FILEPATH" uitype="textfield"/>
-        <property defaultValue="bsuir" isInputPath="false" isOutputPath="false" isRequired="true" label="university name" name="university" paramtype="LIST" uitype="textfield" validValues="bsuir,bsu"/>
-        <property isInputPath="false" isOutputPath="false" isRequired="true" label="result path" name="resultPath" paramtype="DIRECTORYPATH" uitype="textfield"/>
-        <property isInputPath="false" isOutputPath="false" isRequired="true" label="output log path" name="outputLogPath" paramtype="DIRECTORYPATH" uitype="textfield"/>
-        <property defaultValue="proxy.fksis.local" isInputPath="false" isOutputPath="false" isRequired="false" label="proxy host" name="proxyHost" paramtype="STRING" uitype="textfield"/>
-        <property defaultValue="8080" isInputPath="false" isOutputPath="false" isRequired="false" label="proxy port" name="proxyPort" paramtype="INTEGER" uitype="textfield"/>
+        <property description="Specify the path with query files" isInputPath="false" isOutputPath="false" isRequired="true" label="Query Filespath" name="queryFilesDirectory" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property description="Specify the path where results will be placed" isInputPath="false" isOutputPath="false" isRequired="true" label="Result pages path" name="outputDir" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property description="Specify the Logs directory" isInputPath="false" isOutputPath="false" isRequired="true" label="Log path" name="outputLogDir" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property defaultValue="proxy.fksis.local" description="If you want to use proxy specify the proxy host" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Host" name="proxyHost" paramtype="STRING" uitype="textfield"/>
+        <property defaultValue="8080" description="If you want to use proxy specify the proxy port" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Port" name="proxyPort" paramtype="INTEGER" uitype="textfield"/>
     </properties>
     <assets>
         <asset id="Yahoo Reader MapReduce" type="WORKFLOW"/>

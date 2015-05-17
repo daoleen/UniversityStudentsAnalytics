@@ -7,6 +7,12 @@ with case insensitive
 ;
 
 
+create dictionary "TechDict" from file 'Tech.dict'
+with case insensitive
+  and language as 'en'
+;
+
+
 create view BsuirProfile as
   select
     u.url as url,
@@ -27,7 +33,12 @@ create view BsuirProfile as
     ContainsDict(
       'BsuirDict',
       D.text
-    );
+    )
+    and
+      ContainsDict(
+        'TechDict',
+        s.skills
+      );
 output view BsuirProfile;
 
 
