@@ -1,4 +1,12 @@
-﻿﻿"Ann" "belarusian state university of informatics and radioelectronics" site:linkedin.com/in
+﻿"belarusian state university of informatics and radioelectronics" site:linkedin.com/in
+﻿"белорусский государственный университет информатики и радиоэлектроники" site:linkedin.com/in
+﻿"belarusian state university of informatics and radioelectronics" site:linkedin.com/pub
+﻿"белорусский государственный университет информатики и радиоэлектроники" site:linkedin.com/pub
+﻿"bsuir" site:linkedin.com/in
+﻿"бгуир" site:linkedin.com/in
+﻿"bsuir" site:linkedin.com/pub
+﻿"бгуир" site:linkedin.com/pub
+﻿"Ann" "belarusian state university of informatics and radioelectronics" site:linkedin.com/in
 ﻿"Ann" "белорусский государственный университет информатики и радиоэлектроники" site:linkedin.com/in
 ﻿"Ann" "belarusian state university of informatics and radioelectronics" site:linkedin.com/pub
 ﻿"Ann" "белорусский государственный университет информатики и радиоэлектроники" site:linkedin.com/pub

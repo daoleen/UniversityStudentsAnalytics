@@ -1,0 +1,19 @@
+module ProfileExtractor; 
+
+create view AllLocations as
+extract regex /<span class="locality">([a-zA-Zа-яА-Я0-9 ,]+)<\/span>/ on R.text
+	return group 1 as match
+from Document R;
+
+create view Locations as
+	extract regex /([a-zA-Zа-яА-Я ]+)(, ([a-zA-Zа-яА-Я ]+))?/ on A.match
+	return group 1 as City and group 3 as State
+from AllLocations A;
+
+create view UniqueLocations as
+	select L.City as city, L.State as State 
+	from Locations L
+	consolidate on L.City 
+	using 'LeftToRight';
+
+output view UniqueLocations;

@@ -1,7 +1,7 @@
 module YahooModule;
 
 
-create view yahooView as
+create view yahooInUrlsView as
   extract
     AutoID() as __auto__id,
     'STMT_TYPE_EXTRACT_REGEX' as __stmt__type,
@@ -16,7 +16,66 @@ create view yahooView as
 
   from
     Document D;
-output view yahooView;
+output view yahooInUrlsView;
+
+create view yahooPubURLsWithRusNamesView as
+  extract
+    AutoID() as __auto__id,
+    'STMT_TYPE_EXTRACT_REGEX' as __stmt__type,
+    -1 as Document_____sep_____D____id,
+    regex
+      /(http[s]?(:|(%3a))((%2f)|\/){2}(www|[a-z]+)\.linkedin.com((%2f)|\/)pub((%2f)|\/)(([a-zA-Zа-яА-Я0-9\-]+)|((%[a-zA-Z0-9]{2}[a-zA-Z0-9]{0,2}\-?)+))((%2f)|\/)([a-zA-Z0-9]+((%2f)|\/)?)+)(\/RK=0)?/
+    with flags 
+      'DOTALL'
+    on D.text
+    return
+    group 1 as url
+
+  from
+    Document D;
+output view yahooPubURLsWithRusNamesView;
+
+create view yahooUrlsView as
+  (
+    select
+      Op.url as url,
+      AutoID() as __auto__id,
+      'STMT_TYPE_UNION' as __stmt__type,
+      Op.__auto__id as __union_op__id
+    from
+      __Union__1__TempOp__0 Op
+  )
+  union all
+  (
+    select
+      Op.url as url,
+      AutoID() as __auto__id,
+      'STMT_TYPE_UNION' as __stmt__type,
+      Op.__auto__id as __union_op__id
+    from
+      __Union__1__TempOp__1 Op
+  );
+output view yahooUrlsView;
 
 
+
+create view __Union__1__TempOp__0 as
+  select
+    I.url as url,
+    AutoID() as __auto__id,
+    'STMT_TYPE_SELECT' as __stmt__type,
+    I.__auto__id as yahooInUrlsView_____sep_____I____id
+  from
+    yahooInUrlsView I;
+output view __Union__1__TempOp__0;
+
+create view __Union__1__TempOp__1 as
+  select
+    P.url as url,
+    AutoID() as __auto__id,
+    'STMT_TYPE_SELECT' as __stmt__type,
+    P.__auto__id as yahooPubURLsWithRusNamesView_____sep_____P____id
+  from
+    yahooPubURLsWithRusNamesView P;
+output view __Union__1__TempOp__1;
 

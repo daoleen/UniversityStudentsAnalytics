@@ -1,0 +1,106 @@
+module ProfileExtractor;
+
+
+create view AllLocations as
+  extract
+    AutoID() as __auto__id,
+    'STMT_TYPE_EXTRACT_REGEX' as __stmt__type,
+    -1 as Document_____sep_____R____id,
+    regex
+      /<span class="locality">([a-zA-Zа-яА-Я0-9 ,]+)<\/span>/
+    with flags 
+      'DOTALL'
+    on R.text
+    return
+    group 1 as match
+
+  from
+    Document R;
+output view AllLocations;
+
+create view Locations as
+  extract
+    AutoID() as __auto__id,
+    'STMT_TYPE_EXTRACT_REGEX' as __stmt__type,
+    A.__auto__id as AllLocations_____sep_____A____id,
+    regex
+      /([a-zA-Zа-яА-Я ]+)(, ([a-zA-Zа-яА-Я ]+))?/
+    with flags 
+      'DOTALL'
+    on A.match
+    return
+    group 1 as City
+
+    and group 3 as State
+
+  from
+    AllLocations A;
+output view Locations;
+
+create view UniqueLocations as
+  select
+    __t2.city as city,
+    __t2.State as State,
+    AutoID() as __auto__id,
+    List(
+      __t1.__auto__id
+    ) as __Consolidate__1__Temp__1_____sep_______t1____id,
+    'STMT_TYPE_CONSOLIDATE' as __stmt__type
+  from
+    __Consolidate__1__Temp__1 __t1,
+    __Consolidate__1__Temp__2 __t2
+  where
+    Or(
+      GreaterThan(
+        GetBegin(
+          __t1.__consolidate__target
+        ),
+        GetBegin(
+          __t2.__consolidate__target
+        )
+      ),
+      Equals(
+        GetBegin(
+          __t1.__consolidate__target
+        ),
+        GetBegin(
+          __t2.__consolidate__target
+        )
+      )
+    )
+    and
+      Overlaps(
+        __t1.__consolidate__target,
+        __t2.__consolidate__target
+      )
+  group by 
+  __t2.city,
+  __t2.State;
+output view UniqueLocations;
+
+
+
+create view __Consolidate__1__Temp__1 as
+  select
+    L.City as city,
+    L.State as State,
+    AutoID() as __auto__id,
+    'STMT_TYPE_SELECT' as __stmt__type,
+    L.__auto__id as Locations_____sep_____L____id,
+    L.City as __consolidate__target
+  from
+    Locations L;
+output view __Consolidate__1__Temp__1;
+
+create view __Consolidate__1__Temp__2 as
+  select
+    __t1.city as city,
+    __t1.State as State,
+    __t1.__consolidate__target as __consolidate__target
+  from
+    __Consolidate__1__Temp__1 __t1
+  consolidate on 
+    __t1.__consolidate__target
+    using 'LeftToRight';
+output view __Consolidate__1__Temp__2;
+

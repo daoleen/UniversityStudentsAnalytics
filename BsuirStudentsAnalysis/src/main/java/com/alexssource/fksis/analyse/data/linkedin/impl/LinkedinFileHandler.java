@@ -36,6 +36,7 @@ public class LinkedinFileHandler implements FileHandler {
 			if(logger.isDebugEnabled()) {
 				for(String url : urls) {
 					logger.debug("Read: {}", url);
+					System.out.println("Read: " + url);
 				}
 			}
 		} catch (IOException e) {

@@ -5,7 +5,7 @@ You need to specify the path to file which consists an search queries.&#13;
 &#13;
 Author: Alexander Kozlov [alexssource@gmail.com]</description>
     <properties>
-        <property description="Specify the path with query files" isInputPath="false" isOutputPath="false" isRequired="true" label="Query Filespath" name="queryFilesDirectory" paramtype="DIRECTORYPATH" uitype="textfield"/>
+        <property description="Specify the file with search queries" isInputPath="false" isOutputPath="false" isRequired="true" label="Query File" name="queryFilesDirectory" paramtype="FILEPATH" uitype="textfield"/>
         <property description="Specify the path where results will be placed" isInputPath="false" isOutputPath="false" isRequired="true" label="Result pages path" name="outputDir" paramtype="DIRECTORYPATH" uitype="textfield"/>
         <property description="Specify the Logs directory" isInputPath="false" isOutputPath="false" isRequired="true" label="Log path" name="outputLogDir" paramtype="DIRECTORYPATH" uitype="textfield"/>
         <property defaultValue="proxy.fksis.local" description="If you want to use proxy specify the proxy host" isInputPath="false" isOutputPath="false" isRequired="false" label="Proxy Host" name="proxyHost" paramtype="STRING" uitype="textfield"/>

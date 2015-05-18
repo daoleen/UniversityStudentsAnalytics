@@ -37,7 +37,7 @@ public class LinkedinReducer extends Reducer<IntWritable, Text, NullWritable, Nu
 		}
 		
 		String outputFolder = conf.get("outputFolder");
-		logger.debug("--- Output folder: {}", outputFolder);
+		logger.error("--- Output folder: {}", outputFolder);
 		
 		for(Text value : values) {
 			logger.debug("--- Value: {}", value);

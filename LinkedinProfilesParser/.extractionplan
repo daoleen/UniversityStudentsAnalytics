@@ -57,6 +57,16 @@
             <output>false</output>
             <viewname>BsuProfile</viewname>
         </basics>
+        <basics>
+            <aqlfilepath>[W]/LinkedinProfilesParser/textAnalytics/src/ProfileExtractor/Locations.aql</aqlfilepath>
+            <comment></comment>
+            <debug>false</debug>
+            <export>false</export>
+            <fileName>Locations.aql</fileName>
+            <moduleName>ProfileExtractor</moduleName>
+            <output>false</output>
+            <viewname>Locations</viewname>
+        </basics>
         <comment></comment>
         <conceptfilepath></conceptfilepath>
         <done>false</done>
@@ -70,6 +80,16 @@
         <finalsfilepath></finalsfilepath>
         <name>BSUIR</name>
         <refinementfilepath></refinementfilepath>
+        <refinements>
+            <aqlfilepath>[W]/LinkedinProfilesParser/textAnalytics/src/BSUIR_FilterConsolidate/FilterLocations.aql</aqlfilepath>
+            <comment></comment>
+            <debug>false</debug>
+            <export>false</export>
+            <fileName>FilterLocations.aql</fileName>
+            <moduleName>BSUIR_FilterConsolidate</moduleName>
+            <output>false</output>
+            <viewname>FilterLocations</viewname>
+        </refinements>
     </roots>
     <roots>
         <basicfilepath></basicfilepath>

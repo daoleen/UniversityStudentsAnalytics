@@ -1,4 +1,12 @@
-﻿﻿"Ann" "belarusian state university" site:linkedin.com/in
+﻿"belarusian state university" site:linkedin.com/in
+﻿"белорусский государственный университет" site:linkedin.com/in
+﻿"belarusian state university" site:linkedin.com/pub
+﻿"белорусский государственный университет" site:linkedin.com/pub
+﻿"bsu" site:linkedin.com/in
+﻿"бгу" site:linkedin.com/in
+﻿"bsu" site:linkedin.com/pub
+﻿"бгу" site:linkedin.com/pub
+﻿"Ann" "belarusian state university" site:linkedin.com/in
 ﻿"Ann" "белорусский государственный университет" site:linkedin.com/in
 ﻿"Ann" "belarusian state university" site:linkedin.com/pub
 ﻿"Ann" "белорусский государственный университет" site:linkedin.com/pub

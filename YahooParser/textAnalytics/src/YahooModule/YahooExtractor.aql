@@ -1,8 +1,21 @@
 module YahooModule; 
 
-create view yahooView as
-	extract regex /(http[s]?:\/\/(www|[a-z]+)\.linkedin\.com\/in[a-zA-Z\/]*)/ on D.text
+create view yahooInUrlsView as
+	extract regex /(http[s]?:\/\/(www|[a-z]+)\.linkedin\.com\/in[a-zA-Z\/]*)/ 
+	on D.text
 	return group 1 as url
 from Document D;
-	
-output view yahooView;
+
+create view yahooPubURLsWithRusNamesView as
+	extract regex /(http[s]?(:|(%3a))((%2f)|\/){2}(www|[a-z]+)\.linkedin.com((%2f)|\/)pub((%2f)|\/)(([a-zA-Zа-яА-Я0-9\-]+)|((%[a-zA-Z0-9]{2}[a-zA-Z0-9]{0,2}\-?)+))((%2f)|\/)([a-zA-Z0-9]+((%2f)|\/)?)+)(\/RK=0)?/
+	on D.text
+	return group 1 as url
+from Document D;
+
+
+create view yahooUrlsView as
+	(select I.* from yahooInUrlsView I)
+	union all
+	(select P.* from yahooPubURLsWithRusNamesView P);
+
+output view yahooUrlsView;
