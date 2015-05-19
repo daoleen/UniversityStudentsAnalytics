@@ -22,6 +22,12 @@ public class UniqueUrlsMapper extends Mapper<LongWritable, Text, Text, NullWrita
 		logger.debug("key (names file id): {}", key);
 		logger.debug("value (url): {}", value);
 		String decodedUrl = URLDecoder.decode(value.toString(), UniqueUrlsMapper.Encoding);
+		
+		// if this url is public directory ignore it
+		if(decodedUrl.contains("linkedin.com/pub/dir/")) {
+			return;
+		}
+		
 		context.write(new Text(decodedUrl), NullWritable.get());
 	}
 }

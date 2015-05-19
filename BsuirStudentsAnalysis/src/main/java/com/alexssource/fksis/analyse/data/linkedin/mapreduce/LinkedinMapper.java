@@ -3,6 +3,7 @@ package com.alexssource.fksis.analyse.data.linkedin.mapreduce;
 import java.io.IOException;
 import java.util.Random;
 
+import org.apache.commons.lang.exception.ExceptionUtils;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -12,6 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.gson.JsonParser;
+import com.google.gson.JsonSyntaxException;
 
 public class LinkedinMapper extends Mapper<LongWritable, Text, IntWritable, Text> {
 	private final static Logger logger = LoggerFactory.getLogger(LinkedinMapper.class);
@@ -35,11 +37,15 @@ public class LinkedinMapper extends Mapper<LongWritable, Text, IntWritable, Text
 		);
 		logger.debug("Thread ID: {}", Thread.currentThread().getId());
 		
-		
-		String url = parser.parse(value.toString()).getAsJsonObject().get("url").getAsString();
-		logger.info("JSON url: {}", url);
-		
-		int datanode = r.nextInt(10) + 1;
-		context.write(new IntWritable(datanode), new Text(url));
+		try {
+			String url = parser.parse(value.toString()).getAsJsonObject().get("url").getAsString();
+			logger.debug("JSON url: {}", url);
+			
+			int datanode = r.nextInt(10) + 1;
+			context.write(new IntWritable(datanode), new Text(url));
+		} catch(JsonSyntaxException e) {
+			logger.error("An JsonSyntaxException was occured for the url: {}", value);
+			logger.error(ExceptionUtils.getStackTrace(e));
+		}
 	}
 }

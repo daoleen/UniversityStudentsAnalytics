@@ -12,6 +12,7 @@ import java.net.Proxy.Type;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.List;
+import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -27,6 +28,7 @@ import com.alexssource.fksis.analyse.data.linkedin.service.UrlProfileCrawler;
 public class LinkedinUrlProfileCrawler implements UrlProfileCrawler {
 	private final static Logger logger = LoggerFactory.getLogger(LinkedinUrlProfileCrawler.class);
 	private FileHandler handler = new LinkedinFileHandler();
+	private String outputDir;
 	
 	@Override
 	public void crawl(String inputFile, String outputDir) {
@@ -37,10 +39,11 @@ public class LinkedinUrlProfileCrawler implements UrlProfileCrawler {
 	
 	@Override
 	public void crawl(List<String> urls, String outputDir, int datanode) {
+		this.outputDir = outputDir;
 		String filenameTemplate = outputDir + "/" + datanode + "-%d.html";
 		
 		
-//		// HARDCODED LOG EXCEPTION
+		// HARDCODED LOG EXCEPTION
 //		String _log_urls = "";
 //		for (String string : urls) {
 //			_log_urls += string + " \n";
@@ -48,7 +51,7 @@ public class LinkedinUrlProfileCrawler implements UrlProfileCrawler {
 //		String _log = String.format("---------- MY ALEXSSOURCE LOG:\nURLS:\n%sOutputDir:%s\nFileTemplate: %s", 
 //				_log_urls, outputDir, filenameTemplate);
 //		throw new RuntimeException(_log);
-//		
+		
 		
 		
 		readUrls(urls, filenameTemplate);
@@ -58,7 +61,6 @@ public class LinkedinUrlProfileCrawler implements UrlProfileCrawler {
 		String content = null;
 		
 		try {
-			url = getEncodedUrl(url);
 			URL purl = new URL(url);
 			URLConnection connection;
 			
@@ -93,9 +95,29 @@ public class LinkedinUrlProfileCrawler implements UrlProfileCrawler {
 	
 	private void readUrls(List<String> urls, String filenameTemplate) {
 		for(int i = 0; i < urls.size(); i++) {
+			try {
+				Thread.sleep(2000);
+			} catch (InterruptedException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 			String outputFile = String.format(filenameTemplate, i);
-			String html = getUrlContent(urls.get(i));
-			handler.saveProfile(outputFile, html);
+			String url = getEncodedUrl(urls.get(i));
+			String html = getUrlContent(url);
+			
+			if(html == null) {
+				String _log = String.format("original url: %s\nencoded url: %s", urls.get(i), url);
+				handler.saveProfile(outputDir+"/../PROFILES-ERROR/"+UUID.randomUUID().toString(), _log);
+			} else {
+				try {
+					handler.saveProfile(outputFile, html);
+				} catch (Exception e) {
+					logger.error(ExceptionUtils.getStackTrace(e));
+					//String _log = String.format("original url: %s\nencoded url: %s", urls.get(i), url);
+					String _log = String.format("{ \"url\": \"%s\", \"encodedUrl\": \"%s\" }", urls.get(i), url);
+					handler.saveProfile(outputDir+"/../PROFILES-ERROR/"+UUID.randomUUID().toString(), _log);
+				}
+			}
 		}
 	}
 	

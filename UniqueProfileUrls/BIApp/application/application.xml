@@ -1,6 +1,7 @@
 <application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <name>Unique Profile Urls</name>
     <description>Make the unique urls in URLs file.&#13;
+Also it removes the public directory urls (like http://es.linkedin.com/pub/dir/Vadim/) from URLs&#13;
 &#13;
 Author: Alexander Kozlov [alexssource@gmail.com]</description>
     <properties>
