@@ -13,6 +13,6 @@
 %s "радиотехнический институт" site:linkedin.com/in
 %s "радиотехнический институт" site:linkedin.com/pub
 %s "mrti" site:linkedin.com/in
-%s "МРТИ" site:linkedin.com/in
+%s "МРТи" site:linkedin.com/in
 %s "mrti" site:linkedin.com/pub
-%s "МРТИ" site:linkedin.com/pub
+%s "МРТи" site:linkedin.com/pub

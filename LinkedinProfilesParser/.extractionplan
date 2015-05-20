@@ -2,7 +2,7 @@
 <ns2:actionPlanModel xmlns:ns2="com.ibm.biginsights.textanalytics.workflow.plan.model">
     <collection>
         <langCode>en</langCode>
-        <path>[W]/LinkedinProfilesParser/textAnalytics/example-data</path>
+        <path>[W]/LinkedinProfilesParser/textAnalytics/example-data/profiles-for-test</path>
     </collection>
     <name>LinkedinProfilesParser</name>
     <roots>

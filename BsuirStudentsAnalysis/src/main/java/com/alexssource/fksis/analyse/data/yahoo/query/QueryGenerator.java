@@ -27,13 +27,13 @@ public class QueryGenerator {
 //		}
 		
 		/**
-		 * INFO -> BSUIR: 	5024 queries
+		 * INFO -> BSUIR: 	11304 queries
 		 * INFO -> BSU:		5024 queries
 		 */
 		
 		File namesFile = new File("src/main/resources/yahoo-query/RussianNames.txt");
-		File queryTemplates = new File("src/main/resources/yahoo-query/QueryTemplates-BSU.txt");
-		File outputFile = new File("src/main/resources/yahoo-query/out/Query-BSU.txt");
+		File queryTemplates = new File("src/main/resources/yahoo-query/QueryTemplates-BSUIR-UTF8.txt");
+		File outputFile = new File("src/main/resources/yahoo-query/out/Query-BSUIR.txt");
 		
 		if(outputFile.exists()) {
 			outputFile.delete();
